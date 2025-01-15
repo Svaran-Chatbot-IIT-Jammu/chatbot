@@ -1,0 +1,42 @@
+[
+    {
+        "question": "When was IIT Jammu founded?",
+        "answer": "IIT Jammu was founded in 2016."
+    },
+    {
+        "question": "What is the current student intake at IIT Jammu?",
+        "answer": "The current student intake at IIT Jammu is 1600."
+    },
+    {
+        "question": "How many BTech programs does IIT Jammu currently offer?",
+        "answer": "IIT Jammu currently offers 7 BTech programs."
+    },
+    {
+        "question": "What majors are available for BTech at IIT Jammu?",
+        "answer": "The majors for BTech at IIT Jammu include Chemical Engineering, Civil Engineering, Computer Science and Engineering, Electrical Engineering, Materials Engineering, Mathematics and Computing, and Mechanical Engineering."
+    },
+    {
+        "question": "What specializations are available in the MTech program at IIT Jammu?",
+        "answer": "The MTech specializations at IIT Jammu include Computer Science Engineering, Electrical Engineering (Communications and Signal Processing, VLSI Design), Civil Engineering (Tunnel Engineering, Structural Engineering), Mechanical Engineering (Thermal and Energy Systems Engineering), and Chemical Engineering (Sustainable Energy Engineering)."
+    },
+    {
+        "question": "What are the semesters in the academic calendar of IIT Jammu?",
+        "answer": "The academic calendar includes Autumn/Monsoon (August to December), Winter/Spring (January to May), and a Summer Term (Mid-May to July)."
+    },
+    {
+        "question": "How is admission to the BTech program at IIT Jammu conducted?",
+        "answer": "Admission to the BTech program is conducted through the Joint Seat Allocation Authority (JoSAA) based on JEE Advanced rank."
+    },
+    {
+        "question": "What is the grading scale used at IIT Jammu?",
+        "answer": "The grading scale includes AA (10), AB (9), BB (8), BC (7), CC (6), CD (5), DD (4), and FF (0)."
+    },
+    {
+        "question": "What is the Merit-cum-Means (MCM) scholarship at IIT Jammu?",
+        "answer": "The Merit-cum-Means (MCM) scholarship is for students with a CGPA >= 6.0 and family income <= Rs. 4.5 Lakh. It includes a tuition fee refund and Rs. 1000/month."
+    },
+    {
+        "question": "What are the penalties for plagiarism at IIT Jammu?",
+        "answer": "Penalties for plagiarism include course failure, semester suspension, and expulsion from the institute."
+    }
+    
