@@ -1,0 +1,87 @@
+{
+    "title": "IIT Jammu",
+    "url": "https://www.iitjammu.ac.in/academics",
+    "sections": {
+      "Academic Affairs": {
+        "description": "The institutional office that oversees a variety of academic programs and departments. It plays a pivotal role in advising students and assisting them as they navigate their academic pathway towards completing their degree. The Academic Affairs facilitates students with a whole range of academic functions including admission, pre-registration, registration, examination & grading function and processing student requests. The section is responsible for the implementation of the decisions taken on academic matters by the Senate.",
+        "programs": {
+          "UG": 7,
+          "M.Tech": 8,
+          "M.Sc./MS(R)": 2,
+          "Ph.D.": 11,
+          "Executive M.Tech": "Artificial Intelligence and Machine Learning"
+        }
+      },
+      "Message": {
+        "content": "We extend hearty welcome to all students who have joined IIT Jammu, the fastest growing third generation IIT. IIT Jammu blends the approach of interactive and hands-on learning into its pedagogic principles. Curriculum template in the academic system of IIT Jammu has been structured to be multi-disciplinary to cater to the rapidly changing scientific and technological needs of the global community. The programs are designed to encourage students to relate academic theory to real-world practice and to collaborate with like-minded community in and out of the lecture hall.",
+        "author": "Prof. Kannan Iyer",
+        "position": "Dean | Academics"
+      },
+      "Departments": [
+        "Biosciences and Bioengineering",
+        "Chemical Engineering",
+        "Chemistry",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Humanities and Social Sciences",
+        "Materials Engineering",
+        "Mathematics",
+        "Mechanical Engineering",
+        "Physics"
+      ],
+      "Notifications": [
+        {
+          "title": "Academic Time Table Committee",
+          "url": "https://www.iitjammu.ac.in/academics#notification1"
+        },
+        {
+          "title": "Policy for Early Start PhD Program",
+          "url": "https://www.iitjammu.ac.in/academics#notification2"
+        },
+        {
+          "title": "Addition of new grade “GI” in case of Grade improvement",
+          "url": "https://www.iitjammu.ac.in/academics#notification3"
+        },
+        {
+          "title": "Fee Notification for the 2024-02 semester",
+          "url": "https://www.iitjammu.ac.in/academics#notification4"
+        },
+        {
+          "title": "Medium of Instruction at IIT Jammu",
+          "url": "https://www.iitjammu.ac.in/academics#notification5"
+        },
+        {
+          "title": "SoP for Institute Grade Moderation",
+          "url": "https://www.iitjammu.ac.in/academics#notification6"
+        },
+        {
+          "title": "Guidelines for re-examination of preceding even semester’s backlogs during summer break",
+          "url": "https://www.iitjammu.ac.in/academics#notification7"
+        },
+        {
+          "title": "Six-month internship policy for full time regular B.Tech and PG Students",
+          "url": "https://www.iitjammu.ac.in/academics#notification8"
+        },
+        {
+          "title": "Grading Policy for Backlog courses",
+          "url": "https://www.iitjammu.ac.in/academics#notification9"
+        },
+        {
+          "title": "Guidelines for Faculty/Program Advisors and Credits Limit",
+          "url": "https://www.iitjammu.ac.in/academics#notification10"
+        },
+        {
+          "title": "Details of Programme/Faculty Advisors & Programme coordinators for various batches and programme (Updated on 08.08.2024)",
+          "url": "https://www.iitjammu.ac.in/academics#notification11"
+        }
+      ],
+      "Contact": {
+        "phone": "0191-2570633",
+        "email": "ar.acad@iitjammu.ac.in",
+        "UG admission email": "ugoffice.acad@iitjammu.ac.in",
+        "PG admission email": "pgoffice.acad@iitjammu.ac.in"
+      }
+    }
+  }
+  
