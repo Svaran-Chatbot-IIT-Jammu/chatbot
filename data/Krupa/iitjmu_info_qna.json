@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "IIT_Jammu_Motto",
+      "patterns": [
+        "What is the motto of IIT Jammu?",
+        "Tell me the motto of IIT Jammu",
+        "What does IIT Jammu stand for?"
+      ],
+      "responses": [
+        "The motto of IIT Jammu is 'Vidyādhanaṃ sarvadhana pradhānam', which translates to 'Knowledge is Supreme of all Wealth'."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Establishment",
+      "patterns": [
+        "When was IIT Jammu established?",
+        "Tell me about the establishment of IIT Jammu",
+        "Year of establishment of IIT Jammu"
+      ],
+      "responses": [
+        "IIT Jammu was established in the year 2016."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Ranking",
+      "patterns": [
+        "What is the ranking of IIT Jammu?",
+        "Rank of IIT Jammu in NIRF 2024",
+        "How is IIT Jammu ranked in India?"
+      ],
+      "responses": [
+        "IIT Jammu is ranked 62 in NIRF 2024 and 67 in NIRF 2023. For BTech, it is ranked 52."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Courses",
+      "patterns": [
+        "What courses are offered by IIT Jammu?",
+        "List of courses at IIT Jammu",
+        "Tell me about IIT Jammu's programs"
+      ],
+      "responses": [
+        "IIT Jammu offers the following programs: B.Tech., M.Tech., Ph.D., and M.Sc."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Admission",
+      "patterns": [
+        "How can I get admission to IIT Jammu?",
+        "Tell me about the admission process for IIT Jammu",
+        "What is the admission process for B.Tech. at IIT Jammu?"
+      ],
+      "responses": [
+        "To get admission to B.Tech. at IIT Jammu, you need to appear for the JEE Advanced exam and go through JoSAA counseling. For eligibility, you need a 10+2 with a minimum of 75% marks."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Fees",
+      "patterns": [
+        "What are the fees for B.Tech. at IIT Jammu?",
+        "Tell me the fees structure for M.Tech. at IIT Jammu",
+        "How much are the fees for MSc at IIT Jammu?"
+      ],
+      "responses": [
+        "The fees for B.Tech. at IIT Jammu is INR 2.79 Lakhs for the first year, M.Tech. is INR 59,480, and M.Sc. is INR 32,480 for the first year."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Placement",
+      "patterns": [
+        "What are the placement stats for IIT Jammu?",
+        "Tell me about IIT Jammu's placement record",
+        "How is the placement at IIT Jammu?"
+      ],
+      "responses": [
+        "In 2023, IIT Jammu had a placement percentage of 85%. The highest package offered was INR 53 LPA, and the average package was INR 17 LPA."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Scholarships",
+      "patterns": [
+        "What scholarships are available at IIT Jammu?",
+        "Tell me about scholarships at IIT Jammu",
+        "Are there any merit-based scholarships at IIT Jammu?"
+      ],
+      "responses": [
+        "IIT Jammu offers scholarships such as the Institute Merit-cum-Means Scholarship, Institute Freeship Scholarship, and Institute Free Messing Scholarship."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Campus_Life",
+      "patterns": [
+        "What is the campus life like at IIT Jammu?",
+        "Tell me about campus facilities at IIT Jammu",
+        "What amenities are available on the campus of IIT Jammu?"
+      ],
+      "responses": [
+        "The campus of IIT Jammu includes cafeterias, open gym, music room, digital classrooms, medical units, table tennis tables, and WiFi facilities."
+      ]
+    }
+  ]
+}
