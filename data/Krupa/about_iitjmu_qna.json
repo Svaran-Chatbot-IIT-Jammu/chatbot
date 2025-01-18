@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "IIT_Jammu_Recognition",
+      "patterns": [
+        "What is IIT Jammu recognized as?",
+        "Tell me about the recognition of IIT Jammu.",
+        "Is IIT Jammu an important institute?"
+      ],
+      "responses": [
+        "IIT Jammu is recognized as an Institute of National Importance under the Institutes of Technology Act of 1961."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Funding",
+      "patterns": [
+        "Who funds IIT Jammu?",
+        "Is IIT Jammu funded by the government?",
+        "How is IIT Jammu funded?"
+      ],
+      "responses": [
+        "IIT Jammu is funded by the Government of India."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Governance",
+      "patterns": [
+        "Who governs IIT Jammu?",
+        "Tell me about the governance of IIT Jammu.",
+        "Which body oversees IIT Jammu?"
+      ],
+      "responses": [
+        "IIT Jammu is governed by the IIT Council."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Establishment",
+      "patterns": [
+        "When was IIT Jammu established?",
+        "When did IIT Jammu start?",
+        "Tell me about the establishment year of IIT Jammu."
+      ],
+      "responses": [
+        "IIT Jammu was inaugurated on 6th August 2016."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Mentorship",
+      "patterns": [
+        "Which IIT mentored IIT Jammu?",
+        "Was IIT Jammu under the guidance of another IIT?",
+        "Tell me about IIT Jammu's mentorship."
+      ],
+      "responses": [
+        "IIT Jammu was initially mentored by IIT Delhi."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Main_Campus",
+      "patterns": [
+        "Where is IIT Jammu's main campus located?",
+        "Tell me about the main campus of IIT Jammu.",
+        "Where can I find IIT Jammu's primary campus?"
+      ],
+      "responses": [
+        "IIT Jammu's main campus is located in Jagti village, 17 km from Jammu Airport and 19 km from Jammu Tawi Railway Station."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Campus_Construction",
+      "patterns": [
+        "Is IIT Jammu's campus fully constructed?",
+        "What is the status of IIT Jammu's campus construction?",
+        "Tell me about the operational phases of IIT Jammu's campus."
+      ],
+      "responses": [
+        "Phase 1A of IIT Jammu's campus is operational, while Phases 1B and 1C are currently under construction."
+      ]
+    },
+    {
+      "tag": "Jammu_Description",
+      "patterns": [
+        "What is Jammu known for?",
+        "Can you describe Jammu?",
+        "Tell me about the city of Jammu."
+      ],
+      "responses": [
+        "Jammu is the largest city in the Jammu Division and serves as the winter capital of Jammu and Kashmir."
+      ]
+    },
+    {
+      "tag": "Jammu_Location",
+      "patterns": [
+        "Where is Jammu located?",
+        "Can you tell me about Jammu's location?",
+        "Which river is Jammu situated near?"
+      ],
+      "responses": [
+        "Jammu is located on the banks of the Tawi river."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Facilities",
+      "patterns": [
+        "What facilities does IIT Jammu offer?",
+        "Can you list the amenities available at IIT Jammu?",
+        "Does IIT Jammu have recreational or academic facilities?"
+      ],
+      "responses": [
+        "IIT Jammu offers facilities such as cafeterias, an open gym, an open-air theatre, laundry machines, digital classrooms, 24-hour WLAN, central computing facilities, a music room, table tennis tables, snooker tables, a medical unit, a pharmacy, and a common hall with a TV for indoor recreational activities."
+      ]
+    },
+    {
+      "tag": "IIT_Jammu_Contact",
+      "patterns": [
+        "How can I contact IIT Jammu?",
+        "What is the address of IIT Jammu?",
+        "Where is IIT Jammu's address?"
+      ],
+      "responses": [
+        "The address of IIT Jammu is Indian Institute of Technology Jammu, Jagti, NH-44, PO Nagrota, Jammu - 181 221, J&K, India."
+      ]
+    }
+  ]
+}
