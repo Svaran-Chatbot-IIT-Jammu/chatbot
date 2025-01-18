@@ -164,17 +164,6 @@
         "responses": [
           "Rehana Rasool is the Mess Manager at IIT Jammu. You can contact her at rehana.rasool@iitjammu.ac.in."
         ]
-      },
-      {
-        "tag": "student_affairs_footer",
-        "patterns": [
-          "What is the copyright information for Student Affairs?",
-          "Tell me about Student Affairs' copyright",
-          "What are the rights reserved for Student Affairs?"
-        ],
-        "responses": [
-          "Copyright © 2020 IIT Jammu, all rights reserved."
-        ]
       }
     ]
   }
