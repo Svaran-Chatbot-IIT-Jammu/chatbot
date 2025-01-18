@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 
-
 def merge_json_files(input_files, output_file):
     merged_data = {"intents": []}
 
@@ -31,28 +30,34 @@ def merge_json_files(input_files, output_file):
     with open(output_file, "w") as f:
         json.dump(merged_data, f, indent=4)
 
+# Updated file paths using relative paths for "section_files" folder
+parent_directory = Path(__file__).parent.parent
+section_files_dir = parent_directory / "section_files"
 
-# File paths for the input files using relative paths
 input_files = [
-    Path(__file__).parent / "accounts.json",
-    Path(__file__).parent / "alumni_affairs.json",
-    Path(__file__).parent / "academic_affair.json",
-    Path(__file__).parent / "procurement_section.json",
-    Path(__file__).parent / "cds.json",
-    Path(__file__).parent / "cep.json",
-    Path(__file__).parent / "counselling.json",
-    Path(__file__).parent / "eg_saral.json",
-    Path(__file__).parent / "library.json",
-    Path(__file__).parent / "medical_centre.json",
-    Path(__file__).parent / "research_and_consultancy.json",
-    Path(__file__).parent / "security_section.json",
-    Path(__file__).parent / "student_affairs.json",
-    Path(__file__).parent / "tinkerers_lab.json",
-    Path(__file__).parent / "tlu.json",
+    section_files_dir / "accounts.json",
+    section_files_dir / "alumni_affairs.json",
+    section_files_dir / "academic_affair.json",
+    section_files_dir / "procurement_section.json",
+    section_files_dir / "cds.json",
+    section_files_dir / "cep.json",
+    section_files_dir / "counselling.json",
+    section_files_dir / "eg_saral.json",
+    section_files_dir / "library.json",
+    section_files_dir / "medical_centre.json",
+    section_files_dir / "research_and_consultancy.json",
+    section_files_dir / "security_section.json",
+    section_files_dir / "student_affairs.json",
+    section_files_dir / "tinkerers_lab.json",
+    section_files_dir / "tlu.json",
+    section_files_dir / "pg_certification.json",
+    section_files_dir / "pmrf.json",
+    section_files_dir / "student_sections_2.json",
+    section_files_dir / "students_section_1.json",
 ]
 
-# Output file path using relative path
-output_file = Path(__file__).parent / "merged_output.json"
+# Output file path in the same parent directory as the "helper" folder
+output_file = parent_directory / "merged_output.json"
 
 # Run the merge function
 merge_json_files(input_files, output_file)
