@@ -68,7 +68,12 @@
     }
   },
   "academic_profile": {
-    "programmes": ["B.Tech.", "M.Tech.", "Ph.D.", "M.Sc."],
+    "programmes": [
+      "B.Tech.",
+      "M.Tech.",
+      "Ph.D.",
+      "M.Sc."
+    ],
     "specializations": {
       "B.Tech.": [
         "Chemical Engineering",
@@ -118,7 +123,9 @@
     },
     {
       "name": "M.Tech",
-      "specializations": ["Various fields"],
+      "specializations": [
+        "Various fields"
+      ],
       "fees": "INR 59,480 (1st Year)",
       "entrance_exam": "GATE",
       "counseling": "COAP"
@@ -132,7 +139,13 @@
     {
       "name": "Ph.D",
       "fees": "INR 1 Lakh (1st Year)",
-      "entrance_exam": ["GATE", "UGC-NET", "CSIR-NET", "ICAR", "ICMR"],
+      "entrance_exam": [
+        "GATE",
+        "UGC-NET",
+        "CSIR-NET",
+        "ICAR",
+        "ICMR"
+      ],
       "selection_process": "Written Test and Interview"
     }
   ],
@@ -178,7 +191,13 @@
       "placement_percentage": 85,
       "highest_package": "INR 53 LPA",
       "average_package": "INR 17 LPA",
-      "top_recruiters": ["Accenture", "Amazon", "HCL", "Tech Mahindra", "HDFC Bank"]
+      "top_recruiters": [
+        "Accenture",
+        "Amazon",
+        "HCL",
+        "Tech Mahindra",
+        "HDFC Bank"
+      ]
     },
     "UG": {
       "students_graduated": 128,

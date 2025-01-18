@@ -47,7 +47,13 @@
         "What is the borrowing policy for faculty?",
         "How many books can faculty borrow?"
       ],
+<<<<<<< HEAD
       "responses": ["Faculty members can borrow 6 books for 90 days."]
+=======
+      "responses": [
+        "Faculty members can borrow 6 books for 90 days."
+      ]
+>>>>>>> 35b5c7c877509eabf3397ad8efddd45b3f4cf9b5
     },
     {
       "tag": "library_iit_jammu_phd_borrowing_policy",
@@ -55,7 +61,13 @@
         "What is the borrowing policy for PhD students?",
         "How many books can PhD students borrow?"
       ],
+<<<<<<< HEAD
       "responses": ["PhD students can borrow 5 books for 30 days."]
+=======
+      "responses": [
+        "PhD students can borrow 5 books for 30 days."
+      ]
+>>>>>>> 35b5c7c877509eabf3397ad8efddd45b3f4cf9b5
     },
     {
       "tag": "library_iit_jammu_mtech_borrowing_policy",
@@ -93,7 +105,13 @@
         "What is the borrowing policy for staff members?",
         "How many books can staff borrow?"
       ],
+<<<<<<< HEAD
       "responses": ["Staff members can borrow 2 books for 30 days."]
+=======
+      "responses": [
+        "Staff members can borrow 2 books for 30 days."
+      ]
+>>>>>>> 35b5c7c877509eabf3397ad8efddd45b3f4cf9b5
     },
     {
       "tag": "library_iit_jammu_hindi_books_policy",
@@ -101,7 +119,13 @@
         "What is the borrowing policy for Hindi books?",
         "How many Hindi books can I borrow?"
       ],
+<<<<<<< HEAD
       "responses": ["All members can borrow 1 Hindi book for 30 days."]
+=======
+      "responses": [
+        "All members can borrow 1 Hindi book for 30 days."
+      ]
+>>>>>>> 35b5c7c877509eabf3397ad8efddd45b3f4cf9b5
     },
     {
       "tag": "library_iit_jammu_resources",
@@ -111,7 +135,12 @@
         "What e-books can I access?"
       ],
       "responses": [
+<<<<<<< HEAD
         "The library provides access to a variety of e-resources, including ACM Digital Library, Springer Journals, IEEE IEL Online, JSTOR, Science Direct, and many others. Additionally, it offers e-books from publishers such as McGraw Hill, Pearson, Wiley, and the Institute of Physics."
+=======
+        "The library provides access to e-resources like ACM Digital Library, Springer Journals, IEEE IEL Online, JSTOR, Science Direct, and many others.",
+        "The library has e-books from publishers such as McGraw Hill, Pearson, Wiley, and Institute of Physics."
+>>>>>>> 35b5c7c877509eabf3397ad8efddd45b3f4cf9b5
       ]
     },
     {
@@ -145,4 +174,8 @@
       ]
     }
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 35b5c7c877509eabf3397ad8efddd45b3f4cf9b5
