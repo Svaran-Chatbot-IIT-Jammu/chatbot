@@ -190,88 +190,304 @@
             ]
         },
         {
-            "tag": "annual_reports",
+            "tag": "annual_reports_2023_2024_english",
             "patterns": [
-                "What are the annual reports?",
-                "Can you show me the annual reports?",
-                "I need the annual reports",
-                "Give me the link to the annual reports",
-                "Where can I find the annual reports?"
+                "What is the annual report for 2023-2024 in English?",
+                "Can you show me the 2023-2024 annual report in English?",
+                "Give me the link to the 2023-2024 annual report in English",
+                "Where can I find the 2023-2024 annual report in English?"
             ],
             "responses": [
-                "Here are the annual reports for IIT Jammu from 2016 to 2024:",
-                {
-                    "2023-2024 English": "https://drive.google.com/file/d/1xhcLfW6i12Wyovef0fWN7VCvhDwkLkZG/view?usp=sharing",
-                    "2023-2024 Hindi": "https://drive.google.com/file/d/1BYIqeqthQpkO0kmD5a0UQOO7apCg2SWi/view?usp=sharing",
-                    "2022-2023 English": "https://drive.google.com/file/d/1dSpr9n_-SGaonG6RhuyknHmEUbDjfuqi/view?usp=sharing",
-                    "2022-2023 Hindi": "https://drive.google.com/file/d/1deRQdpPYbVCndZ54vKqkCxg4X5Y5SxdN/view?usp=sharing",
-                    "2021-2022 English": "https://drive.google.com/file/d/1gla-LIVqubeT1E9Jriay2sJWvsaVh7v0/view?usp=sharing",
-                    "2021-2022 Hindi": "https://drive.google.com/file/d/1lyEOhlpQA6QlDPOK6lKDxgjcomnBz4ft/view?usp=sharing",
-                    "2020-2021 English": "https://drive.google.com/file/d/1yIz1gm0xB7DenHpml0cCUEKD4zpBpxVS/view?usp=sharing",
-                    "2020-2021 Hindi": "https://drive.google.com/file/d/14NzusW8gWW9lLTdD7PMJEu23drkZc7LD/view?usp=sharing",
-                    "2019-2020 English": "https://drive.google.com/file/d/1GHBVf65fj5l0eTqVeO3nCJj_frA9yuOK/view?usp=sharing",
-                    "2018-2019 English": "https://drive.google.com/file/d/17PY7RbHVqoFnAEi0efQkhtYUTKuZ91N9/view?usp=sharing",
-                    "2018-2019 Hindi": "https://drive.google.com/file/d/1UmySujUUndueh1uNqRTc5hwd6zcd3RaO/view?usp=sharing",
-                    "2017-2018 English": "https://drive.google.com/file/d/1e-FbaaxfAndrxuJoFhaBw_Zf6e7XdYGU/view?usp=sharing",
-                    "2017-2018 Hindi": "https://drive.google.com/file/d/1lqCwYe3QfP6Y8IWKYW7vu_g2WtY48_gZ/view?usp=sharing",
-                    "2016-2017 English": "https://drive.google.com/file/d/1MHpPhOyhsLYptbaaBNubSaW1l1mgSSFA/view?usp=sharing"
-                }
+                "Here is the 2023-2024 annual report in English: https://drive.google.com/file/d/1xhcLfW6i12Wyovef0fWN7VCvhDwkLkZG/view?usp=sharing"
             ]
         },
         {
-            "tag": "certificates",
+            "tag": "annual_reports_2023_2024_hindi",
             "patterns": [
-                "What certificates does IIT Jammu have?",
+                "What is the annual report for 2023-2024 in Hindi?",
+                "Can you show me the 2023-2024 annual report in Hindi?",
+                "Give me the link to the 2023-2024 annual report in Hindi",
+                "Where can I find the 2023-2024 annual report in Hindi?"
+            ],
+            "responses": [
+                "Here is the 2023-2024 annual report in Hindi: https://drive.google.com/file/d/1BYIqeqthQpkO0kmD5a0UQOO7apCg2SWi/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2022_2023_english",
+            "patterns": [
+                "What is the annual report for 2022-2023 in English?",
+                "Can you show me the 2022-2023 annual report in English?",
+                "Give me the link to the 2022-2023 annual report in English",
+                "Where can I find the 2022-2023 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2022-2023 annual report in English: https://drive.google.com/file/d/1dSpr9n_-SGaonG6RhuyknHmEUbDjfuqi/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2022_2023_hindi",
+            "patterns": [
+                "What is the annual report for 2022-2023 in Hindi?",
+                "Can you show me the 2022-2023 annual report in Hindi?",
+                "Give me the link to the 2022-2023 annual report in Hindi",
+                "Where can I find the 2022-2023 annual report in Hindi?"
+            ],
+            "responses": [
+                "Here is the 2022-2023 annual report in Hindi: https://drive.google.com/file/d/1deRQdpPYbVCndZ54vKqkCxg4X5Y5SxdN/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2021_2022_english",
+            "patterns": [
+                "What is the annual report for 2021-2022 in English?",
+                "Can you show me the 2021-2022 annual report in English?",
+                "Give me the link to the 2021-2022 annual report in English",
+                "Where can I find the 2021-2022 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2021-2022 annual report in English: https://drive.google.com/file/d/1gla-LIVqubeT1E9Jriay2sJWvsaVh7v0/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2021_2022_hindi",
+            "patterns": [
+                "What is the annual report for 2021-2022 in Hindi?",
+                "Can you show me the 2021-2022 annual report in Hindi?",
+                "Give me the link to the 2021-2022 annual report in Hindi",
+                "Where can I find the 2021-2022 annual report in Hindi?"
+            ],
+            "responses": [
+                "Here is the 2021-2022 annual report in Hindi: https://drive.google.com/file/d/1lyEOhlpQA6QlDPOK6lKDxgjcomnBz4ft/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2020_2021_english",
+            "patterns": [
+                "What is the annual report for 2020-2021 in English?",
+                "Can you show me the 2020-2021 annual report in English?",
+                "Give me the link to the 2020-2021 annual report in English",
+                "Where can I find the 2020-2021 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2020-2021 annual report in English: https://drive.google.com/file/d/1yIz1gm0xB7DenHpml0cCUEKD4zpBpxVS/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2020_2021_hindi",
+            "patterns": [
+                "What is the annual report for 2020-2021 in Hindi?",
+                "Can you show me the 2020-2021 annual report in Hindi?",
+                "Give me the link to the 2020-2021 annual report in Hindi",
+                "Where can I find the 2020-2021 annual report in Hindi?"
+            ],
+            "responses": [
+                "Here is the 2020-2021 annual report in Hindi: https://drive.google.com/file/d/14NzusW8gWW9lLTdD7PMJEu23drkZc7LD/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2019_2020_english",
+            "patterns": [
+                "What is the annual report for 2019-2020 in English?",
+                "Can you show me the 2019-2020 annual report in English?",
+                "Give me the link to the 2019-2020 annual report in English",
+                "Where can I find the 2019-2020 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2019-2020 annual report in English: https://drive.google.com/file/d/1GHBVf65fj5l0eTqVeO3nCJj_frA9yuOK/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2018_2019_english",
+            "patterns": [
+                "What is the annual report for 2018-2019 in English?",
+                "Can you show me the 2018-2019 annual report in English?",
+                "Give me the link to the 2018-2019 annual report in English",
+                "Where can I find the 2018-2019 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2018-2019 annual report in English: https://drive.google.com/file/d/17PY7RbHVqoFnAEi0efQkhtYUTKuZ91N9/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2018_2019_hindi",
+            "patterns": [
+                "What is the annual report for 2018-2019 in Hindi?",
+                "Can you show me the 2018-2019 annual report in Hindi?",
+                "Give me the link to the 2018-2019 annual report in Hindi",
+                "Where can I find the 2018-2019 annual report in Hindi?"
+            ],
+            "responses": [
+                "Here is the 2018-2019 annual report in Hindi: https://drive.google.com/file/d/1UmySujUUndueh1uNqRTc5hwd6zcd3RaO/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2017_2018_english",
+            "patterns": [
+                "What is the annual report for 2017-2018 in English?",
+                "Can you show me the 2017-2018 annual report in English?",
+                "Give me the link to the 2017-2018 annual report in English",
+                "Where can I find the 2017-2018 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2017-2018 annual report in English: https://drive.google.com/file/d/1e-FbaaxfAndrxuJoFhaBw_Zf6e7XdYGU/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2017_2018_hindi",
+            "patterns": [
+                "What is the annual report for 2017-2018 in Hindi?",
+                "Can you show me the 2017-2018 annual report in Hindi?",
+                "Give me the link to the 2017-2018 annual report in Hindi",
+                "Where can I find the 2017-2018 annual report in Hindi?"
+            ],
+            "responses": [
+                "Here is the 2017-2018 annual report in Hindi: https://drive.google.com/file/d/1lqCwYe3QfP6Y8IWKYW7vu_g2WtY48_gZ/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "annual_reports_2016_2017_english",
+            "patterns": [
+                "What is the annual report for 2016-2017 in English?",
+                "Can you show me the 2016-2017 annual report in English?",
+                "Give me the link to the 2016-2017 annual report in English",
+                "Where can I find the 2016-2017 annual report in English?"
+            ],
+            "responses": [
+                "Here is the 2016-2017 annual report in English: https://drive.google.com/file/d/1MHpPhOyhsLYptbaaBNubSaW1l1mgSSFA/view?usp=sharing"
+            ]
+        },
+        {
+            "tag": "certificates_environmental_clearance",
+            "patterns": [
                 "Can you show the environmental clearance certificate?",
-                "I need the Form V environmental statement",
-                "Can you provide the EC compliance reports?"
+                "What is the environmental clearance certificate for IIT Jammu?",
+                "I need to see the environmental clearance certificate.",
+                "Where can I find the environmental clearance certificate for IIT Jammu?",
+                "Is there a link to the IIT Jammu environmental clearance certificate?"
             ],
-            "responses": [
-                "Here are the certificates and compliance reports for IIT Jammu:",
-                {
-                    "Environmental Clearance Certificate": "https://drive.google.com/file/d/1HVItRSg_pWdusu9j8AN20F2yqmljrHPr/view?usp=sharing",
-                    "Form - V Environmental Statement 2024": "https://drive.google.com/file/d/1Ahi05hEBJ_Mx6X7u63NrLyo3WjV5c6Ad/view?usp=sharing",
-                    "Form - V Environmental Statement 2023": "https://drive.google.com/file/d/18OF8ER9fTITRebM83cdztVigo9tYyhuM/view?usp=sharing",
-                    "Form - V Environmental Statement 2022": "https://drive.google.com/file/d/1hWl0fY2zoqipGOHeqkzYlo5EIhS2o8Y6/view?usp=sharing",
-                    "EC Compliance Report (IIT Jammu June 2023)": "https://drive.google.com/file/d/1LeTJ0faBgNzoHbmwpEie6laYX-ptSbUj/view?usp=sharing",
-                    "EC Compliance Report (IIT Jammu December 2022)": "https://drive.google.com/file/d/17G2p-EpnL5g8kF9YRmGiQ6cg7miT2kJQ/view?usp=sharing",
-                    "EC Compliance Report (IIT Jammu June 2022)": "https://drive.google.com/file/d/11362pZoIM-gPom9deVo4jP3PceTpN9gM/view?usp=sharing",
-                    "EC Compliance Report (IIT Jammu December 2021)": "https://drive.google.com/file/d/1iq4Ujre6c7usqoMF5XEUFeAf8xLbWvou/view?usp=sharing"
-                }
-            ]
+            "response": "You can access the Environmental Clearance Certificate here: [Environmental Clearance Certificate](https://drive.google.com/file/d/1HVItRSg_pWdusu9j8AN20F2yqmljrHPr/view?usp=sharing)"
         },
         {
-            "tag": "donate_online",
+            "tag": "certificates_form_v_2024",
+            "patterns": [
+                "I need the Form V environmental statement for 2024.",
+                "Can you provide the Form V Environmental Statement 2024?",
+                "Where can I find the Form V environmental statement for 2024?",
+                "Is there a link for the Form V Environmental Statement for 2024?",
+                "What is the link to the Form V environmental statement 2024?"
+            ],
+            "response": "You can access the Form - V Environmental Statement 2024 here: [Form - V Environmental Statement 2024](https://drive.google.com/file/d/1Ahi05hEBJ_Mx6X7u63NrLyo3WjV5c6Ad/view?usp=sharing)"
+        },
+        {
+            "tag": "certificates_form_v_2023",
+            "patterns": [
+                "Can you show the Form V environmental statement for 2023?",
+                "I need the Form V Environmental Statement for 2023.",
+                "Where can I find the Form V environmental statement for 2023?",
+                "Is there a link for the Form V Environmental Statement 2023?",
+                "What is the link to the Form V environmental statement for 2023?"
+            ],
+            "response": "You can access the Form - V Environmental Statement 2023 here: [Form - V Environmental Statement 2023](https://drive.google.com/file/d/18OF8ER9fTITRebM83cdztVigo9tYyhuM/view?usp=sharing)"
+        },
+        {
+            "tag": "certificates_form_v_2022",
+            "patterns": [
+                "Can you provide the Form V Environmental Statement for 2022?",
+                "I need the Form V environmental statement for 2022.",
+                "Where can I find the Form V Environmental Statement for 2022?",
+                "Is there a link for the Form V environmental statement 2022?",
+                "What is the link to the Form V Environmental Statement for 2022?"
+            ],
+            "response": "You can access the Form - V Environmental Statement 2022 here: [Form - V Environmental Statement 2022](https://drive.google.com/file/d/1hWl0fY2zoqipGOHeqkzYlo5EIhS2o8Y6/view?usp=sharing)"
+        },
+        {
+            "tag": "certificates_ec_compliance_june_2023",
+            "patterns": [
+                "Can you show the EC compliance report for June 2023?",
+                "I need the EC Compliance Report for IIT Jammu June 2023.",
+                "Where can I find the EC compliance report for June 2023?",
+                "Is there a link for the EC Compliance Report June 2023?",
+                "What is the link to the EC compliance report for June 2023?"
+            ],
+            "response": "You can access the EC Compliance Report (IIT Jammu June 2023) here: [EC Compliance Report (IIT Jammu June 2023)](https://drive.google.com/file/d/1LeTJ0faBgNzoHbmwpEie6laYX-ptSbUj/view?usp=sharing)"
+        },
+        {
+            "tag": "certificates_ec_compliance_december_2022",
+            "patterns": [
+                "Can you provide the EC Compliance Report for December 2022?",
+                "I need the EC compliance report for IIT Jammu December 2022.",
+                "Where can I find the EC Compliance Report for December 2022?",
+                "Is there a link for the EC Compliance Report December 2022?",
+                "What is the link to the EC compliance report for December 2022?"
+            ],
+            "response": "You can access the EC Compliance Report (IIT Jammu December 2022) here: [EC Compliance Report (IIT Jammu December 2022)](https://drive.google.com/file/d/17G2p-EpnL5g8kF9YRmGiQ6cg7miT2kJQ/view?usp=sharing)"
+        },
+        {
+            "tag": "certificates_ec_compliance_june_2022",
+            "patterns": [
+                "Can you provide the EC Compliance Report for June 2022?",
+                "I need the EC compliance report for IIT Jammu June 2022.",
+                "Where can I find the EC Compliance Report for June 2022?",
+                "Is there a link for the EC Compliance Report June 2022?",
+                "What is the link to the EC compliance report for June 2022?"
+            ],
+            "response": "You can access the EC Compliance Report (IIT Jammu June 2022) here: [EC Compliance Report (IIT Jammu June 2022)](https://drive.google.com/file/d/11362pZoIM-gPom9deVo4jP3PceTpN9gM/view?usp=sharing)"
+        },
+        {
+            "tag": "certificates_ec_compliance_december_2021",
+            "patterns": [
+                "Can you show the EC Compliance Report for December 2021?",
+                "I need the EC compliance report for IIT Jammu December 2021.",
+                "Where can I find the EC Compliance Report for December 2021?",
+                "Is there a link for the EC Compliance Report December 2021?",
+                "What is the link to the EC compliance report for December 2021?"
+            ],
+            "response": "You can access the EC Compliance Report (IIT Jammu December 2021) here: [EC Compliance Report (IIT Jammu December 2021)](https://drive.google.com/file/d/1iq4Ujre6c7usqoMF5XEUFeAf8xLbWvou/view?usp=sharing)"
+        },
+        {
+            "tag": "donate_online_general",
             "patterns": [
                 "How can I donate to IIT Jammu?",
                 "Where can I make a donation?",
-                "Can you share the donation link?",
-                "Tell me how I can support IIT Jammu financially?"
+                "Tell me how I can support IIT Jammu financially?",
+                "I would like to donate to IIT Jammu, where can I do that?",
+                "Can you share the donation link?"
             ],
-            "responses": [
-                "IIT Jammu welcomes donations for its growth and development. You can contribute by visiting the link below:",
-                "For any donation inquiries, feel free to reach out to donations@iitjammu.ac.in.",
-                "Donate to any of the specific causes at IIT Jammu by visiting our online donation page: ",
-                {
-                    "link": "https://saral.iitjammu.ac.in/donations"
-                }
-            ]
+            "response": "IIT Jammu welcomes donations for its growth and development. You can contribute by visiting the link below: [Donation Link](https://saral.iitjammu.ac.in/donations)"
         },
         {
-            "tag": "csr_registration_certificate",
+            "tag": "donate_online_inquiries",
             "patterns": [
-                "What is the CSR registration certificate?",
-                "Where can I find the CSR registration details?",
-                "Give me the CSR registration certificate link",
-                "Can you provide the CSR registration number?"
+                "Can you provide the contact for donation inquiries?",
+                "How can I inquire about donations at IIT Jammu?",
+                "Where can I reach out for donation inquiries?",
+                "I have questions about donations, where can I contact?",
+                "Can you share the email for donation-related inquiries?"
             ],
-            "responses": [
-                "For CSR contributions, you can refer to the CSR registration details below:",
-                {
-                    "description": "For contributions towards CSR, please contact registrar@iitjammu.ac.in | Registration number is CSR00013197",
-                    "link": "https://www.iitjammu.ac.in/Approval%20Letter%20for%20form%20CSR1.pdf"
-                }
-            ]
+            "response": "For any donation inquiries, feel free to reach out to donations@iitjammu.ac.in."
+        },
+        {
+            "tag": "donate_online_specific_cause",
+            "patterns": [
+                "Can I donate to a specific cause at IIT Jammu?",
+                "Where can I donate to specific causes at IIT Jammu?",
+                "Tell me about donating to specific causes at IIT Jammu.",
+                "How can I donate to a specific cause at IIT Jammu?",
+                "Is there a page for donating to specific causes at IIT Jammu?"
+            ],
+            "response": "Donate to any of the specific causes at IIT Jammu by visiting our online donation page: [Donation Link](https://saral.iitjammu.ac.in/donations)"
+        },
+        {
+            "tag": "csr_contributions",
+            "patterns": [
+                "How can I contribute to CSR at IIT Jammu?",
+                "Tell me about CSR contributions at IIT Jammu.",
+                "Can I make CSR contributions to IIT Jammu?",
+                "Where can I find CSR registration details?",
+                "How do I contribute through CSR at IIT Jammu?"
+            ],
+            "response": "For CSR contributions, you can refer to the CSR registration details below: For contributions towards CSR, please contact registrar@iitjammu.ac.in | Registration number is CSR00013197. More details here: [CSR Registration Letter](https://www.iitjammu.ac.in/Approval%20Letter%20for%20form%20CSR1.pdf)"
         },
         {
             "tag": "MoUs",
@@ -379,215 +595,529 @@
             ]
         },
         {
-            "tag": "videos",
+            "tag": "video_convocation_2024",
             "patterns": [
-                "What are the videos related to IIT Jammu?",
-                "Can you share videos of IIT Jammu?",
-                "Show me the IIT Jammu videos"
+                "What is the video link for IIT Jammu Convocation 2024?",
+                "Can you share the video of IIT Jammu Convocation 2024?",
+                "Show me the IIT Jammu Convocation 2024 video"
             ],
             "responses": [
-                "Here are the videos related to IIT Jammu:",
-                {
-                    "IIT Jammu Convocation 2024": "https://youtu.be/twmjstJ-R5E",
-                    "In Conversation with Prof. A.S. Pillai | BrahMos Aerospace - Founder": "https://youtu.be/qn7lCSGTCBw",
-                    "PRISM DIGEST | Campus News, August, 2024": "https://youtu.be/fn50wF5N0NM",
-                    "Welcome to IIT Jammu: Your Gateway to Excellence & Innovation": "https://youtu.be/vFgozFuURPA",
-                    "Discover IIT Jammu: Student Perspective": "https://youtu.be/tfGwbpahFiQ",
-                    "This is IIT Jammu": "https://youtu.be/y2_0NqDELxA",
-                    "9th International Day of Yoga": "https://youtu.be/bWMKsjgefrY",
-                    "How Diverse is IIT JAMMU | FAQ | IIT JAMMU": "https://youtu.be/8CGVJL5kI1g",
-                    "How are the Faculties at IIT JAMMU | FAQ | IIT JAMMU": "https://youtu.be/RqKnzlXmwAY",
-                    "How is Mess food at IIT JAMMU | FAQ | IIT JAMMU": "https://youtu.be/pU16nyIC0ss",
-                    "HOW IS WEATHER AT IIT JAMMU | FAQ | IIT JAMMU": "https://youtu.be/K-M9u6U5o3s",
-                    "HOW IS SPORT CULTURE AT IIT JAMMU | FAQ | IIT JAMMU": "https://youtu.be/o2y9X2Sz1bw",
-                    "HOW ARE THE SENIOR JUNIOR RELATIONSHIPS IN IIT JAMMU | FAQ | IIT JAMMU": "https://youtu.be/3HBeNkSne64",
-                    "HOW ARE THE PLACEMENTS AT IIT JAMMU? | FAQ | IIT JAMMU": "https://youtu.be/XqaKDkBcCjk",
-                    "IS IIT JAMMU WORTH IT? | FAQ | IIT JAMMU": "https://youtu.be/UD_4Xu4vyd0",
-                    "Is IIT Jammu Safe? | FAQ | IIT JAMMU": "https://youtu.be/IVPffk33SOA",
-                    "IIT Jammu Inauguration, Phase 1A and 1B of the campus": "https://youtu.be/TgqwZthZahM",
-                    "IIT Jammu Campus Tour Official Video": "https://youtu.be/FCOoEBxWdeM",
-                    "HRD Minister Prakash Javadekar inaugurates IIT, Jammu": "https://youtu.be/XS80oK7rROA"
-                }
+                "Here is the video link for IIT Jammu Convocation 2024: https://youtu.be/twmjstJ-R5E"
             ]
         },
         {
-            "tag": "holidays",
+            "tag": "video_prof_as_pillai",
             "patterns": [
-                "What are the holidays for this year?",
-                "Can you list the holidays?",
-                "Give me the holiday dates"
+                "What is the video link for the conversation with Prof. A.S. Pillai?",
+                "Can you share the video of the conversation with Prof. A.S. Pillai?",
+                "Show me the video of the conversation with Prof. A.S. Pillai"
             ],
             "responses": [
-                "Here are the holidays for IIT Jammu in the year 2025:",
-                {
-                    "holidays": [
-                        {
-                            "Holiday": "Makar Sankranti",
-                            "Date": "January 14",
-                            "Day of Week": "Tuesday"
-                        },
-                        {
-                            "Holiday": "Republic Day",
-                            "Date": "January 26",
-                            "Day of Week": "Sunday"
-                        },
-                        {
-                            "Holiday": "Maha Shivratri",
-                            "Date": "February 26",
-                            "Day of Week": "Wednesday"
-                        },
-                        {
-                            "Holiday": "Holi",
-                            "Date": "March 14",
-                            "Day of Week": "Friday"
-                        },
-                        {
-                            "Holiday": "Id-ul-Fitr",
-                            "Date": "March 31",
-                            "Day of Week": "Monday"
-                        },
-                        {
-                            "Holiday": "Mahavir Jayanti",
-                            "Date": "April 10",
-                            "Day of Week": "Thursday"
-                        },
-                        {
-                            "Holiday": "Good Friday",
-                            "Date": "April 18",
-                            "Day of Week": "Friday"
-                        },
-                        {
-                            "Holiday": "Buddha Purnima",
-                            "Date": "May 12",
-                            "Day of Week": "Monday"
-                        },
-                        {
-                            "Holiday": "Id-ul-Zuha (Bakrid)",
-                            "Date": "June 7",
-                            "Day of Week": "Saturday"
-                        },
-                        {
-                            "Holiday": "Muharram",
-                            "Date": "July 6",
-                            "Day of Week": "Sunday"
-                        },
-                        {
-                            "Holiday": "Independence Day",
-                            "Date": "August 15",
-                            "Day of Week": "Friday"
-                        },
-                        {
-                            "Holiday": "Milad-un-Nabi or Id-e-Milad",
-                            "Date": "September 5",
-                            "Day of Week": "Friday"
-                        },
-                        {
-                            "Holiday": "Mahatama Gandhi's Birthday",
-                            "Date": "October 2",
-                            "Day of Week": "Thursday"
-                        },
-                        {
-                            "Holiday": "Dussehra",
-                            "Date": "October 2",
-                            "Day of Week": "Thursday"
-                        },
-                        {
-                            "Holiday": "Diwali",
-                            "Date": "October 20",
-                            "Day of Week": "Monday"
-                        },
-                        {
-                            "Holiday": "Govardhan Puja",
-                            "Date": "October 22",
-                            "Day of Week": "Wednesday"
-                        },
-                        {
-                            "Holiday": "Bhai Duj",
-                            "Date": "October 23",
-                            "Day of Week": "Thursday"
-                        },
-                        {
-                            "Holiday": "Guru Nanak's Birthday",
-                            "Date": "November 5",
-                            "Day of Week": "Wednesday"
-                        },
-                        {
-                            "Holiday": "Christmas",
-                            "Date": "December 25",
-                            "Day of Week": "Thursday"
-                        }
-                    ]
-                }
+                "Here is the video link for the conversation with Prof. A.S. Pillai: https://youtu.be/qn7lCSGTCBw"
             ]
         },
         {
-            "tag": "team_members",
+            "tag": "video_prism_digest_august_2024",
             "patterns": [
-                "Who are the team members?",
-                "Who works with IIT Jammu?",
-                "Tell me about the team"
+                "What is the video link for PRISM DIGEST Campus News, August 2024?",
+                "Can you share the video of PRISM DIGEST Campus News, August 2024?",
+                "Show me the video of PRISM DIGEST Campus News, August 2024"
             ],
             "responses": [
-                "The team at IIT Jammu is led by a dedicated group of professionals:",
-                {
-                    "Prof. M. K. Pandit": {
-                        "designation": "Director",
-                        "department": "Office of the Director"
-                    },
-                    "Prof. Navin Kumar": {
-                        "designation": "Professor",
-                        "department": "Department of Computer Science and Engineering"
-                    },
-                    "Prof. Dr. Asad Ali Khan": {
-                        "designation": "Professor",
-                        "department": "Department of Electrical Engineering"
-                    },
-                    "Dr. Ritesh Kumar": {
-                        "designation": "Assistant Professor",
-                        "department": "Department of Civil Engineering"
-                    },
-                    "Mr. Arun Sharma": {
-                        "designation": "Research Assistant",
-                        "department": "Research and Development"
-                    }
-                }
+                "Here is the video link for PRISM DIGEST Campus News, August 2024: https://youtu.be/fn50wF5N0NM"
             ]
         },
         {
-            "tag": "anti_ragging_details",
+            "tag": "video_welcome_to_iit_jammu",
+            "patterns": [
+                "What is the video link for Welcome to IIT Jammu?",
+                "Can you share the video of Welcome to IIT Jammu?",
+                "Show me the video of Welcome to IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for Welcome to IIT Jammu: https://youtu.be/vFgozFuURPA"
+            ]
+        },
+        {
+            "tag": "video_student_perspective",
+            "patterns": [
+                "What is the video link for Discover IIT Jammu: Student Perspective?",
+                "Can you share the video of Discover IIT Jammu: Student Perspective?",
+                "Show me the video of Discover IIT Jammu: Student Perspective"
+            ],
+            "responses": [
+                "Here is the video link for Discover IIT Jammu: Student Perspective: https://youtu.be/tfGwbpahFiQ"
+            ]
+        },
+        {
+            "tag": "video_this_is_iit_jammu",
+            "patterns": [
+                "What is the video link for This is IIT Jammu?",
+                "Can you share the video of This is IIT Jammu?",
+                "Show me the video of This is IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for This is IIT Jammu: https://youtu.be/y2_0NqDELxA"
+            ]
+        },
+        {
+            "tag": "video_international_day_of_yoga",
+            "patterns": [
+                "What is the video link for the 9th International Day of Yoga?",
+                "Can you share the video of the 9th International Day of Yoga?",
+                "Show me the video of the 9th International Day of Yoga"
+            ],
+            "responses": [
+                "Here is the video link for the 9th International Day of Yoga: https://youtu.be/bWMKsjgefrY"
+            ]
+        },
+        {
+            "tag": "video_diversity_at_iit_jammu",
+            "patterns": [
+                "What is the video link for How Diverse is IIT Jammu?",
+                "Can you share the video of How Diverse is IIT Jammu?",
+                "Show me the video of How Diverse is IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How Diverse is IIT Jammu: https://youtu.be/8CGVJL5kI1g"
+            ]
+        },
+        {
+            "tag": "video_faculties_at_iit_jammu",
+            "patterns": [
+                "What is the video link for How are the Faculties at IIT Jammu?",
+                "Can you share the video of How are the Faculties at IIT Jammu?",
+                "Show me the video of How are the Faculties at IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How are the Faculties at IIT Jammu: https://youtu.be/RqKnzlXmwAY"
+            ]
+        },
+        {
+            "tag": "video_mess_food_at_iit_jammu",
+            "patterns": [
+                "What is the video link for How is Mess food at IIT Jammu?",
+                "Can you share the video of How is Mess food at IIT Jammu?",
+                "Show me the video of How is Mess food at IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How is Mess food at IIT Jammu: https://youtu.be/pU16nyIC0ss"
+            ]
+        },
+        {
+            "tag": "video_weather_at_iit_jammu",
+            "patterns": [
+                "What is the video link for How is Weather at IIT Jammu?",
+                "Can you share the video of How is Weather at IIT Jammu?",
+                "Show me the video of How is Weather at IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How is Weather at IIT Jammu: https://youtu.be/K-M9u6U5o3s"
+            ]
+        },
+        {
+            "tag": "video_sport_culture_at_iit_jammu",
+            "patterns": [
+                "What is the video link for How is Sport Culture at IIT Jammu?",
+                "Can you share the video of How is Sport Culture at IIT Jammu?",
+                "Show me the video of How is Sport Culture at IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How is Sport Culture at IIT Jammu: https://youtu.be/o2y9X2Sz1bw"
+            ]
+        },
+        {
+            "tag": "video_senior_junior_relationships",
+            "patterns": [
+                "What is the video link for How are the Senior Junior Relationships in IIT Jammu?",
+                "Can you share the video of How are the Senior Junior Relationships in IIT Jammu?",
+                "Show me the video of How are the Senior Junior Relationships in IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How are the Senior Junior Relationships in IIT Jammu: https://youtu.be/3HBeNkSne64"
+            ]
+        },
+        {
+            "tag": "video_placements_at_iit_jammu",
+            "patterns": [
+                "What is the video link for How are the Placements at IIT Jammu?",
+                "Can you share the video of How are the Placements at IIT Jammu?",
+                "Show me the video of How are the Placements at IIT Jammu"
+            ],
+            "responses": [
+                "Here is the video link for How are the Placements at IIT Jammu: https://youtu.be/XqaKDkBcCjk"
+            ]
+        },
+        {
+            "tag": "video_is_iit_jammu_worth_it",
+            "patterns": [
+                "What is the video link for Is IIT Jammu Worth It?",
+                "Can you share the video of Is IIT Jammu Worth It?",
+                "Show me the video of Is IIT Jammu Worth It"
+            ],
+            "responses": [
+                "Here is the video link for Is IIT Jammu Worth It: https://youtu.be/UD_4Xu4vyd0"
+            ]
+        },
+        {
+            "tag": "video_is_iit_jammu_safe",
+            "patterns": [
+                "What is the video link for Is IIT Jammu Safe?",
+                "Can you share the video of Is IIT Jammu Safe?",
+                "Show me the video of Is IIT Jammu Safe"
+            ],
+            "responses": [
+                "Here is the video link for Is IIT Jammu Safe: https://youtu.be/IVPffk33SOA"
+            ]
+        },
+        {
+            "tag": "video_inauguration_phase_1a_1b",
+            "patterns": [
+                "What is the video link for IIT Jammu Inauguration, Phase 1A and 1B of the campus?",
+                "Can you share the video of IIT Jammu Inauguration, Phase 1A and 1B of the campus?",
+                "Show me the video of IIT Jammu Inauguration, Phase 1A and 1B of the campus"
+            ],
+            "responses": [
+                "Here is the video link for IIT Jammu Inauguration, Phase 1A and 1B of the campus: https://youtu.be/TgqwZthZahM"
+            ]
+        },
+        {
+            "tag": "video_campus_tour",
+            "patterns": [
+                "What is the video link for IIT Jammu Campus Tour Official Video?",
+                "Can you share the video of IIT Jammu Campus Tour Official Video?",
+                "Show me the video of IIT Jammu Campus Tour Official Video"
+            ],
+            "responses": [
+                "Here is the video link for IIT Jammu Campus Tour Official Video: https://youtu.be/FCOoEBxWdeM"
+            ]
+        },
+        {
+            "tag": "video_hrd_minister_inauguration",
+            "patterns": [
+                "What is the video link for HRD Minister Prakash Javadekar inaugurates IIT, Jammu?",
+                "Can you share the video of HRD Minister Prakash Javadekar inaugurates IIT, Jammu?",
+                "Show me the video of HRD Minister Prakash Javadekar inaugurates IIT, Jammu"
+            ],
+            "responses": [
+                "Here is the video link for HRD Minister Prakash Javadekar inaugurates IIT, Jammu: https://youtu.be/XS80oK7rROA"
+            ]
+        },
+        {
+            "tag": "holiday_makar_sankranti",
+            "patterns": [
+                "What is the date for Makar Sankranti?",
+                "When is Makar Sankranti?",
+                "Tell me the date for Makar Sankranti"
+            ],
+            "responses": [
+                "Makar Sankranti is on January 14, Tuesday."
+            ]
+        },
+        {
+            "tag": "holiday_republic_day",
+            "patterns": [
+                "What is the date for Republic Day?",
+                "When is Republic Day?",
+                "Tell me the date for Republic Day"
+            ],
+            "responses": [
+                "Republic Day is on January 26, Sunday."
+            ]
+        },
+        {
+            "tag": "holiday_maha_shivratri",
+            "patterns": [
+                "What is the date for Maha Shivratri?",
+                "When is Maha Shivratri?",
+                "Tell me the date for Maha Shivratri"
+            ],
+            "responses": [
+                "Maha Shivratri is on February 26, Wednesday."
+            ]
+        },
+        {
+            "tag": "holiday_holi",
+            "patterns": [
+                "What is the date for Holi?",
+                "When is Holi?",
+                "Tell me the date for Holi"
+            ],
+            "responses": [
+                "Holi is on March 14, Friday."
+            ]
+        },
+        {
+            "tag": "holiday_id_ul_fitr",
+            "patterns": [
+                "What is the date for Id-ul-Fitr?",
+                "When is Id-ul-Fitr?",
+                "Tell me the date for Id-ul-Fitr"
+            ],
+            "responses": [
+                "Id-ul-Fitr is on March 31, Monday."
+            ]
+        },
+        {
+            "tag": "holiday_mahavir_jayanti",
+            "patterns": [
+                "What is the date for Mahavir Jayanti?",
+                "When is Mahavir Jayanti?",
+                "Tell me the date for Mahavir Jayanti"
+            ],
+            "responses": [
+                "Mahavir Jayanti is on April 10, Thursday."
+            ]
+        },
+        {
+            "tag": "holiday_good_friday",
+            "patterns": [
+                "What is the date for Good Friday?",
+                "When is Good Friday?",
+                "Tell me the date for Good Friday"
+            ],
+            "responses": [
+                "Good Friday is on April 18, Friday."
+            ]
+        },
+        {
+            "tag": "holiday_buddha_purnima",
+            "patterns": [
+                "What is the date for Buddha Purnima?",
+                "When is Buddha Purnima?",
+                "Tell me the date for Buddha Purnima"
+            ],
+            "responses": [
+                "Buddha Purnima is on May 12, Monday."
+            ]
+        },
+        {
+            "tag": "holiday_id_ul_zuha",
+            "patterns": [
+                "What is the date for Id-ul-Zuha?",
+                "When is Id-ul-Zuha?",
+                "Tell me the date for Id-ul-Zuha"
+            ],
+            "responses": [
+                "Id-ul-Zuha (Bakrid) is on June 7, Saturday."
+            ]
+        },
+        {
+            "tag": "holiday_muharram",
+            "patterns": [
+                "What is the date for Muharram?",
+                "When is Muharram?",
+                "Tell me the date for Muharram"
+            ],
+            "responses": [
+                "Muharram is on July 6, Sunday."
+            ]
+        },
+        {
+            "tag": "holiday_independence_day",
+            "patterns": [
+                "What is the date for Independence Day?",
+                "When is Independence Day?",
+                "Tell me the date for Independence Day"
+            ],
+            "responses": [
+                "Independence Day is on August 15, Friday."
+            ]
+        },
+        {
+            "tag": "holiday_milad_un_nabi",
+            "patterns": [
+                "What is the date for Milad-un-Nabi?",
+                "When is Milad-un-Nabi?",
+                "Tell me the date for Milad-un-Nabi"
+            ],
+            "responses": [
+                "Milad-un-Nabi or Id-e-Milad is on September 5, Friday."
+            ]
+        },
+        {
+            "tag": "holiday_gandhi_birthday",
+            "patterns": [
+                "What is the date for Mahatma Gandhi's Birthday?",
+                "When is Mahatma Gandhi's Birthday?",
+                "Tell me the date for Mahatma Gandhi's Birthday"
+            ],
+            "responses": [
+                "Mahatma Gandhi's Birthday is on October 2, Thursday."
+            ]
+        },
+        {
+            "tag": "holiday_dussehra",
+            "patterns": [
+                "What is the date for Dussehra?",
+                "When is Dussehra?",
+                "Tell me the date for Dussehra"
+            ],
+            "responses": [
+                "Dussehra is on October 2, Thursday."
+            ]
+        },
+        {
+            "tag": "holiday_diwali",
+            "patterns": [
+                "What is the date for Diwali?",
+                "When is Diwali?",
+                "Tell me the date for Diwali"
+            ],
+            "responses": [
+                "Diwali is on October 20, Monday."
+            ]
+        },
+        {
+            "tag": "holiday_govardhan_puja",
+            "patterns": [
+                "What is the date for Govardhan Puja?",
+                "When is Govardhan Puja?",
+                "Tell me the date for Govardhan Puja"
+            ],
+            "responses": [
+                "Govardhan Puja is on October 22, Wednesday."
+            ]
+        },
+        {
+            "tag": "holiday_bhai_duj",
+            "patterns": [
+                "What is the date for Bhai Duj?",
+                "When is Bhai Duj?",
+                "Tell me the date for Bhai Duj"
+            ],
+            "responses": [
+                "Bhai Duj is on October 23, Thursday."
+            ]
+        },
+        {
+            "tag": "holiday_guru_nanak_birthday",
+            "patterns": [
+                "What is the date for Guru Nanak's Birthday?",
+                "When is Guru Nanak's Birthday?",
+                "Tell me the date for Guru Nanak's Birthday"
+            ],
+            "responses": [
+                "Guru Nanak's Birthday is on November 5, Wednesday."
+            ]
+        },
+        {
+            "tag": "holiday_christmas",
+            "patterns": [
+                "What is the date for Christmas?",
+                "When is Christmas?",
+                "Tell me the date for Christmas"
+            ],
+            "responses": [
+                "Christmas is on December 25, Thursday."
+            ]
+        },
+        {
+            "tag": "team_member_director",
+            "patterns": [
+                "Who is the Director?",
+                "Tell me about the Director",
+                "Who leads IIT Jammu?"
+            ],
+            "responses": [
+                "Prof. M. K. Pandit is the Director of IIT Jammu, leading the Office of the Director."
+            ]
+        },
+        {
+            "tag": "team_member_professor_computer_science",
+            "patterns": [
+                "Who is the Professor in Computer Science?",
+                "Tell me about the Professor in Computer Science",
+                "Who is Prof. Navin Kumar?"
+            ],
+            "responses": [
+                "Prof. Navin Kumar is a Professor in the Department of Computer Science and Engineering at IIT Jammu."
+            ]
+        },
+        {
+            "tag": "team_member_professor_electrical_engineering",
+            "patterns": [
+                "Who is the Professor in Electrical Engineering?",
+                "Tell me about the Professor in Electrical Engineering",
+                "Who is Prof. Dr. Asad Ali Khan?"
+            ],
+            "responses": [
+                "Prof. Dr. Asad Ali Khan is a Professor in the Department of Electrical Engineering at IIT Jammu."
+            ]
+        },
+        {
+            "tag": "team_member_assistant_professor_civil_engineering",
+            "patterns": [
+                "Who is the Assistant Professor in Civil Engineering?",
+                "Tell me about the Assistant Professor in Civil Engineering",
+                "Who is Dr. Ritesh Kumar?"
+            ],
+            "responses": [
+                "Dr. Ritesh Kumar is an Assistant Professor in the Department of Civil Engineering at IIT Jammu."
+            ]
+        },
+        {
+            "tag": "team_member_research_assistant",
+            "patterns": [
+                "Who is the Research Assistant?",
+                "Tell me about the Research Assistant",
+                "Who is Mr. Arun Sharma?"
+            ],
+            "responses": [
+                "Mr. Arun Sharma is a Research Assistant in the Research and Development department at IIT Jammu."
+            ]
+        },
+        {
+            "tag": "anti_ragging_policy",
             "patterns": [
                 "What is ragging policy?",
                 "What are the anti-ragging guidelines?",
-                "Tell me about ragging rules at IIT",
+                "Tell me about ragging rules at IIT"
+            ],
+            "responses": [
+                "Ragging at IIT Campus is strictly prohibited and is a punishable offense as per the institute's honor code."
+            ]
+        },
+        {
+            "tag": "anti_ragging_guidelines",
+            "patterns": [
+                "What are the anti-ragging guidelines?",
+                "Tell me about ragging rules at IIT"
+            ],
+            "responses": [
+                "There are strict guidelines from the Hon'ble Supreme Court to prevent ragging at the institute campuses."
+            ]
+        },
+        {
+            "tag": "anti_ragging_reporting",
+            "patterns": [
                 "Is ragging allowed in campus?",
                 "What happens if someone ragged?"
             ],
             "responses": [
-                "Ragging at IIT Campus is strictly prohibited and is a punishable offense as per the institute's honor code.",
-                "There are strict guidelines from the Hon'ble Supreme Court to prevent ragging at the institute campuses.",
                 "Please report any incident of ragging to the Hostel Management and Dean of Students immediately."
             ]
         },
         {
-            "tag": "anti_ragging_notifications",
+            "tag": "anti_ragging_notifications_2021",
             "patterns": [
                 "Show me the latest anti-ragging notifications",
                 "Are there any updates on anti-ragging?",
                 "Tell me about anti-ragging notifications"
             ],
             "responses": [
-                "Here are the latest anti-ragging notifications:",
-                "Check out the Anti-Ragging Committee notifications below:"
+                "Notification regarding Anti-Ragging Committee dated 17.08.2021: https://iitjammu.ac.in/notification-anti-ragging-committee-17-08-2021"
+            ]
+        },
+        {
+            "tag": "anti_ragging_notifications_2022",
+            "patterns": [
+                "Show me the latest anti-ragging notifications",
+                "Are there any updates on anti-ragging?",
+                "Tell me about anti-ragging notifications"
             ],
-            "attachments": [
-                {
-                    "text": "Notification regarding Anti-Ragging Committee dated 17.08.2021",
-                    "link": "https://iitjammu.ac.in/notification-anti-ragging-committee-17-08-2021"
-                },
-                {
-                    "text": "Notification regarding Anti-Ragging Committee dated 10.10.2022",
-                    "link": "https://iitjammu.ac.in/notification-anti-ragging-committee-10-10-2022"
-                }
+            "responses": [
+                "Notification regarding Anti-Ragging Committee dated 10.10.2022: https://iitjammu.ac.in/notification-anti-ragging-committee-10-10-2022"
             ]
         },
         {
@@ -598,22 +1128,40 @@
                 "Where can I find the anti-ragging committee details?"
             ],
             "responses": [
-                "Here are the committees related to anti-ragging at IIT Jammu:",
-                "You can find information about the anti-ragging committees below:"
+                "Here are the committees related to anti-ragging at IIT Jammu:"
+            ]
+        },
+        {
+            "tag": "anti_ragging_committees_link_1",
+            "patterns": [
+                "Show me the standing committees in the Student Affairs section",
+                "Where can I find the anti-ragging committee link?",
+                "Provide the link to the anti-ragging committee"
             ],
-            "attachments": [
-                {
-                    "text": "Standing Committees in Student Affairs section (Anti Ragging Committee)",
-                    "link": "https://iitjammu.ac.in/standing-committees-student-affairs-anti-ragging"
-                },
-                {
-                    "text": "Anti Ragging Squad-2024",
-                    "link": "https://iitjammu.ac.in/anti-ragging-squad-2024"
-                },
-                {
-                    "text": "Anti Ragging Details (ARC & ARS)",
-                    "link": "https://iitjammu.ac.in/anti-ragging-details-arc-ars"
-                }
+            "responses": [
+                "Standing Committees in Student Affairs section (Anti Ragging Committee): https://iitjammu.ac.in/standing-committees-student-affairs-anti-ragging"
+            ]
+        },
+        {
+            "tag": "anti_ragging_committees_link_2",
+            "patterns": [
+                "Show me the Anti Ragging Squad for 2024",
+                "Where can I find the Anti Ragging Squad details?",
+                "Provide the link to the Anti Ragging Squad 2024"
+            ],
+            "responses": [
+                "Anti Ragging Squad-2024: https://iitjammu.ac.in/anti-ragging-squad-2024"
+            ]
+        },
+        {
+            "tag": "anti_ragging_committees_link_3",
+            "patterns": [
+                "Show me the Anti Ragging Details (ARC & ARS)",
+                "Where can I find the Anti Ragging Details?",
+                "Provide the link to the Anti Ragging Details (ARC & ARS)"
+            ],
+            "responses": [
+                "Anti Ragging Details (ARC & ARS): https://iitjammu.ac.in/anti-ragging-details-arc-ars"
             ]
         },
         {
@@ -634,145 +1182,265 @@
             ]
         },
         {
+            "tag": "director_message_anti_ragging_response",
+            "patterns": [
+                "What is the director's message on anti-ragging?",
+                "Is there a message from the director about ragging?",
+                "Tell me about the director's message on anti-ragging"
+            ],
+            "responses": [
+                "You can read the Director's message on Anti-Ragging from the official website."
+            ]
+        },
+        {
+            "tag": "director_message_anti_ragging_link",
+            "patterns": [
+                "What is the director's message on anti-ragging?",
+                "Is there a message from the director about ragging?",
+                "Tell me about the director's message on anti-ragging"
+            ],
+            "responses": [
+                "Director's Message on Anti-Ragging: https://iitjammu.ac.in/directors-message-anti-ragging"
+            ]
+        },
+        {
             "tag": "active_tenders",
             "patterns": [
                 "What are the active tenders?",
                 "Show me the active tenders list",
                 "Can you provide the list of active tenders?",
-                "Tell me the active tenders"
+                "Tell me the active tenders",
+                "What tenders are currently open?",
+                "Can you list the current tenders?",
+                "What are the ongoing tenders?",
+                "Please provide the active tenders"
             ],
             "responses": [
-                "Here are the current active tenders for IIT Jammu:",
-                {
-                    "tenders": [
-                        {
-                            "NIT No.": "IITJMUIPMSP-44/2024-25",
-                            "Title": "Tender for Transportation Services E Vehicles",
-                            "Upload Date": "17-01-2025",
-                            "Due Date": "07-02-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2024/B/5698621",
-                            "Title": "3 Phase Power Analyzer Digital Multimeter LCR Meter Digital storage OSCILLOSCOPE 300 MHZ 4 CHANNELS",
-                            "Upload Date": "17-01-2025",
-                            "Due Date": "07-02-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2024/B/5690849",
-                            "Title": "ROCKFALL IMPACT SETUP WITH ACCESSORIES",
-                            "Upload Date": "15-01-2025",
-                            "Due Date": "05-02-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2024/B/5764107",
-                            "Title": "Fittings and Accessories",
-                            "Upload Date": "13-01-2025",
-                            "Due Date": "03-02-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2025/B/5793663",
-                            "Title": "Digital Multimeter as per IS 9000 Q3",
-                            "Upload Date": "10-01-2025",
-                            "Due Date": "20-01-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2025/B/5797458",
-                            "Title": "Function Generator",
-                            "Upload Date": "10-01-2025",
-                            "Due Date": "20-01-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2025/B/5798561",
-                            "Title": "Laboratory Furniture",
-                            "Upload Date": "10-01-2025",
-                            "Due Date": "31-01-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2025/B/5787016",
-                            "Title": "Mixed Signal Oscilloscope",
-                            "Upload Date": "09-01-2025",
-                            "Due Date": "30-01-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2024/B/5756424",
-                            "Title": "Laboratory Furniture",
-                            "Upload Date": "02-01-2025",
-                            "Due Date": "23-01-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2024/B/5762349",
-                            "Title": "Compression Moulding Press",
-                            "Upload Date": "31-12-2024",
-                            "Due Date": "20-01-2025"
-                        },
-                        {
-                            "NIT No.": "GEM/2024/B/5752231",
-                            "Title": "Lab-Furniture",
-                            "Upload Date": "31-12-2024",
-                            "Due Date": "21-01-2025"
-                        },
-                        {
-                            "NIT No.": "IITJMU/ME/SP-43/2024-25",
-                            "Title": "Open Tender for 3D DIC System",
-                            "Upload Date": "30-12-2024",
-                            "Due Date": "20-01-2025"
-                        },
-                        {
-                            "NIT No.": "IITJMU/C3/SP-42/2024-25",
-                            "Title": "Tender for In house Data Centre Facilities in collaboration with CDAC under NSM",
-                            "Upload Date": "17-12-2024",
-                            "Due Date": "22-01-2025"
-                        },
-                        {
-                            "NIT No.": "IITJMU/CE/SP-41/2024-25",
-                            "Title": "Global Tender for Procurement of DAQ Phased Array System",
-                            "Upload Date": "16-12-2024",
-                            "Due Date": "18-01-2025"
-                        },
-                        {
-                            "NIT No.": "ITJMU/ARC/SP-05/2024-25",
-                            "Title": "Annual Rate Contract For The Supplies Of Chemicals Solvents Biochemical Metals Glassware and Plasticware",
-                            "Upload Date": "01-12-2024",
-                            "Due Date": "30-11-2025"
-                        }
-                    ]
-                }
+                "Here are the current active tenders for IIT Jammu:"
             ]
         },
         {
-            "tag": "debarment_list",
+            "tag": "tender_1",
+            "patterns": [
+                "Tell me about tender 1",
+                "What is the first tender?",
+                "Details of tender 1",
+                "Information on tender 1"
+            ],
+            "responses": [
+                "The first tender is for Transportation Services E Vehicles. The NIT No. is IITJMUIPMSP-44/2024-25. It was uploaded on 17-01-2025 and the due date is 07-02-2025."
+            ]
+        },
+        {
+            "tag": "tender_2",
+            "patterns": [
+                "Tell me about tender 2",
+                "What is the second tender?",
+                "Details of tender 2",
+                "Information on tender 2"
+            ],
+            "responses": [
+                "The second tender is for 3 Phase Power Analyzer Digital Multimeter LCR Meter Digital storage OSCILLOSCOPE 300 MHZ 4 CHANNELS. The NIT No. is GEM/2024/B/5698621. It was uploaded on 17-01-2025 and the due date is 07-02-2025."
+            ]
+        },
+        {
+            "tag": "tender_3",
+            "patterns": [
+                "Tell me about tender 3",
+                "What is the third tender?",
+                "Details of tender 3",
+                "Information on tender 3"
+            ],
+            "responses": [
+                "The third tender is for ROCKFALL IMPACT SETUP WITH ACCESSORIES. The NIT No. is GEM/2024/B/5690849. It was uploaded on 15-01-2025 and the due date is 05-02-2025."
+            ]
+        },
+        {
+            "tag": "tender_4",
+            "patterns": [
+                "Tell me about tender 4",
+                "What is the fourth tender?",
+                "Details of tender 4",
+                "Information on tender 4"
+            ],
+            "responses": [
+                "The fourth tender is for Fittings and Accessories. The NIT No. is GEM/2024/B/5764107. It was uploaded on 13-01-2025 and the due date is 03-02-2025."
+            ]
+        },
+        {
+            "tag": "tender_5",
+            "patterns": [
+                "Tell me about tender 5",
+                "What is the fifth tender?",
+                "Details of tender 5",
+                "Information on tender 5"
+            ],
+            "responses": [
+                "The fifth tender is for Digital Multimeter as per IS 9000 Q3. The NIT No. is GEM/2025/B/5793663. It was uploaded on 10-01-2025 and the due date is 20-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_6",
+            "patterns": [
+                "Tell me about tender 6",
+                "What is the sixth tender?",
+                "Details of tender 6",
+                "Information on tender 6"
+            ],
+            "responses": [
+                "The sixth tender is for Function Generator. The NIT No. is GEM/2025/B/5797458. It was uploaded on 10-01-2025 and the due date is 20-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_7",
+            "patterns": [
+                "Tell me about tender 7",
+                "What is the seventh tender?",
+                "Details of tender 7",
+                "Information on tender 7"
+            ],
+            "responses": [
+                "The seventh tender is for Laboratory Furniture. The NIT No. is GEM/2025/B/5798561. It was uploaded on 10-01-2025 and the due date is 31-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_8",
+            "patterns": [
+                "Tell me about tender 8",
+                "What is the eighth tender?",
+                "Details of tender 8",
+                "Information on tender 8"
+            ],
+            "responses": [
+                "The eighth tender is for Mixed Signal Oscilloscope. The NIT No. is GEM/2025/B/5787016. It was uploaded on 09-01-2025 and the due date is 30-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_9",
+            "patterns": [
+                "Tell me about tender 9",
+                "What is the ninth tender?",
+                "Details of tender 9",
+                "Information on tender 9"
+            ],
+            "responses": [
+                "The ninth tender is for Laboratory Furniture. The NIT No. is GEM/2024/B/5756424. It was uploaded on 02-01-2025 and the due date is 23-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_10",
+            "patterns": [
+                "Tell me about tender 10",
+                "What is the tenth tender?",
+                "Details of tender 10",
+                "Information on tender 10"
+            ],
+            "responses": [
+                "The tenth tender is for Compression Moulding Press. The NIT No. is GEM/2024/B/5762349. It was uploaded on 31-12-2024 and the due date is 20-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_11",
+            "patterns": [
+                "Tell me about tender 11",
+                "What is the eleventh tender?",
+                "Details of tender 11",
+                "Information on tender 11"
+            ],
+            "responses": [
+                "The eleventh tender is for Lab-Furniture. The NIT No. is GEM/2024/B/5752231. It was uploaded on 31-12-2024 and the due date is 21-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_12",
+            "patterns": [
+                "Tell me about tender 12",
+                "What is the twelfth tender?",
+                "Details of tender 12",
+                "Information on tender 12"
+            ],
+            "responses": [
+                "The twelfth tender is for Open Tender for 3D DIC System. The NIT No. is IITJMU/ME/SP-43/2024-25. It was uploaded on 30-12-2024 and the due date is 20-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_13",
+            "patterns": [
+                "Tell me about tender 13",
+                "What is the thirteenth tender?",
+                "Details of tender 13",
+                "Information on tender 13"
+            ],
+            "responses": [
+                "The thirteenth tender is for In house Data Centre Facilities in collaboration with CDAC under NSM. The NIT No. is IITJMU/C3/SP-42/2024-25. It was uploaded on 17-12-2024 and the due date is 22-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_14",
+            "patterns": [
+                "Tell me about tender 14",
+                "What is the fourteenth tender?",
+                "Details of tender 14",
+                "Information on tender 14"
+            ],
+            "responses": [
+                "The fourteenth tender is for Global Tender for Procurement of DAQ Phased Array System. The NIT No. is IITJMU/CE/SP-41/2024-25. It was uploaded on 16-12-2024 and the due date is 18-01-2025."
+            ]
+        },
+        {
+            "tag": "tender_15",
+            "patterns": [
+                "Tell me about tender 15",
+                "What is the fifteenth tender?",
+                "Details of tender 15",
+                "Information on tender 15"
+            ],
+            "responses": [
+                "The fifteenth tender is for Annual Rate Contract For The Supplies Of Chemicals Solvents Biochemical Metals Glassware and Plasticware. The NIT No. is ITJMU/ARC/SP-05/2024-25. It was uploaded on 01-12-2024 and the due date is 30-11-2025."
+            ]
+        },
+        {
+            "tag": "debarment_list_1",
             "patterns": [
                 "What is the debarment list?",
                 "Can you show me the list of debarred firms?",
                 "Tell me about the debarment of firms"
             ],
             "responses": [
-                "Here are the details of the debarred firms:",
-                {
-                    "debarment": [
-                        {
-                            "Sr. No.": 1,
-                            "Name of the Bidder Agency/ Company": "M/s Unique Sanitation and Outsourcing Services",
-                            "Agency/ Company Address": "2D/D Green Belt Park, Jammu J&K 180004",
-                            "Debarment Start Date": "11-12-2024",
-                            "Debarment End Date": "11-12-2026"
-                        },
-                        {
-                            "Sr. No.": 2,
-                            "Name of the Bidder Agency/ Company": "M/s Narang Rolling Shutter",
-                            "Agency/ Company Address": "A-24 Milap Nagar, Uttam Nagar, Delhi, West Delhi, New Delhi, India",
-                            "Debarment Start Date": "09-08-2024",
-                            "Debarment End Date": "05-02-2025"
-                        },
-                        {
-                            "Sr. No.": 3,
-                            "Name of the Bidder Agency/ Company": "M/s Amardeep Design India Pvt Ltd",
-                            "Agency/ Company Address": "Head Office: A - 103, Sanjay Building No. 5, Mittal Estate, Andheri Kurla Rd, Marol Naka, Andheri (E), Mumbai-400059 INDIA",
-                            "Debarment Start Date": "06-12-2023",
-                            "Debarment End Date": "05-12-2025"
-                        }
-                    ]
-                }
+                "Here are the details of the debarred firms:"
+            ]
+        },
+        {
+            "tag": "debarment_list_2",
+            "patterns": [
+                "Who is the first debarred firm?",
+                "Tell me about the first debarred firm",
+                "Details of the first debarred firm"
+            ],
+            "responses": [
+                "Sr. No.: 1, Name of the Bidder Agency/ Company: M/s Unique Sanitation and Outsourcing Services, Agency/ Company Address: 2D/D Green Belt Park, Jammu J&K 180004, Debarment Start Date: 11-12-2024, Debarment End Date: 11-12-2026"
+            ]
+        },
+        {
+            "tag": "debarment_list_3",
+            "patterns": [
+                "Who is the second debarred firm?",
+                "Tell me about the second debarred firm",
+                "Details of the second debarred firm"
+            ],
+            "responses": [
+                "Sr. No.: 2, Name of the Bidder Agency/ Company: M/s Narang Rolling Shutter, Agency/ Company Address: A-24 Milap Nagar, Uttam Nagar, Delhi, West Delhi, New Delhi, India, Debarment Start Date: 09-08-2024, Debarment End Date: 05-02-2025"
+            ]
+        },
+        {
+            "tag": "debarment_list_4",
+            "patterns": [
+                "Who is the third debarred firm?",
+                "Tell me about the third debarred firm",
+                "Details of the third debarred firm"
+            ],
+            "responses": [
+                "Sr. No.: 3, Name of the Bidder Agency/ Company: M/s Amardeep Design India Pvt Ltd, Agency/ Company Address: Head Office: A - 103, Sanjay Building No. 5, Mittal Estate, Andheri Kurla Rd, Marol Naka, Andheri (E), Mumbai-400059 INDIA, Debarment Start Date: 06-12-2023, Debarment End Date: 05-12-2025"
             ]
         }
     ],
@@ -802,7 +1470,7 @@
             ]
         },
         {
-            "tag": "caste_based_discrimination_details",
+            "tag": "caste_based_discrimination_policy",
             "patterns": [
                 "What is the policy on caste-based discrimination?",
                 "Tell me about caste discrimination prevention at IIT Jammu",
@@ -811,35 +1479,66 @@
                 "How does IIT Jammu handle caste discrimination?"
             ],
             "responses": [
-                "The officials, faculty, and staff members should desist from any act of discrimination against SC/ST students on the grounds of their social origin.",
-                "All stakeholders should be more sensitive when dealing with incidents of caste discrimination.",
+                "The officials, faculty, and staff members should desist from any act of discrimination against SC/ST students on the grounds of their social origin."
+            ]
+        },
+        {
+            "tag": "caste_based_discrimination_sensitivity",
+            "patterns": [
+                "What is the policy on caste-based discrimination?",
+                "Tell me about caste discrimination prevention at IIT Jammu",
+                "Is caste-based discrimination allowed at IIT Jammu?",
+                "What are the rules regarding caste discrimination?",
+                "How does IIT Jammu handle caste discrimination?"
+            ],
+            "responses": [
+                "All stakeholders should be more sensitive when dealing with incidents of caste discrimination."
+            ]
+        },
+        {
+            "tag": "caste_based_discrimination_reporting",
+            "patterns": [
+                "What is the policy on caste-based discrimination?",
+                "Tell me about caste discrimination prevention at IIT Jammu",
+                "Is caste-based discrimination allowed at IIT Jammu?",
+                "What are the rules regarding caste discrimination?",
+                "How does IIT Jammu handle caste discrimination?"
+            ],
+            "responses": [
                 "Please report any incidents of caste discrimination to the liaison officers listed below."
             ]
         },
         {
-            "tag": "caste_based_discrimination_liaison_officers",
+            "tag": "caste_based_discrimination_liaison_officer_sc_st",
             "patterns": [
-                "Who can I contact about caste-based discrimination?",
-                "Who are the liaison officers for caste discrimination?",
-                "Can you provide the contact details of liaison officers for caste issues?"
+                "Who can I contact about caste-based discrimination for SC/ST?",
+                "Who is the liaison officer for SC/ST caste discrimination?",
+                "Can you provide the contact details of the liaison officer for SC/ST caste issues?"
             ],
             "responses": [
-                "Here are the liaison officers for caste-based discrimination:",
-                "You can contact the following officers for caste-related issues:"
+                "You can contact Dr. Rimen Jamatia, the Liaison Officer for SC/ST at IIT Jammu."
+            ]
+        },
+        {
+            "tag": "caste_based_discrimination_liaison_officer_obc",
+            "patterns": [
+                "Who can I contact about caste-based discrimination for OBC?",
+                "Who is the liaison officer for OBC caste discrimination?",
+                "Can you provide the contact details of the liaison officer for OBC caste issues?"
             ],
-            "attachments": [
-                {
-                    "name": "Dr. Rimen Jamatia",
-                    "designation": "Liaison Officer for SC/ST at IIT Jammu"
-                },
-                {
-                    "name": "Dr. Shiva S",
-                    "designation": "Liaison Officer for OBC at IIT Jammu"
-                },
-                {
-                    "name": "Dr. Aditya Shankar Sandupatla",
-                    "designation": "Liaison Officer for PwD at IIT Jammu"
-                }
+            "responses": [
+                "You can contact Dr. Shiva S, the Liaison Officer for OBC at IIT Jammu."
+            ]
+        },
+        {
+            "tag": "caste_based_discrimination_liaison_officer_pwd",
+            "patterns": [
+                "Who can I contact about caste-based discrimination for PwD?",
+                "Who is the liaison officer for PwD caste discrimination?",
+                "Can you provide the contact details of the liaison officer for PwD caste issues?"
+            ],
+            "responses": [
+                "You can contact Dr. Aditya Shankar Sandupatla, the Liaison Officer for PwD at IIT Jammu."
             ]
         },
         {
@@ -867,45 +1566,73 @@
                 "What does the Equal Opportunity Cell do?"
             ],
             "responses": [
-                "The Equal Opportunity Cell oversees the effective implementation of policies and programmes for SCs, STs, Women, OBC, EWS, and PwDs, providing guidance and counselling in academic, financial, social, and other matters.",
-                "The institute ensures equal opportunities for all communities on campus and promotes social inclusion."
+                "The Equal Opportunity Cell oversees the effective implementation of policies and programmes for SCs, STs, Women, OBC, EWS, and PwDs, providing guidance and counselling in academic, financial, social, and other matters, The institute ensures equal opportunities for all communities on campus and promotes social inclusion."
             ]
         },
         {
-            "tag": "equal_opportunity_cell_members",
+            "tag": "equal_opportunity_cell_members_chairperson",
             "patterns": [
-                "Who are the members of the Equal Opportunity Cell?",
-                "Can you tell me the members of the Equal Opportunity Cell?",
-                "Who is involved in the Equal Opportunity Cell?"
+                "Who is the chairperson of the Equal Opportunity Cell?",
+                "Who leads the Equal Opportunity Cell?",
+                "Who is the head of the Equal Opportunity Cell?"
             ],
             "responses": [
-                "The Equal Opportunity Cell consists of the following members:"
+                "The chairperson of the Equal Opportunity Cell is the Dean (FA)(Ex-Officio)."
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_members_ad_student_affairs",
+            "patterns": [
+                "Who is the AD (Student Affairs) in the Equal Opportunity Cell?",
+                "Who represents Student Affairs in the Equal Opportunity Cell?",
+                "Who is the AD (Student Affairs) member of the Equal Opportunity Cell?"
             ],
-            "attachments": [
-                {
-                    "designation": "Dean (FA)(Ex-Officio)",
-                    "role": "Chairperson"
-                },
-                {
-                    "designation": "AD (Student Affairs)(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "Liaison Officer for SC/ST(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "Liaison Officer for OBC(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "Liaison Officer for PwD(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "AR (E II)(Ex-Officio)",
-                    "role": "Member Convenor"
-                }
+            "responses": [
+                "The AD (Student Affairs)(Ex-Officio) is a member of the Equal Opportunity Cell."
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_members_liaison_officer_sc_st",
+            "patterns": [
+                "Who is the Liaison Officer for SC/ST in the Equal Opportunity Cell?",
+                "Who represents SC/ST in the Equal Opportunity Cell?",
+                "Who is the SC/ST Liaison Officer member of the Equal Opportunity Cell?"
+            ],
+            "responses": [
+                "The Liaison Officer for SC/ST(Ex-Officio) is a member of the Equal Opportunity Cell."
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_members_liaison_officer_obc",
+            "patterns": [
+                "Who is the Liaison Officer for OBC in the Equal Opportunity Cell?",
+                "Who represents OBC in the Equal Opportunity Cell?",
+                "Who is the OBC Liaison Officer member of the Equal Opportunity Cell?"
+            ],
+            "responses": [
+                "The Liaison Officer for OBC(Ex-Officio) is a member of the Equal Opportunity Cell."
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_members_liaison_officer_pwd",
+            "patterns": [
+                "Who is the Liaison Officer for PwD in the Equal Opportunity Cell?",
+                "Who represents PwD in the Equal Opportunity Cell?",
+                "Who is the PwD Liaison Officer member of the Equal Opportunity Cell?"
+            ],
+            "responses": [
+                "The Liaison Officer for PwD(Ex-Officio) is a member of the Equal Opportunity Cell."
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_members_ar_e_ii",
+            "patterns": [
+                "Who is the AR (E II) in the Equal Opportunity Cell?",
+                "Who represents AR (E II) in the Equal Opportunity Cell?",
+                "Who is the AR (E II) member of the Equal Opportunity Cell?"
+            ],
+            "responses": [
+                "The AR (E II)(Ex-Officio) is the Member Convenor of the Equal Opportunity Cell."
             ]
         }
     ],
@@ -1509,49 +2236,93 @@
             ]
         },
         {
-            "tag": "Annual_Action_Plan_Committee",
+            "tag": "annual_action_plan_committee_chairperson",
             "patterns": [
-                "Annual Action Plan Committee",
-                "Action Plan Committee",
-                "Committee for Annual Planning",
-                "Members of the Annual Action Plan Committee",
-                "Annual Action Plan Committee Structure"
+                "Who is the chairperson of the Annual Action Plan Committee?",
+                "Tell me about the chairperson of the Annual Action Plan Committee",
+                "Who leads the Annual Action Plan Committee?"
             ],
             "responses": [
-                {
-                    "name": "Director-(Ex-Officio)",
-                    "designation": "Chairperson"
-                },
-                {
-                    "name": "All Deans",
-                    "designation": "Member"
-                },
-                {
-                    "name": "All HoD's",
-                    "designation": "Member"
-                },
-                {
-                    "name": "Registrar-(Ex-Officio)",
-                    "designation": "Member"
-                },
-                {
-                    "name": "Deputy Registrar (E1 and Director Office)-(Ex-Officio)",
-                    "designation": "Member Convenor"
-                }
+                "The chairperson of the Annual Action Plan Committee is the Director (Ex-Officio)."
             ]
         },
         {
-            "tag": "academic_programs",
+            "tag": "annual_action_plan_committee_members_deans",
             "patterns": [
-                "Abhishek",
-                "Dileep Kumar",
-                "Nandini Sharma",
+                "Who are the members of the Annual Action Plan Committee?",
+                "Tell me about the members of the Annual Action Plan Committee",
+                "Who are the deans in the Annual Action Plan Committee?"
+            ],
+            "responses": [
+                "All Deans are members of the Annual Action Plan Committee."
+            ]
+        },
+        {
+            "tag": "annual_action_plan_committee_members_hods",
+            "patterns": [
+                "Who are the members of the Annual Action Plan Committee?",
+                "Tell me about the members of the Annual Action Plan Committee",
+                "Who are the HoDs in the Annual Action Plan Committee?"
+            ],
+            "responses": [
+                "All HoDs are members of the Annual Action Plan Committee."
+            ]
+        },
+        {
+            "tag": "annual_action_plan_committee_member_registrar",
+            "patterns": [
+                "Who is the member of the Annual Action Plan Committee?",
+                "Tell me about the members of the Annual Action Plan Committee",
+                "Who is the registrar in the Annual Action Plan Committee?"
+            ],
+            "responses": [
+                "The Registrar (Ex-Officio) is a member of the Annual Action Plan Committee."
+            ]
+        },
+        {
+            "tag": "annual_action_plan_committee_member_convenor",
+            "patterns": [
+                "Who is the member convenor of the Annual Action Plan Committee?",
+                "Tell me about the member convenor of the Annual Action Plan Committee",
+                "Who is the deputy registrar in the Annual Action Plan Committee?"
+            ],
+            "responses": [
+                "The Deputy Registrar (E1 and Director Office) (Ex-Officio) is the member convenor of the Annual Action Plan Committee."
+            ]
+        },
+        {
+            "tag": "academic_programs_abhishek",
+            "patterns": [
+                "Abhishek"
+            ],
+            "responses": [
+                "Abhishek is a Senior Assistant in the Academic Programs department."
+            ]
+        },
+        {
+            "tag": "academic_programs_dileep_kumar",
+            "patterns": [
+                "Dileep Kumar"
+            ],
+            "responses": [
+                "Dileep Kumar is an Assistant Manager in the Academic Programs department."
+            ]
+        },
+        {
+            "tag": "academic_programs_nandini_sharma",
+            "patterns": [
+                "Nandini Sharma"
+            ],
+            "responses": [
+                "Nandini Sharma is a Senior Assistant in the Academic Programs department."
+            ]
+        },
+        {
+            "tag": "academic_programs_vipen_sharma",
+            "patterns": [
                 "Vipen Sharma"
             ],
             "responses": [
-                "Abhishek is a Senior Assistant in the Academic Programs department.",
-                "Dileep Kumar is an Assistant Manager in the Academic Programs department.",
-                "Nandini Sharma is a Senior Assistant in the Academic Programs department.",
                 "Vipen Sharma is a Senior Assistant in the Academic Programs department."
             ]
         },
@@ -1565,167 +2336,398 @@
             ]
         },
         {
-            "tag": "electrical_engineering",
+            "tag": "electrical_engineering_aditya_sahay",
             "patterns": [
-                "Aditya Sahay",
-                "Apoorv Raj Agarwal",
-                "Lokesh Sharma",
+                "Aditya Sahay"
+            ],
+            "responses": [
+                "Aditya Sahay is a Technical Officer in the Electrical Engineering department."
+            ]
+        },
+        {
+            "tag": "electrical_engineering_apoorv_raj_agarwal",
+            "patterns": [
+                "Apoorv Raj Agarwal"
+            ],
+            "responses": [
+                "Apoorv Raj Agarwal is a Laboratory Officer in the Electrical Engineering department."
+            ]
+        },
+        {
+            "tag": "electrical_engineering_lokesh_sharma",
+            "patterns": [
+                "Lokesh Sharma"
+            ],
+            "responses": [
+                "Lokesh Sharma is a Senior Laboratory Officer in the Electrical Engineering department."
+            ]
+        },
+        {
+            "tag": "electrical_engineering_vikash_kumar",
+            "patterns": [
                 "Vikash Kumar"
             ],
             "responses": [
-                "Aditya Sahay is a Technical Officer in the Electrical Engineering department.",
-                "Apoorv Raj Agarwal is a Laboratory Officer in the Electrical Engineering department.",
-                "Lokesh Sharma is a Senior Laboratory Officer in the Electrical Engineering department.",
                 "Vikash Kumar is a Senior Laboratory Officer in the Electrical Engineering department."
             ]
         },
         {
-            "tag": "procurement_section",
+            "tag": "procurement_section_ambika_sambyal",
             "patterns": [
-                "Ambika Sambyal",
-                "Mandeep Singh",
-                "Purvi Sarkar",
-                "Srishti Raaj",
-                "Sunil Kumar",
+                "Ambika Sambyal"
+            ],
+            "responses": [
+                "Ambika Sambyal is a Senior Assistant in the Procurement Section."
+            ]
+        },
+        {
+            "tag": "procurement_section_mandeep_singh",
+            "patterns": [
+                "Mandeep Singh"
+            ],
+            "responses": [
+                "Mandeep Singh is a Junior Section Officer in the Procurement Section."
+            ]
+        },
+        {
+            "tag": "procurement_section_purvi_sarkar",
+            "patterns": [
+                "Purvi Sarkar"
+            ],
+            "responses": [
+                "Purvi Sarkar is an Assistant Registrar in the Procurement Section."
+            ]
+        },
+        {
+            "tag": "procurement_section_srishti_raaj",
+            "patterns": [
+                "Srishti Raaj"
+            ],
+            "responses": [
+                "Srishti Raaj is a Senior Assistant in the Procurement Section."
+            ]
+        },
+        {
+            "tag": "procurement_section_sunil_kumar",
+            "patterns": [
+                "Sunil Kumar"
+            ],
+            "responses": [
+                "Sunil Kumar is a Senior Assistant in the Procurement Section."
+            ]
+        },
+        {
+            "tag": "procurement_section_surbhi_raina",
+            "patterns": [
                 "Surbhi Raina"
             ],
             "responses": [
-                "Ambika Sambyal is a Senior Assistant in the Procurement Section.",
-                "Mandeep Singh is a Junior Section Officer in the Procurement Section.",
-                "Purvi Sarkar is an Assistant Registrar in the Procurement Section.",
-                "Srishti Raaj is a Senior Assistant in the Procurement Section.",
-                "Sunil Kumar is a Senior Assistant in the Procurement Section.",
                 "Surbhi Raina is a Senior Assistant in the Procurement Section."
             ]
         },
         {
-            "tag": "infrastructure_planning_and_management",
+            "tag": "aneeket_gupta",
             "patterns": [
-                "Aneeket Gupta",
-                "Ashish Sharma",
-                "Boddu L V Satish Varma",
-                "Hansraj",
-                "Rakshit Rampaul",
-                "Ramasubbaiah Vusenappagari",
-                "Ravi Kumar",
-                "Sarabjeet Singh",
-                "Shivam Mahajan",
+                "Aneeket Gupta"
+            ],
+            "responses": [
+                "Aneeket Gupta is a Junior Engineer (Electrical) in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "ashish_sharma",
+            "patterns": [
+                "Ashish Sharma"
+            ],
+            "responses": [
+                "Ashish Sharma is a Caretaker-cum-Manager in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "boddu_l_v_satish_varma",
+            "patterns": [
+                "Boddu L V Satish Varma"
+            ],
+            "responses": [
+                "Boddu L V Satish Varma is an AEE (Civil) in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "hansraj",
+            "patterns": [
+                "Hansraj"
+            ],
+            "responses": [
+                "Hansraj is a Junior Assistant in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "rakshit_rampaul",
+            "patterns": [
+                "Rakshit Rampaul"
+            ],
+            "responses": [
+                "Rakshit Rampaul is an Assistant Engineer (Civil) in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "ramasubbaiah_vusenappagari",
+            "patterns": [
+                "Ramasubbaiah Vusenappagari"
+            ],
+            "responses": [
+                "Ramasubbaiah Vusenappagari is a Laboratory Assistant in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "ravi_kumar",
+            "patterns": [
+                "Ravi Kumar"
+            ],
+            "responses": [
+                "Ravi Kumar is a Laboratory Assistant in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "sarabjeet_singh",
+            "patterns": [
+                "Sarabjeet Singh"
+            ],
+            "responses": [
+                "Sarabjeet Singh is a Junior Engineer (Civil) in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "shivam_mahajan",
+            "patterns": [
+                "Shivam Mahajan"
+            ],
+            "responses": [
+                "Shivam Mahajan is a Junior Engineer (Electrical) in the Infrastructure Planning and Management department."
+            ]
+        },
+        {
+            "tag": "saurabh_sharma",
+            "patterns": [
                 "Saurabh Sharma"
             ],
             "responses": [
-                "Aneeket Gupta is a Junior Engineer (Electrical) in the Infrastructure Planning and Management department.",
-                "Ashish Sharma is a Caretaker-cum-Manager in the Infrastructure Planning and Management department.",
-                "Boddu L V Satish Varma is an AEE (Civil) in the Infrastructure Planning and Management department.",
-                "Hansraj is a Junior Assistant in the Infrastructure Planning and Management department.",
-                "Rakshit Rampaul is an Assistant Engineer (Civil) in the Infrastructure Planning and Management department.",
-                "Ramasubbaiah Vusenappagari is a Laboratory Assistant in the Infrastructure Planning and Management department.",
-                "Ravi Kumar is a Laboratory Assistant in the Infrastructure Planning and Management department.",
-                "Sarabjeet Singh is a Junior Engineer (Civil) in the Infrastructure Planning and Management department.",
-                "Shivam Mahajan is a Junior Engineer (Electrical) in the Infrastructure Planning and Management department.",
                 "Saurabh Sharma is an Executive Engineer (Civil) in the Infrastructure Planning and Management department."
             ]
         },
         {
-            "tag": "c3i",
+            "tag": "c3i_anil_saini",
             "patterns": [
-                "Anil Saini",
-                "Gourab Verma",
-                "Kewal Krishan",
-                "Pirzada Gowhar Arfat",
+                "Anil Saini"
+            ],
+            "responses": [
+                "Anil Saini is a Senior Scientific Officer in the C3I department."
+            ]
+        },
+        {
+            "tag": "c3i_gourab_verma",
+            "patterns": [
+                "Gourab Verma"
+            ],
+            "responses": [
+                "Gourab Verma is a Laboratory Officer in the C3I department."
+            ]
+        },
+        {
+            "tag": "c3i_kewal_krishan",
+            "patterns": [
+                "Kewal Krishan"
+            ],
+            "responses": [
+                "Kewal Krishan is a Technical Officer in the C3I department."
+            ]
+        },
+        {
+            "tag": "c3i_pirzada_gowhar_arfat",
+            "patterns": [
+                "Pirzada Gowhar Arfat"
+            ],
+            "responses": [
+                "Pirzada Gowhar Arfat is a Technical Officer in the C3I department."
+            ]
+        },
+        {
+            "tag": "c3i_rahul_agarwal",
+            "patterns": [
                 "Rahul Agarwal"
             ],
             "responses": [
-                "Anil Saini is a Senior Scientific Officer in the C3I department.",
-                "Gourab Verma is a Laboratory Officer in the C3I department.",
-                "Kewal Krishan is a Technical Officer in the C3I department.",
-                "Pirzada Gowhar Arfat is a Technical Officer in the C3I department.",
                 "Rahul Agarwal is a Laboratory Officer in the C3I department."
             ]
         },
         {
-            "tag": "central_workshop",
+            "tag": "central_workshop_1",
             "patterns": [
-                "Arul Benedict Xavier",
-                "Arun Kumar",
+                "Arul Benedict Xavier"
+            ],
+            "responses": [
+                "Arul Benedict Xavier is a Laboratory Assistant in the Central Workshop."
+            ]
+        },
+        {
+            "tag": "central_workshop_2",
+            "patterns": [
+                "Arun Kumar"
+            ],
+            "responses": [
+                "Arun Kumar is an Assistant Workshop Officer in the Central Workshop."
+            ]
+        },
+        {
+            "tag": "central_workshop_3",
+            "patterns": [
                 "Neeraj Kumar"
             ],
             "responses": [
-                "Arul Benedict Xavier is a Laboratory Assistant in the Central Workshop.",
-                "Arun Kumar is an Assistant Workshop Officer in the Central Workshop.",
                 "Neeraj Kumar is a Laboratory Officer in the Central Workshop."
             ]
         },
         {
-            "tag": "chemical_engineering",
+            "tag": "chemical_engineering_dhiraj_kumar_vishwakarma",
             "patterns": [
-                "Dhiraj Kumar Vishwakarma",
-                "Neha Devi",
-                "Goverdhan Singh",
-                "Nitish Gupta",
+                "Dhiraj Kumar Vishwakarma"
+            ],
+            "responses": [
+                "Dhiraj Kumar Vishwakarma is a Laboratory Assistant in the Chemical Engineering department."
+            ]
+        },
+        {
+            "tag": "chemical_engineering_neha_devi",
+            "patterns": [
+                "Neha Devi"
+            ],
+            "responses": [
+                "Neha Devi is a Laboratory Assistant in the Chemical Engineering department."
+            ]
+        },
+        {
+            "tag": "chemical_engineering_goverdhan_singh",
+            "patterns": [
+                "Goverdhan Singh"
+            ],
+            "responses": [
+                "Goverdhan Singh is a Laboratory Officer in the Chemical Engineering department."
+            ]
+        },
+        {
+            "tag": "chemical_engineering_nitish_gupta",
+            "patterns": [
+                "Nitish Gupta"
+            ],
+            "responses": [
+                "Nitish Gupta is a Laboratory Officer in the Chemical Engineering department."
+            ]
+        },
+        {
+            "tag": "chemical_engineering_ramasubbaiah_vusenappagari",
+            "patterns": [
                 "Ramasubbaiah Vusenappagari"
             ],
             "responses": [
-                "Dhiraj Kumar Vishwakarma is a Laboratory Assistant in the Chemical Engineering department.",
-                "Neha Devi is a Laboratory Assistant in the Chemical Engineering department.",
-                "Goverdhan Singh is a Laboratory Officer in the Chemical Engineering department.",
-                "Nitish Gupta is a Laboratory Officer in the Chemical Engineering department.",
                 "Ramasubbaiah Vusenappagari is a Laboratory Assistant in the Chemical Engineering department."
             ]
         },
         {
-            "tag": "materials_engineering",
+            "tag": "materials_engineering_deepak_raj",
             "patterns": [
-                "Deepak Raj",
-                "Gautam Gupta",
+                "Deepak Raj"
+            ],
+            "responses": [
+                "Deepak Raj is a Laboratory Officer in the Materials Engineering department."
+            ]
+        },
+        {
+            "tag": "materials_engineering_gautam_gupta",
+            "patterns": [
+                "Gautam Gupta"
+            ],
+            "responses": [
+                "Gautam Gupta is a Laboratory Assistant in the Materials Engineering department."
+            ]
+        },
+        {
+            "tag": "materials_engineering_rahul_verma",
+            "patterns": [
                 "Rahul Verma"
             ],
             "responses": [
-                "Deepak Raj is a Laboratory Officer in the Materials Engineering department.",
-                "Gautam Gupta is a Laboratory Assistant in the Materials Engineering department.",
                 "Rahul Verma is a Laboratory Assistant in the Materials Engineering department."
             ]
         },
         {
-            "tag": "physics",
+            "tag": "physics_arjun_singh",
             "patterns": [
-                "Arjun Singh",
+                "Arjun Singh"
+            ],
+            "responses": [
+                "Arjun Singh is a Laboratory Assistant in the Physics department."
+            ]
+        },
+        {
+            "tag": "physics_sumit_raj_ghosh",
+            "patterns": [
                 "Sumit Raj Ghosh"
             ],
             "responses": [
-                "Arjun Singh is a Laboratory Assistant in the Physics department.",
                 "Sumit Raj Ghosh is a Laboratory Officer in the Physics department."
             ]
         },
         {
-            "tag": "chemistry",
+            "tag": "chemistry_bhupinder_singh",
             "patterns": [
-                "Bhupinder Singh",
+                "Bhupinder Singh"
+            ],
+            "responses": [
+                "Bhupinder Singh is a Laboratory Officer in the Chemistry department."
+            ]
+        },
+        {
+            "tag": "chemistry_piyush_kumar",
+            "patterns": [
                 "Piyush Kumar"
             ],
             "responses": [
-                "Bhupinder Singh is a Laboratory Officer in the Chemistry department.",
                 "Piyush Kumar is a Laboratory Officer in the Chemistry department."
             ]
         },
         {
-            "tag": "civil_engineering",
+            "tag": "civil_engineering_khalid_ahmed",
             "patterns": [
-                "Khalid Ahmed",
+                "Khalid Ahmed"
+            ],
+            "responses": [
+                "Khalid Ahmed is a Laboratory Assistant in the Civil Engineering department."
+            ]
+        },
+        {
+            "tag": "civil_engineering_sahil_patel",
+            "patterns": [
                 "Sahil Patel"
             ],
             "responses": [
-                "Khalid Ahmed is a Laboratory Assistant in the Civil Engineering department.",
                 "Sahil Patel is a Laboratory Assistant in the Civil Engineering department."
             ]
         },
         {
-            "tag": "counselling_services",
+            "tag": "counselling_services_himanshi_singh",
             "patterns": [
-                "Himanshi Singh",
+                "Himanshi Singh"
+            ],
+            "responses": [
+                "Himanshi Singh is an Institute Counsellor in the Counselling Services department."
+            ]
+        },
+        {
+            "tag": "counselling_services_nandita_sharma",
+            "patterns": [
                 "Nandita Sharma"
             ],
             "responses": [
-                "Himanshi Singh is an Institute Counsellor in the Counselling Services department.",
                 "Nandita Sharma is an Institute Counsellor in the Counselling Services department."
             ]
         },
@@ -1739,64 +2741,148 @@
             ]
         },
         {
-            "tag": "library",
+            "tag": "library_mukesh_behera",
             "patterns": [
-                "Mukesh Behera",
-                "Nilesh Kumar",
-                "Sunil Shetty",
-                "Vishwajeet Kumar",
+                "Mukesh Behera"
+            ],
+            "responses": [
+                "Mukesh Behera is a Junior Library Information Officer in the Library."
+            ]
+        },
+        {
+            "tag": "library_nilesh_kumar",
+            "patterns": [
+                "Nilesh Kumar"
+            ],
+            "responses": [
+                "Nilesh Kumar is a Deputy Librarian in the Library."
+            ]
+        },
+        {
+            "tag": "library_sunil_shetty",
+            "patterns": [
+                "Sunil Shetty"
+            ],
+            "responses": [
+                "Sunil Shetty is a Junior Library Information Officer in the Library."
+            ]
+        },
+        {
+            "tag": "library_vishwajeet_kumar",
+            "patterns": [
+                "Vishwajeet Kumar"
+            ],
+            "responses": [
+                "Vishwajeet Kumar is a Junior Library Information Assistant in the Library."
+            ]
+        },
+        {
+            "tag": "library_yashasvini_yadav",
+            "patterns": [
                 "Yashasvini Yadav"
             ],
             "responses": [
-                "Mukesh Behera is a Junior Library Information Officer in the Library.",
-                "Nilesh Kumar is a Deputy Librarian in the Library.",
-                "Sunil Shetty is a Junior Library Information Officer in the Library.",
-                "Vishwajeet Kumar is a Junior Library Information Assistant in the Library.",
                 "Yashasvini Yadav is an Assistant Librarian in the Library."
             ]
         },
         {
-            "tag": "finance_and_accounts",
+            "tag": "finance_and_accounts_meena_sharma",
             "patterns": [
-                "Meena Sharma",
-                "Ripul Vaid",
-                "Sahil Dogra",
-                "Shikha Malhotra",
+                "Meena Sharma"
+            ],
+            "responses": [
+                "Meena Sharma is a Senior Assistant in the Finance and Accounts department."
+            ]
+        },
+        {
+            "tag": "finance_and_accounts_ripul_vaid",
+            "patterns": [
+                "Ripul Vaid"
+            ],
+            "responses": [
+                "Ripul Vaid is a Section Officer in the Finance and Accounts department."
+            ]
+        },
+        {
+            "tag": "finance_and_accounts_sahil_dogra",
+            "patterns": [
+                "Sahil Dogra"
+            ],
+            "responses": [
+                "Sahil Dogra is a Senior Assistant in the Finance and Accounts department."
+            ]
+        },
+        {
+            "tag": "finance_and_accounts_shikha_malhotra",
+            "patterns": [
+                "Shikha Malhotra"
+            ],
+            "responses": [
+                "Shikha Malhotra is an Assistant Registrar in the Finance and Accounts department."
+            ]
+        },
+        {
+            "tag": "finance_and_accounts_shubham_gupta",
+            "patterns": [
                 "Shubham Gupta"
             ],
             "responses": [
-                "Meena Sharma is a Senior Assistant in the Finance and Accounts department.",
-                "Ripul Vaid is a Section Officer in the Finance and Accounts department.",
-                "Sahil Dogra is a Senior Assistant in the Finance and Accounts department.",
-                "Shikha Malhotra is an Assistant Registrar in the Finance and Accounts department.",
                 "Shubham Gupta is a Senior Assistant in the Finance and Accounts department."
             ]
         },
         {
-            "tag": "administration_and_operations",
+            "tag": "administration_and_operations_col_virinder_singh_jeji",
             "patterns": [
-                "Col Virinder Singh Jeji (Retd.)",
-                "Lt Cdr Mannu Virk",
+                "Col Virinder Singh Jeji (Retd.)"
+            ],
+            "responses": [
+                "Col Virinder Singh Jeji (Retd.) is a Registrar in the Administration and Operations department."
+            ]
+        },
+        {
+            "tag": "administration_and_operations_lt_cdr_mannu_virk",
+            "patterns": [
+                "Lt Cdr Mannu Virk"
+            ],
+            "responses": [
+                "Lt Cdr Mannu Virk is a Security Officer in the Administration and Operations department."
+            ]
+        },
+        {
+            "tag": "administration_and_operations_sakshi_dubey",
+            "patterns": [
                 "Sakshi Dubey"
             ],
             "responses": [
-                "Col Virinder Singh Jeji (Retd.) is a Registrar in the Administration and Operations department.",
-                "Lt Cdr Mannu Virk is a Security Officer in the Administration and Operations department.",
                 "Sakshi Dubey is a Junior Section Officer in the Administration and Operations department."
             ]
         },
         {
-            "tag": "student_affairs",
+            "tag": "Anish_Koul",
             "patterns": [
-                "Anish Koul",
-                "Raj Srivastava",
-                "Rehana Rasool"
+                "Who is Anish Koul?",
+                "Tell me about Anish Koul.",
+                "Anish Koul role in Student Affairs?"
             ],
-            "responses": [
-                "Anish Koul is a Caretaker-cum-Manager in the Student Affairs department.",
-                "Raj Srivastava is an Assistant Sports Officer in the Student Affairs department.",
-                "Rehana Rasool is a Mess Manager in the Student Affairs department."
-            ]
+            "response": "Anish Koul is a Caretaker-cum-Manager in the Student Affairs department."
+        },
+        {
+            "tag": "Raj_Srivastava",
+            "patterns": [
+                "Who is Raj Srivastava?",
+                "Tell me about Raj Srivastava.",
+                "Raj Srivastava role in Student Affairs?"
+            ],
+            "response": "Raj Srivastava is an Assistant Sports Officer in the Student Affairs department."
+        },
+        {
+            "tag": "Rehana_Rasool",
+            "patterns": [
+                "Who is Rehana Rasool?",
+                "Tell me about Rehana Rasool.",
+                "Rehana Rasool role in Student Affairs?"
+            ],
+            "response": "Rehana Rasool is a Mess Manager in the Student Affairs department."
         },
         {
             "tag": "career_development_center",
@@ -1810,24 +2896,38 @@
         {
             "tag": "research_and_consultancy",
             "patterns": [
-                "Cdr Avinash Barthwal (Retd)",
-                "Sumit Kumar Sharma"
+                "Who is Cdr Avinash Barthwal (Retd)?",
+                "Tell me about Cdr Avinash Barthwal (Retd).",
+                "Cdr Avinash Barthwal (Retd) role in Research and Consultancy?"
             ],
-            "responses": [
-                "Cdr Avinash Barthwal (Retd) is a Deputy Registrar in the Research and Consultancy department.",
-                "Sumit Kumar Sharma is a Senior Assistant in the Research and Consultancy department."
-            ]
+            "response": "Cdr Avinash Barthwal (Retd) is a Deputy Registrar in the Research and Consultancy department."
+        },
+        {
+            "tag": "research_and_consultancy",
+            "patterns": [
+                "Who is Sumit Kumar Sharma?",
+                "Tell me about Sumit Kumar Sharma.",
+                "Sumit Kumar Sharma role in Research and Consultancy?"
+            ],
+            "response": "Sumit Kumar Sharma is a Senior Assistant in the Research and Consultancy department."
         },
         {
             "tag": "audit",
             "patterns": [
-                "Shivani Begnehal",
-                "R. P. Prajapat"
+                "Who is Shivani Begnehal?",
+                "Tell me about Shivani Begnehal.",
+                "Shivani Begnehal role in Audit?"
             ],
-            "responses": [
-                "Shivani Begnehal is a Senior Assistant in the Audit department.",
-                "R. P. Prajapat is an Assistant Registrar in the Audit department."
-            ]
+            "response": "Shivani Begnehal is a Senior Assistant in the Audit department."
+        },
+        {
+            "tag": "audit",
+            "patterns": [
+                "Who is R. P. Prajapat?",
+                "Tell me about R. P. Prajapat.",
+                "R. P. Prajapat role in Audit?"
+            ],
+            "response": "R. P. Prajapat is an Assistant Registrar in the Audit department."
         },
         {
             "tag": "legal_section",
