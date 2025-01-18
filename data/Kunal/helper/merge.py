@@ -1,56 +1,38 @@
 import json
-from pathlib import Path
+import os
+from collections import defaultdict
 
-def merge_json_files(input_files, output_file):
-    merged_data = {"intents": []}
+def merge_dicts(a, b):
+    for key, value in b.items():
+        if key in a:
+            if isinstance(a[key], dict) and isinstance(value, dict):
+                merge_dicts(a[key], value)
+            elif isinstance(a[key], list) and isinstance(value, list):
+                a[key].extend(value)
+            else:
+                a[key] = value
+        else:
+            a[key] = value
 
-    for file_path in input_files:
-        try:
-            with open(file_path, "r") as f:
-                data = json.load(f)
-                if "intents" in data:
-                    merged_data["intents"].extend(data["intents"])
-        except FileNotFoundError:
-            print(f"Error: File not found - {file_path}")
-            continue
-        except json.JSONDecodeError:
-            print(f"Error decoding JSON in {file_path}")
-            continue
+def merge_json_files(file_paths, output_path):
+    merged_data = {}
 
-    unique_intents = {}
-    for intent in merged_data["intents"]:
-        unique_intents[intent["tag"]] = intent
+    for file_path in file_paths:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            merge_dicts(merged_data, data)
 
-    merged_data["intents"] = list(unique_intents.values())
+    with open(output_path, 'w') as output_file:
+        json.dump(merged_data, output_file, indent=4)
 
-    with open(output_file, "w") as f:
-        json.dump(merged_data, f, indent=4)
-
-parent_directory = Path(__file__).parent.parent
-section_files_dir = parent_directory / "section_files"
-
-input_files = [
-    section_files_dir / "accounts.json",
-    section_files_dir / "alumni_affairs.json",
-    section_files_dir / "academic_affair.json",
-    section_files_dir / "procurement_section.json",
-    section_files_dir / "cds.json",
-    section_files_dir / "cep.json",
-    section_files_dir / "counselling.json",
-    section_files_dir / "eg_saral.json",
-    section_files_dir / "library.json",
-    section_files_dir / "medical_centre.json",
-    section_files_dir / "research_and_consultancy.json",
-    section_files_dir / "security_section.json",
-    section_files_dir / "student_affairs.json",
-    section_files_dir / "tinkerers_lab.json",
-    section_files_dir / "tlu.json",
-    section_files_dir / "pg_certification.json",
-    section_files_dir / "pmrf.json",
-    section_files_dir / "student_sections_2.json",
-    section_files_dir / "students_section_1.json",
-]
-
-output_file = parent_directory / "merged_output.json"
-
-merge_json_files(input_files, output_file)
+if __name__ == "__main__":
+    file_paths = [
+        'C:\\Users\\kunal\\Dev\\Chatbot\\data\\Kunal\\section_files\\faq.json',
+        'C:\\Users\\kunal\\Dev\\Chatbot\\data\\Kunal\\section_files\\media.json',
+        'C:\\Users\\kunal\\Dev\\Chatbot\\data\\Kunal\\section_files\\quick_links.json',
+        'C:\\Users\\kunal\\Dev\\Chatbot\\data\\Kunal\\section_files\\tendor.json'
+    ]
+    output_path = 'C:\\Users\\kunal\\Dev\\Chatbot\\data\\Kunal\\merged_output.json'
+    
+    merge_json_files(file_paths, output_path)
+    print(f"Merged JSON files into {output_path}")
