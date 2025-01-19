@@ -1,219 +1,246 @@
 {
     "intents": [
         {
-            "tag": "anti_ragging_details",
+            "tag": "ragging_policy",
             "patterns": [
-                "What is ragging policy?",
-                "What are the anti-ragging guidelines?",
-                "Tell me about ragging rules at IIT",
-                "Is ragging allowed in campus?",
-                "What happens if someone ragged?"
+            "What is ragging policy?", 
+            "Tell me about ragging rules",
+            "What are the guidelines for ragging?",
+            "Are there rules against ragging?"
             ],
             "responses": [
-                "Ragging at IIT Campus is strictly prohibited and is a punishable offense as per the institute's honor code.",
-                "There are strict guidelines from the Hon'ble Supreme Court to prevent ragging at the institute campuses.",
-                "Please report any incident of ragging to the Hostel Management and Dean of Students immediately."
+            "Ragging at IIT Campus is strictly prohibited and is a punishable offense as per the institute's honor code."
             ]
         },
         {
-            "tag": "anti_ragging_notifications",
+            "tag": "supreme_court_guidelines",
             "patterns": [
-                "Show me the latest anti-ragging notifications",
-                "Are there any updates on anti-ragging?",
-                "Tell me about anti-ragging notifications"
+            "What are Supreme Court guidelines on ragging?",
+            "Supreme Court rules about ragging",
+            "Legal guidelines for ragging",
+            "Court orders on ragging"
             ],
             "responses": [
-                "Here are the latest anti-ragging notifications:",
-                "Check out the Anti-Ragging Committee notifications below:"
-            ],
-            "attachments": [
-                {
-                    "text": "Notification regarding Anti-Ragging Committee dated 17.08.2021",
-                    "link": "https://iitjammu.ac.in/notification-anti-ragging-committee-17-08-2021"
-                },
-                {
-                    "text": "Notification regarding Anti-Ragging Committee dated 10.10.2022",
-                    "link": "https://iitjammu.ac.in/notification-anti-ragging-committee-10-10-2022"
-                }
+            "There are strict guidelines from the Hon'ble Supreme Court to prevent ragging at the institute campuses."
             ]
         },
         {
-            "tag": "anti_ragging_committees",
+            "tag": "ragging_reporting",
             "patterns": [
-                "Tell me about the anti-ragging committee",
-                "Who is in charge of anti-ragging?",
-                "Where can I find the anti-ragging committee details?"
+            "Where to report ragging?",
+            "How to complain about ragging?",
+            "Who should I inform about ragging?",
+            "Contact for reporting ragging"
             ],
             "responses": [
-                "Here are the committees related to anti-ragging at IIT Jammu:",
-                "You can find information about the anti-ragging committees below:"
-            ],
-            "attachments": [
-                {
-                    "text": "Standing Committees in Student Affairs section (Anti Ragging Committee)",
-                    "link": "https://iitjammu.ac.in/standing-committees-student-affairs-anti-ragging"
-                },
-                {
-                    "text": "Anti Ragging Squad-2024",
-                    "link": "https://iitjammu.ac.in/anti-ragging-squad-2024"
-                },
-                {
-                    "text": "Anti Ragging Details (ARC & ARS)",
-                    "link": "https://iitjammu.ac.in/anti-ragging-details-arc-ars"
-                }
+            "Please report any incident of ragging to the Hostel Management and Dean of Students immediately."
             ]
         },
         {
-            "tag": "director_message_anti_ragging",
+            "tag": "anti_ragging_notification_1",
             "patterns": [
-                "What is the director's message on anti-ragging?",
-                "Is there a message from the director about ragging?",
-                "Tell me about the director's message on anti-ragging"
+            "Show me notification from August 2021",
+            "What was the anti-ragging notification in August 2021?", 
+            "Tell me about August 2021 anti-ragging notification",
+            "Find August 2021 anti-ragging notice"
             ],
             "responses": [
-                "You can read the Director's message on Anti-Ragging from the official website."
+            "Notification regarding Anti-Ragging Committee was issued on 17.08.2021. You can view it at https://iitjammu.ac.in/notification-anti-ragging-committee-17-08-2021"
+            ]
+        },
+        {
+            "tag": "anti_ragging_notification_2", 
+            "patterns": [
+            "Show me notification from October 2022",
+            "What was the anti-ragging notification in October 2022?",
+            "Tell me about October 2022 anti-ragging notification", 
+            "Find October 2022 anti-ragging notice"
             ],
-            "attachments": [
-                {
-                    "text": "Director's Message on Anti-Ragging",
-                    "link": "https://iitjammu.ac.in/directors-message-anti-ragging"
-                }
+            "responses": [
+            "Notification regarding Anti-Ragging Committee was issued on 10.10.2022. You can view it at https://iitjammu.ac.in/notification-anti-ragging-committee-10-10-2022"
+            ]
+        },
+        {
+            "tag": "anti_ragging_standing_committee",
+            "patterns": [
+            "Tell me about standing anti-ragging committee",
+            "Show standing committee details for anti-ragging",
+            "What are the standing committees for anti-ragging?",
+            "Find information about anti-ragging standing committee"
+            ],
+            "responses": [
+            "Details about Standing Committees in Student Affairs section (Anti Ragging Committee) can be found at https://iitjammu.ac.in/standing-committees-student-affairs-anti-ragging"
+            ]
+        },
+        {
+            "tag": "anti_ragging_squad",
+            "patterns": [
+            "Tell me about anti-ragging squad 2024",
+            "Who is in the anti-ragging squad?",
+            "Show me anti-ragging squad members",
+            "Find anti-ragging squad information"
+            ],
+            "responses": [
+            "Details about the Anti Ragging Squad-2024 can be found at https://iitjammu.ac.in/anti-ragging-squad-2024"
+            ]
+        },
+        {
+            "tag": "anti_ragging_arc_ars",
+            "patterns": [
+            "What are ARC and ARS?",
+            "Tell me about anti-ragging ARC and ARS",
+            "Show ARC and ARS details",
+            "Find information about ARC and ARS"
+            ],
+            "responses": [
+            "Details about Anti Ragging Committee (ARC) & Anti Ragging Squad (ARS) can be found at https://iitjammu.ac.in/anti-ragging-details-arc-ars"
+            ]
+        },
+        {
+            "tag": "director_anti_ragging_message",
+            "patterns": [
+            "What does the director say about ragging?",
+            "Show director's message on anti-ragging",
+            "Find director's statement about ragging",
+            "Tell me director's views on ragging"
+            ],
+            "responses": [
+            "You can read the Director's message on Anti-Ragging at https://iitjammu.ac.in/directors-message-anti-ragging"
+            ]
+        },
+        {
+            "tag": "hostel_ragging_report",
+            "patterns": [
+            "How to report ragging in hostel?",
+            "Where can I complain about hostel ragging?",
+            "Whom to contact for hostel ragging?",
+            "Process to report hostel ragging"
+            ],
+            "responses": [
+            "You should immediately report any ragging incidents to the Hostel Management who will take appropriate action"
+            ]
+        },
+        {
+            "tag": "dean_ragging_report",
+            "patterns": [
+            "How to report ragging to dean?",
+            "Process to inform dean about ragging",
+            "Where can I complain to dean about ragging?",
+            "Whom to contact in dean office for ragging?"
+            ],
+            "responses": [
+            "You should report any incidents of ragging to the Dean of Students who will address the issue promptly"
+            ]
+        },
+        {
+            "tag": "caste_discrimination_policy",
+            "patterns": [
+            "What is IIT policy on caste discrimination?",
+            "Are there rules against caste discrimination?",
+            "Tell me about caste discrimination guidelines",
+            "How does IIT handle caste discrimination?"
+            ],
+            "responses": [
+            "IIT Jammu strictly prohibits any discrimination based on caste or social origin by officials, faculty or staff members"
+            ]
+        },
+        {
+            "tag": "sc_st_liaison_officer",
+            "patterns": [
+            "Who is SC/ST liaison officer?",
+            "Contact details of SC/ST liaison officer",
+            "How to reach SC/ST liaison officer?",
+            "Who handles SC/ST student issues?"
+            ],
+            "responses": [
+            "Dr. Rimen Jamatia is the Liaison Officer for SC/ST students at IIT Jammu"
+            ]
+        },
+        {
+            "tag": "obc_liaison_officer",
+            "patterns": [
+            "Who is OBC liaison officer?",
+            "Contact details of OBC liaison officer",
+            "How to reach OBC liaison officer?", 
+            "Who handles OBC student issues?"
+            ],
+            "responses": [
+            "Dr. Shiva S is the Liaison Officer for OBC students at IIT Jammu"
+            ]
+        },
+        {
+            "tag": "pwd_liaison_officer",
+            "patterns": [
+            "Who is PwD liaison officer?",
+            "Contact details of PwD liaison officer",
+            "How to reach PwD liaison officer?",
+            "Who handles PwD student issues?"
+            ],
+            "responses": [
+            "Dr. Aditya Shankar Sandupatla is the Liaison Officer for PwD students at IIT Jammu" 
+            ]
+        },
+        {
+            "tag": "ugc_circular",
+            "patterns": [
+            "Show UGC circular on caste discrimination",
+            "Where can I find UGC guidelines?",
+            "UGC rules about caste discrimination",
+            "Link to UGC circular"
+            ],
+            "responses": [
+            "The UGC Circular on Prevention of Caste-Based Discrimination can be found at https://iitjammu.ac.in/ugc-circular-prevention-caste-discrimination"
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_description",
+            "patterns": [
+            "What is the Equal Opportunity Cell?",
+            "Tell me about Equal Opportunity Cell",
+            "What does EOC do?",
+            "Explain Equal Opportunity Cell role"
+            ],
+            "responses": [
+            "The Equal Opportunity Cell oversees implementation of policies and programmes for SCs, STs, Women, OBC, EWS, and PwDs, providing guidance and counselling in various matters."
+            ]
+        },
+        {
+            "tag": "equal_opportunity_cell_mission",
+            "patterns": [
+            "What is EOC's mission?",
+            "Equal Opportunity Cell purpose",
+            "Goals of Equal Opportunity Cell",
+            "EOC objectives at IIT Jammu"
+            ],
+            "responses": [
+            "The institute ensures equal opportunities for all communities on campus and promotes social inclusion through the Equal Opportunity Cell."
+            ]
+        },
+        {
+            "tag": "eoc_chairperson",
+            "patterns": [
+            "Who chairs the EOC?",
+            "Equal Opportunity Cell chairperson",
+            "Who heads the EOC?",
+            "EOC chair details"
+            ],
+            "responses": [
+            "The Dean (FA) serves as the Chairperson of the Equal Opportunity Cell (Ex-Officio)."
+            ]
+        },
+        {
+            "tag": "eoc_members",
+            "patterns": [
+            "Who are EOC members?",
+            "Equal Opportunity Cell membership",
+            "List EOC members",
+            "EOC committee members"
+            ],
+            "responses": [
+            "EOC members include AD Student Affairs, Liaison Officers for SC/ST/OBC/PwD, and AR (E II) as Member Convenor, all serving ex-officio."
             ]
         }
-    ],
-    "team_members": [
-        {
-            "name": "Hostel Management",
-            "tag": "hostel_management",
-            "patterns": [
-                "Where can I report ragging incidents?",
-                "How do I contact hostel management regarding ragging?",
-                "Where should I report ragging?"
-            ],
-            "responses": [
-                "You can report any ragging incidents to the Hostel Management immediately."
-            ]
-        },
-        {
-            "name": "Dean of Students",
-            "tag": "dean_of_students",
-            "patterns": [
-                "How can I report ragging to the Dean?",
-                "I need to contact the Dean of Students about ragging.",
-                "How do I inform the Dean about ragging?"
-            ],
-            "responses": [
-                "Any incidents of ragging can be reported to the Dean of Students."
-            ]
-        },
-        {
-            "tag": "caste_based_discrimination_details",
-            "patterns": [
-                "What is the policy on caste-based discrimination?",
-                "Tell me about caste discrimination prevention at IIT Jammu",
-                "Is caste-based discrimination allowed at IIT Jammu?",
-                "What are the rules regarding caste discrimination?",
-                "How does IIT Jammu handle caste discrimination?"
-            ],
-            "responses": [
-                "The officials, faculty, and staff members should desist from any act of discrimination against SC/ST students on the grounds of their social origin.",
-                "All stakeholders should be more sensitive when dealing with incidents of caste discrimination.",
-                "Please report any incidents of caste discrimination to the liaison officers listed below."
-            ]
-        },
-        {
-            "tag": "caste_based_discrimination_liaison_officers",
-            "patterns": [
-                "Who can I contact about caste-based discrimination?",
-                "Who are the liaison officers for caste discrimination?",
-                "Can you provide the contact details of liaison officers for caste issues?"
-            ],
-            "responses": [
-                "Here are the liaison officers for caste-based discrimination:",
-                "You can contact the following officers for caste-related issues:"
-            ],
-            "attachments": [
-                {
-                    "name": "Dr. Rimen Jamatia",
-                    "designation": "Liaison Officer for SC/ST at IIT Jammu"
-                },
-                {
-                    "name": "Dr. Shiva S",
-                    "designation": "Liaison Officer for OBC at IIT Jammu"
-                },
-                {
-                    "name": "Dr. Aditya Shankar Sandupatla",
-                    "designation": "Liaison Officer for PwD at IIT Jammu"
-                }
-            ]
-        },
-        {
-            "tag": "ugc_circular_caste_discrimination",
-            "patterns": [
-                "Is there any UGC circular on caste-based discrimination?",
-                "Can I view the UGC circular on caste discrimination?",
-                "Show me the UGC circular related to caste discrimination"
-            ],
-            "responses": [
-                "You can read the UGC Circular on the Prevention of Caste-Based Discrimination from the official website."
-            ],
-            "attachments": [
-                {
-                    "text": "UGC Circular on Prevention of Caste-Based Discrimination",
-                    "link": "https://iitjammu.ac.in/ugc-circular-prevention-caste-discrimination"
-                }
-            ]
-        },
-        {
-            "tag": "equal_opportunity_cell_details",
-            "patterns": [
-                "What is the Equal Opportunity Cell?",
-                "Tell me about Equal Opportunity Cell at IIT Jammu",
-                "What does the Equal Opportunity Cell do?"
-            ],
-            "responses": [
-                "The Equal Opportunity Cell oversees the effective implementation of policies and programmes for SCs, STs, Women, OBC, EWS, and PwDs, providing guidance and counselling in academic, financial, social, and other matters.",
-                "The institute ensures equal opportunities for all communities on campus and promotes social inclusion."
-            ]
-        },
-        {
-            "tag": "equal_opportunity_cell_members",
-            "patterns": [
-                "Who are the members of the Equal Opportunity Cell?",
-                "Can you tell me the members of the Equal Opportunity Cell?",
-                "Who is involved in the Equal Opportunity Cell?"
-            ],
-            "responses": [
-                "The Equal Opportunity Cell consists of the following members:"
-            ],
-            "attachments": [
-                {
-                    "designation": "Dean (FA)(Ex-Officio)",
-                    "role": "Chairperson"
-                },
-                {
-                    "designation": "AD (Student Affairs)(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "Liaison Officer for SC/ST(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "Liaison Officer for OBC(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "Liaison Officer for PwD(Ex-Officio)",
-                    "role": "Member"
-                },
-                {
-                    "designation": "AR (E II)(Ex-Officio)",
-                    "role": "Member Convenor"
-                }
-            ]
-        }
-    ],
+        ],
     "team_members_sc_st": [
         {
             "name": "Dr. Rimen Jamatia",
@@ -814,415 +841,279 @@
             ]
         },
         {
-            "tag": "Annual_Action_Plan_Committee",
+            "tag": "annual_action_plan_committee",
             "patterns": [
-                "Annual Action Plan Committee",
-                "Action Plan Committee",
-                "Committee for Annual Planning",
-                "Members of the Annual Action Plan Committee",
-                "Annual Action Plan Committee Structure"
+            "Who is in the Annual Action Plan Committee?",
+            "Tell me about the Action Plan Committee members",
+            "What is the structure of Annual Action Plan Committee?",
+            "Who leads the Annual Action Plan Committee?"
             ],
             "responses": [
-                {
-                    "name": "Director-(Ex-Officio)",
-                    "designation": "Chairperson"
-                },
-                {
-                    "name": "All Deans",
-                    "designation": "Member"
-                },
-                {
-                    "name": "All HoD's",
-                    "designation": "Member"
-                },
-                {
-                    "name": "Registrar-(Ex-Officio)",
-                    "designation": "Member"
-                },
-                {
-                    "name": "Deputy Registrar (E1 and Director Office)-(Ex-Officio)",
-                    "designation": "Member Convenor"
-                }
+            "The Annual Action Plan Committee is chaired by the Director (Ex-Officio) and includes all Deans, HoDs, Registrar as members, with Deputy Registrar as Member Convenor."
             ]
         },
         {
-            "tag": "academic_programs",
+            "tag": "abhishek_academic",
             "patterns": [
-                "Abhishek",
-                "Dileep Kumar",
-                "Nandini Sharma",
-                "Vipen Sharma"
+            "Who is Abhishek in academics?",
+            "Tell me about Abhishek in academic programs",
+            "What is Abhishek's role in academics?",
+            "Which Abhishek works in academic programs?"
             ],
             "responses": [
-                "Abhishek is a Senior Assistant in the Academic Programs department.",
-                "Dileep Kumar is an Assistant Manager in the Academic Programs department.",
-                "Nandini Sharma is a Senior Assistant in the Academic Programs department.",
-                "Vipen Sharma is a Senior Assistant in the Academic Programs department."
+            "Abhishek is a Senior Assistant in the Academic Programs department."
             ]
         },
         {
-            "tag": "media_cell",
+            "tag": "dileep_kumar_academic",
             "patterns": [
-                "Abhishek Gupta"
+            "Who is Dileep Kumar?",
+            "Tell me about Dileep Kumar's role",
+            "What position does Dileep Kumar hold?",
+            "Where does Dileep Kumar work?"
             ],
             "responses": [
-                "Abhishek Gupta is a Laboratory Officer in the Media Cell department."
+            "Dileep Kumar is an Assistant Manager in the Academic Programs department."
             ]
         },
         {
-            "tag": "electrical_engineering",
+            "tag": "nandini_sharma_academic",
             "patterns": [
-                "Aditya Sahay",
-                "Apoorv Raj Agarwal",
-                "Lokesh Sharma",
-                "Vikash Kumar"
+            "Who is Nandini Sharma?",
+            "Tell me about Nandini Sharma's role",
+            "What position does Nandini Sharma hold?",
+            "Where does Nandini Sharma work?"
             ],
             "responses": [
-                "Aditya Sahay is a Technical Officer in the Electrical Engineering department.",
-                "Apoorv Raj Agarwal is a Laboratory Officer in the Electrical Engineering department.",
-                "Lokesh Sharma is a Senior Laboratory Officer in the Electrical Engineering department.",
-                "Vikash Kumar is a Senior Laboratory Officer in the Electrical Engineering department."
+            "Nandini Sharma is a Senior Assistant in the Academic Programs department."
             ]
         },
         {
-            "tag": "procurement_section",
+            "tag": "vipen_sharma_academic",
             "patterns": [
-                "Ambika Sambyal",
-                "Mandeep Singh",
-                "Purvi Sarkar",
-                "Srishti Raaj",
-                "Sunil Kumar",
-                "Surbhi Raina"
+            "Who is Vipen Sharma?",
+            "Tell me about Vipen Sharma's role",
+            "What position does Vipen Sharma hold?",
+            "Where does Vipen Sharma work?"
             ],
             "responses": [
-                "Ambika Sambyal is a Senior Assistant in the Procurement Section.",
-                "Mandeep Singh is a Junior Section Officer in the Procurement Section.",
-                "Purvi Sarkar is an Assistant Registrar in the Procurement Section.",
-                "Srishti Raaj is a Senior Assistant in the Procurement Section.",
-                "Sunil Kumar is a Senior Assistant in the Procurement Section.",
-                "Surbhi Raina is a Senior Assistant in the Procurement Section."
+            "Vipen Sharma is a Senior Assistant in the Academic Programs department."
             ]
         },
         {
-            "tag": "infrastructure_planning_and_management",
+            "tag": "abhishek_gupta_media",
             "patterns": [
-                "Aneeket Gupta",
-                "Ashish Sharma",
-                "Boddu L V Satish Varma",
-                "Hansraj",
-                "Rakshit Rampaul",
-                "Ramasubbaiah Vusenappagari",
-                "Ravi Kumar",
-                "Sarabjeet Singh",
-                "Shivam Mahajan",
-                "Saurabh Sharma"
+            "Who is Abhishek Gupta?",
+            "Tell me about Abhishek Gupta's role",
+            "What position does Abhishek Gupta hold?",
+            "Where does Abhishek Gupta work?"
             ],
             "responses": [
-                "Aneeket Gupta is a Junior Engineer (Electrical) in the Infrastructure Planning and Management department.",
-                "Ashish Sharma is a Caretaker-cum-Manager in the Infrastructure Planning and Management department.",
-                "Boddu L V Satish Varma is an AEE (Civil) in the Infrastructure Planning and Management department.",
-                "Hansraj is a Junior Assistant in the Infrastructure Planning and Management department.",
-                "Rakshit Rampaul is an Assistant Engineer (Civil) in the Infrastructure Planning and Management department.",
-                "Ramasubbaiah Vusenappagari is a Laboratory Assistant in the Infrastructure Planning and Management department.",
-                "Ravi Kumar is a Laboratory Assistant in the Infrastructure Planning and Management department.",
-                "Sarabjeet Singh is a Junior Engineer (Civil) in the Infrastructure Planning and Management department.",
-                "Shivam Mahajan is a Junior Engineer (Electrical) in the Infrastructure Planning and Management department.",
-                "Saurabh Sharma is an Executive Engineer (Civil) in the Infrastructure Planning and Management department."
+            "Abhishek Gupta is a Laboratory Officer in the Media Cell department."
             ]
         },
         {
-            "tag": "c3i",
+            "tag": "aditya_sahay_ee",
             "patterns": [
-                "Anil Saini",
-                "Gourab Verma",
-                "Kewal Krishan",
-                "Pirzada Gowhar Arfat",
-                "Rahul Agarwal"
+            "Who is Aditya Sahay?",
+            "Tell me about Aditya Sahay's role",
+            "What position does Aditya Sahay hold?",
+            "Where does Aditya Sahay work?"
             ],
             "responses": [
-                "Anil Saini is a Senior Scientific Officer in the C3I department.",
-                "Gourab Verma is a Laboratory Officer in the C3I department.",
-                "Kewal Krishan is a Technical Officer in the C3I department.",
-                "Pirzada Gowhar Arfat is a Technical Officer in the C3I department.",
-                "Rahul Agarwal is a Laboratory Officer in the C3I department."
+            "Aditya Sahay is a Technical Officer in the Electrical Engineering department."
             ]
         },
         {
-            "tag": "central_workshop",
+            "tag": "apoorv_raj_ee",
             "patterns": [
-                "Arul Benedict Xavier",
-                "Arun Kumar",
-                "Neeraj Kumar"
+            "Who is Apoorv Raj Agarwal?",
+            "Tell me about Apoorv Raj's role",
+            "What position does Apoorv Raj hold?",
+            "Where does Apoorv Raj work?"
             ],
             "responses": [
-                "Arul Benedict Xavier is a Laboratory Assistant in the Central Workshop.",
-                "Arun Kumar is an Assistant Workshop Officer in the Central Workshop.",
-                "Neeraj Kumar is a Laboratory Officer in the Central Workshop."
+            "Apoorv Raj Agarwal is a Laboratory Officer in the Electrical Engineering department."
             ]
         },
         {
-            "tag": "chemical_engineering",
+            "tag": "lokesh_sharma_ee",
             "patterns": [
-                "Dhiraj Kumar Vishwakarma",
-                "Neha Devi",
-                "Goverdhan Singh",
-                "Nitish Gupta",
-                "Ramasubbaiah Vusenappagari"
+            "Who is Lokesh Sharma?",
+            "Tell me about Lokesh Sharma's role",
+            "What position does Lokesh Sharma hold?",
+            "Where does Lokesh Sharma work?"
             ],
             "responses": [
-                "Dhiraj Kumar Vishwakarma is a Laboratory Assistant in the Chemical Engineering department.",
-                "Neha Devi is a Laboratory Assistant in the Chemical Engineering department.",
-                "Goverdhan Singh is a Laboratory Officer in the Chemical Engineering department.",
-                "Nitish Gupta is a Laboratory Officer in the Chemical Engineering department.",
-                "Ramasubbaiah Vusenappagari is a Laboratory Assistant in the Chemical Engineering department."
+            "Lokesh Sharma is a Senior Laboratory Officer in the Electrical Engineering department."
             ]
         },
         {
-            "tag": "materials_engineering",
+            "tag": "vikash_kumar_ee",
             "patterns": [
-                "Deepak Raj",
-                "Gautam Gupta",
-                "Rahul Verma"
+            "Who is Vikash Kumar?",
+            "Tell me about Vikash Kumar's role",
+            "What position does Vikash Kumar hold?",
+            "Where does Vikash Kumar work?"
             ],
             "responses": [
-                "Deepak Raj is a Laboratory Officer in the Materials Engineering department.",
-                "Gautam Gupta is a Laboratory Assistant in the Materials Engineering department.",
-                "Rahul Verma is a Laboratory Assistant in the Materials Engineering department."
+            "Vikash Kumar is a Senior Laboratory Officer in the Electrical Engineering department."
             ]
         },
         {
-            "tag": "physics",
+            "tag": "ambika_sambyal_proc",
             "patterns": [
-                "Arjun Singh",
-                "Sumit Raj Ghosh"
+            "Who is Ambika Sambyal?",
+            "Tell me about Ambika Sambyal's role",
+            "What position does Ambika Sambyal hold?",
+            "Where does Ambika Sambyal work?"
             ],
             "responses": [
-                "Arjun Singh is a Laboratory Assistant in the Physics department.",
-                "Sumit Raj Ghosh is a Laboratory Officer in the Physics department."
+            "Ambika Sambyal is a Senior Assistant in the Procurement Section."
             ]
         },
         {
-            "tag": "chemistry",
+            "tag": "mandeep_singh_proc",
             "patterns": [
-                "Bhupinder Singh",
-                "Piyush Kumar"
+            "Who is Mandeep Singh?",
+            "Tell me about Mandeep Singh's role",
+            "What position does Mandeep Singh hold?",
+            "Where does Mandeep Singh work?"
             ],
             "responses": [
-                "Bhupinder Singh is a Laboratory Officer in the Chemistry department.",
-                "Piyush Kumar is a Laboratory Officer in the Chemistry department."
+            "Mandeep Singh is a Junior Section Officer in the Procurement Section."
             ]
         },
         {
-            "tag": "civil_engineering",
+            "tag": "purvi_sarkar_proc",
             "patterns": [
-                "Khalid Ahmed",
-                "Sahil Patel"
+            "Who is Purvi Sarkar?",
+            "Tell me about Purvi Sarkar's role",
+            "What position does Purvi Sarkar hold?",
+            "Where does Purvi Sarkar work?"
             ],
             "responses": [
-                "Khalid Ahmed is a Laboratory Assistant in the Civil Engineering department.",
-                "Sahil Patel is a Laboratory Assistant in the Civil Engineering department."
+            "Purvi Sarkar is an Assistant Registrar in the Procurement Section."
             ]
         },
         {
-            "tag": "counselling_services",
+            "tag": "srishti_raaj_proc",
             "patterns": [
-                "Himanshi Singh",
-                "Nandita Sharma"
+            "Who is Srishti Raaj?",
+            "Tell me about Srishti Raaj's role",
+            "What position does Srishti Raaj hold?",
+            "Where does Srishti Raaj work?"
             ],
             "responses": [
-                "Himanshi Singh is an Institute Counsellor in the Counselling Services department.",
-                "Nandita Sharma is an Institute Counsellor in the Counselling Services department."
+            "Srishti Raaj is a Senior Assistant in the Procurement Section."
             ]
         },
         {
-            "tag": "health_and_medical",
+            "tag": "sunil_kumar_proc",
             "patterns": [
-                "Karunika Sharma"
+            "Who is Sunil Kumar in procurement?",
+            "Tell me about Sunil Kumar's role",
+            "What position does Sunil Kumar hold?",
+            "Where does Sunil Kumar work?"
             ],
             "responses": [
-                "Karunika Sharma is a Medical Officer in the Health and Medical department."
+            "Sunil Kumar is a Senior Assistant in the Procurement Section."
             ]
         },
         {
-            "tag": "library",
+            "tag": "surbhi_raina_proc",
             "patterns": [
-                "Mukesh Behera",
-                "Nilesh Kumar",
-                "Sunil Shetty",
-                "Vishwajeet Kumar",
-                "Yashasvini Yadav"
+            "Who is Surbhi Raina?",
+            "Tell me about Surbhi Raina's role",
+            "What position does Surbhi Raina hold?",
+            "Where does Surbhi Raina work?"
             ],
             "responses": [
-                "Mukesh Behera is a Junior Library Information Officer in the Library.",
-                "Nilesh Kumar is a Deputy Librarian in the Library.",
-                "Sunil Shetty is a Junior Library Information Officer in the Library.",
-                "Vishwajeet Kumar is a Junior Library Information Assistant in the Library.",
-                "Yashasvini Yadav is an Assistant Librarian in the Library."
+            "Surbhi Raina is a Senior Assistant in the Procurement Section."
             ]
         },
         {
-            "tag": "finance_and_accounts",
+            "tag": "scst_cell_info",
             "patterns": [
-                "Meena Sharma",
-                "Ripul Vaid",
-                "Sahil Dogra",
-                "Shikha Malhotra",
-                "Shubham Gupta"
+            "What is the SC/ST Cell?",
+            "Tell me about SC/ST Cell functions",
+            "What does SC/ST Cell do?",
+            "Purpose of SC/ST Cell"
             ],
             "responses": [
-                "Meena Sharma is a Senior Assistant in the Finance and Accounts department.",
-                "Ripul Vaid is a Section Officer in the Finance and Accounts department.",
-                "Sahil Dogra is a Senior Assistant in the Finance and Accounts department.",
-                "Shikha Malhotra is an Assistant Registrar in the Finance and Accounts department.",
-                "Shubham Gupta is a Senior Assistant in the Finance and Accounts department."
+            "The SC/ST Students Cell addresses academic and non-academic issues for reserved category students, ensuring an inclusive environment free from discrimination."
             ]
         },
         {
-            "tag": "administration_and_operations",
+            "tag": "caste_discrimination_prevention",
             "patterns": [
-                "Col Virinder Singh Jeji (Retd.)",
-                "Lt Cdr Mannu Virk",
-                "Sakshi Dubey"
+            "How is caste discrimination prevented?",
+            "What measures prevent caste discrimination?",
+            "Tell me about anti-discrimination policies",
+            "How do you handle caste discrimination?"
             ],
             "responses": [
-                "Col Virinder Singh Jeji (Retd.) is a Registrar in the Administration and Operations department.",
-                "Lt Cdr Mannu Virk is a Security Officer in the Administration and Operations department.",
-                "Sakshi Dubey is a Junior Section Officer in the Administration and Operations department."
+            "Officials, faculty and staff must avoid discrimination against SC/ST students based on social origin and maintain sensitivity in handling such incidents."
             ]
         },
         {
-            "tag": "student_affairs",
+            "tag": "scst_liaison_officer",
             "patterns": [
-                "Anish Koul",
-                "Raj Srivastava",
-                "Rehana Rasool"
+            "Who is SC/ST liaison officer?",
+            "SC/ST officer contact",
+            "Who handles SC/ST issues?",
+            "SC/ST cell contact person"
             ],
             "responses": [
-                "Anish Koul is a Caretaker-cum-Manager in the Student Affairs department.",
-                "Raj Srivastava is an Assistant Sports Officer in the Student Affairs department.",
-                "Rehana Rasool is a Mess Manager in the Student Affairs department."
+            "Dr. Rimen Jamatia is the Liaison Officer for SC/ST at IIT Jammu."
             ]
         },
         {
-            "tag": "career_development_center",
+            "tag": "ugc_circular_info",
             "patterns": [
-                "Ridham Gupta"
+            "Where is UGC circular on discrimination?",
+            "UGC anti-discrimination circular",
+            "Find UGC circular",
+            "Anti-discrimination circular location"
             ],
             "responses": [
-                "Ridham Gupta is a Training & Placement Officer in the Career Development Center."
+            "The UGC Circular on Prevention of Caste-Based Discrimination is available in English and Hindi on the IIT Jammu website."
             ]
         },
         {
-            "tag": "research_and_consultancy",
+            "tag": "scst_complaint_procedure",
             "patterns": [
-                "Cdr Avinash Barthwal (Retd)",
-                "Sumit Kumar Sharma"
+            "How to file SC/ST complaint?",
+            "SC/ST complaint form location",
+            "Where to complain about discrimination?",
+            "Process for SC/ST complaints"
             ],
             "responses": [
-                "Cdr Avinash Barthwal (Retd) is a Deputy Registrar in the Research and Consultancy department.",
-                "Sumit Kumar Sharma is a Senior Assistant in the Research and Consultancy department."
+            "SC/ST complaints can be filed through the online complaint form available on the Google Forms platform."
             ]
         },
         {
-            "tag": "audit",
+            "tag": "iit_jammu_general_info",
             "patterns": [
-                "Shivani Begnehal",
-                "R. P. Prajapat"
+            "What is IIT Jammu?",
+            "Where is IIT Jammu located?",
+            "Tell me about IIT Jammu location",
+            "IIT Jammu address"
             ],
             "responses": [
-                "Shivani Begnehal is a Senior Assistant in the Audit department.",
-                "R. P. Prajapat is an Assistant Registrar in the Audit department."
+            "IIT Jammu is located at Jagti, NH-44, PO Nagrota Jammu-181221 J&K, India."
             ]
         },
         {
-            "tag": "legal_section",
+            "tag": "iit_jammu_director",
             "patterns": [
-                "R. P. Prajapat"
+            "Who is IIT Jammu director?",
+            "Current director of IIT Jammu",
+            "Director's contact details",
+            "IIT Jammu head"
             ],
             "responses": [
-                "R. P. Prajapat is an Assistant Registrar in the Legal Section."
-            ]
-        },
-        {
-            "tag": "SC/ST_Cell_Description",
-            "patterns": [
-                "Tell me about the SC/ST Cell",
-                "What is the SC/ST Cell?",
-                "What does the SC/ST Cell do?",
-                "Can you explain the SC/ST Cell?",
-                "What is the purpose of the SC/ST Cell?"
-            ],
-            "responses": [
-                "The SC/ST Students Cell addresses academic and non-academic issues and complaints received from students in reserved categories. The institute strives to maintain an environment where all communities can participate in academic and research activities without any sort of discrimination with respect to caste or creed. The SC/ST students cell is responsible for sensitizing the campus community about the importance of diversity."
-            ]
-        },
-        {
-            "tag": "Prevention_of_Caste_Discrimination",
-            "patterns": [
-                "What is the prevention of caste-based discrimination?",
-                "How does the SC/ST Cell prevent caste discrimination?",
-                "Tell me about caste-based discrimination prevention",
-                "What is done to prevent caste-based discrimination?"
-            ],
-            "responses": [
-                "The officials, faculty, and staff members should desist from any act of discrimination against SC/ST students on the grounds of their social origin. All stakeholders should be more sensitive while dealing with such incidents of caste discrimination."
-            ]
-        },
-        {
-            "tag": "Liaison_Officer_ScSt",
-            "patterns": [
-                "Who is the Liaison Officer for SC/ST at IIT Jammu?",
-                "Tell me about the SC/ST Liaison Officer",
-                "Who handles SC/ST issues at IIT Jammu?"
-            ],
-            "responses": [
-                "Dr. Rimen Jamatia is the Liaison Officer for SC/ST at IIT Jammu."
-            ]
-        },
-        {
-            "tag": "UGC_Circulars",
-            "patterns": [
-                "Where can I find the UGC Circular on caste-based discrimination?",
-                "Give me the link to the UGC Circular on Prevention of Caste-Based Discrimination",
-                "I need the UGC Circular on caste-based discrimination"
-            ],
-            "responses": [
-                "Here are the links to the UGC Circular on Prevention of Caste-Based Discrimination:\n- [UGC Circular on Prevention of Caste-Based Discrimination (English)](https://iitjammu.ac.in/scst/Caste%20Based%20Discrim2018-2019(English).pdf)\n- [UGC Circular on Prevention of Caste-Based Discrimination (Hindi)](https://iitjammu.ac.in/scst/Caste%20Based%20Discrimination(Hindi)2018-19.pdf)"
-            ]
-        },
-        {
-            "tag": "SC_ST_Complaint_Form",
-            "patterns": [
-                "Where can I find the SC/ST complaint form?",
-                "Give me the SC/ST Cell Complaint form link",
-                "How can I file a complaint with the SC/ST Cell?"
-            ],
-            "responses": [
-                "You can access the SC/ST Cell Complaint Form [here](https://docs.google.com/forms/d/e/1FAIpQLSftvdQhoA--mUx-b9Rn42a3cV3NbJI_bW1gJhparNb-39cplw/viewform)."
-            ]
-        },
-        {
-            "tag": "IIT_Jammu_Info_Organization_Function",
-            "patterns": [
-                "Tell me about IIT Jammu",
-                "What is IIT Jammu?",
-                "Give me information about IIT Jammu",
-                "Tell me the address of IIT Jammu",
-                "Who is the head of IIT Jammu?"
-            ],
-            "responses": [
-                "Indian Institute of Technology Jammu is located at Jagti, NH-44, PO Nagrota Jammu-181221 J&K, India. For more details, visit [IIT Jammu's Website](https://www.iitjammu.ac.in/)."
-            ]
-        },
-        {
-            "tag": "IIT_Jammu_Director",
-            "patterns": [
-                "Who is the Director of IIT Jammu?",
-                "Tell me about the Director of IIT Jammu",
-                "Who leads IIT Jammu?"
-            ],
-            "responses": [
-                "The Director of IIT Jammu is Prof. Manoj Singh Gaur. He joined on 29 June 2017. You can contact him via email at director@iitjammu.ac.in or call 0191-257-0380. For more information, visit [Director Profile](https://www.iitjammu.ac.in/director-profile)."
+            "Prof. Manoj Singh Gaur is the Director of IIT Jammu since June 2017, contactable at director@iitjammu.ac.in or 0191-257-0380."
             ]
         },
         {
@@ -1991,885 +1882,409 @@
         {
             "tag": "Ajeet Kumar Sharma",
             "patterns": [
-                "Ajeet Kumar Sharma",
-                "Assistant Professor",
-                "Bioscience and Bioengineering, Physics"
+            "Who is Ajeet Kumar Sharma?",
+            "Tell me about Professor Sharma",
+            "What departments does Ajeet Kumar teach in?",
+            "Can you tell me about Dr. Sharma from Bioscience?"
             ],
             "responses": [
-                "Ajeet Kumar Sharma is an Assistant Professor in the Department of Bioscience and Bioengineering, Physics."
+            "Ajeet Kumar Sharma is an Assistant Professor in the Department of Bioscience and Bioengineering, Physics."
             ]
         },
         {
-            "tag": "Akash Subhash Awale",
+            "tag": "Akash Subhash Awale", 
             "patterns": [
-                "Akash Subhash Awale",
-                "Assistant Professor",
-                "Mechanical Engineering"
+            "Who is Akash Subhash Awale?",
+            "Tell me about Professor Awale",
+            "What department is Akash Awale from?",
+            "Can you tell me about Dr. Awale from Mechanical Engineering?"
             ],
             "responses": [
-                "Akash Subhash Awale is an Assistant Professor in the Department of Mechanical Engineering."
+            "Akash Subhash Awale is an Assistant Professor in the Department of Mechanical Engineering."
             ]
         },
         {
             "tag": "Alok Kumar Saxena",
             "patterns": [
-                "Alok Kumar Saxena",
-                "Assistant Professor",
-                "Electrical Engineering"
+            "Who is Alok Kumar Saxena?",
+            "Tell me about Professor Saxena",
+            "What department does Alok Kumar teach in?",
+            "Can you tell me about Dr. Saxena from Electrical Engineering?"
             ],
             "responses": [
-                "Alok Kumar Saxena is an Assistant Professor in the Department of Electrical Engineering."
+            "Alok Kumar Saxena is an Assistant Professor in the Department of Electrical Engineering."
             ]
         },
         {
             "tag": "Ambika Prasad Shah",
             "patterns": [
-                "Ambika Prasad Shah",
-                "Assistant Professor",
-                "Electrical Engineering"
+            "Who is Ambika Prasad Shah?",
+            "Tell me about Professor Shah",
+            "What department is Ambika Shah from?",
+            "Can you tell me about Dr. Shah from Electrical Engineering?"
             ],
             "responses": [
-                "Ambika Prasad Shah is an Assistant Professor in the Department of Electrical Engineering."
+            "Ambika Prasad Shah is an Assistant Professor in the Department of Electrical Engineering."
             ]
         },
         {
             "tag": "Amitash Ojha",
             "patterns": [
-                "Amitash Ojha",
-                "Assistant Professor",
-                "Humanities & Social Sciences"
+            "Who is Amitash Ojha?",
+            "Tell me about Professor Ojha",
+            "What department does Amitash teach in?",
+            "Can you tell me about Dr. Ojha from Humanities?"
             ],
             "responses": [
-                "Amitash Ojha is an Assistant Professor in the Department of Humanities & Social Sciences."
+            "Amitash Ojha is an Assistant Professor in the Department of Humanities & Social Sciences."
             ]
         },
         {
             "tag": "Amlan Kumar Pal",
             "patterns": [
-                "Amlan Kumar Pal",
-                "Assistant Professor",
-                "Chemistry"
+            "Who is Amlan Kumar Pal?",
+            "Tell me about Professor Pal",
+            "What department is Amlan Kumar from?",
+            "Can you tell me about Dr. Pal from Chemistry?"
             ],
             "responses": [
-                "Amlan Kumar Pal is an Assistant Professor in the Department of Chemistry."
+            "Amlan Kumar Pal is an Assistant Professor in the Department of Chemistry."
             ]
         },
         {
             "tag": "faculty_anand_kumar_subramaniyan",
             "patterns": [
-                "Anand Kumar Subramaniyan",
-                "Assistant Professor",
-                "Mechanical Engineering"
+            "Who is Anand Kumar Subramaniyan?",
+            "Tell me about Professor Subramaniyan",
+            "What department does Anand Kumar teach in?",
+            "Can you tell me about Dr. Subramaniyan from Mechanical Engineering?"
             ],
             "responses": [
-                "Anand Kumar Subramaniyan is an Assistant Professor in the Mechanical Engineering department."
+            "Anand Kumar Subramaniyan is an Assistant Professor in the Mechanical Engineering department."
             ]
         },
         {
             "tag": "faculty_angshuman_kapil",
             "patterns": [
-                "Angshuman Kapil",
-                "Assistant Professor",
-                "Mechanical Engineering"
+            "Who is Angshuman Kapil?",
+            "Tell me about Professor Kapil",
+            "What department is Angshuman Kapil from?",
+            "Can you tell me about Dr. Kapil from Mechanical Engineering?"
             ],
             "responses": [
-                "Angshuman Kapil is an Assistant Professor in the Mechanical Engineering department."
+            "Angshuman Kapil is an Assistant Professor in the Mechanical Engineering department."
             ]
         },
         {
             "tag": "faculty_anil_kumar_paidi",
             "patterns": [
-                "Anil Kumar Paidi",
-                "Assistant Professor",
-                "Inter Disciplinary Program",
-                "Chemistry"
+            "Who is Anil Kumar Paidi?",
+            "Tell me about Professor Paidi",
+            "What departments does Anil Kumar teach in?",
+            "Can you tell me about Dr. Paidi from Chemistry?"
             ],
             "responses": [
-                "Anil Kumar Paidi is an Assistant Professor in the Inter Disciplinary Program and Chemistry department."
+            "Anil Kumar Paidi is an Assistant Professor in the Inter Disciplinary Program and Chemistry department."
             ]
         },
         {
-            "tag": "faculty_ankit_dubey",
+            "tag": "faculty_ankit_dubey", 
             "patterns": [
-                "Ankit Dubey",
-                "Associate Professor",
-                "Electrical Engineering"
+            "Who is Ankit Dubey?",
+            "Tell me about Professor Dubey",
+            "What department is Ankit Dubey from?",
+            "Can you tell me about Dr. Dubey from Electrical Engineering?"
             ],
             "responses": [
-                "Ankit Dubey is an Associate Professor in the Electrical Engineering department."
+            "Ankit Dubey is an Associate Professor in the Electrical Engineering department."
             ]
         },
         {
             "tag": "faculty_ankit_kathuria",
             "patterns": [
-                "Ankit Kathuria",
-                "Associate Professor",
-                "Civil Engineering",
-                "Humanities & Social Sciences"
+            "Who is Ankit Kathuria?",
+            "Tell me about Professor Kathuria",
+            "What departments does Ankit Kathuria teach in?", 
+            "Can you tell me about Dr. Kathuria?"
             ],
             "responses": [
-                "Ankit Kathuria is an Associate Professor in the Civil Engineering and Humanities & Social Sciences departments."
+            "Ankit Kathuria is an Associate Professor in the Civil Engineering and Humanities & Social Sciences departments."
             ]
         },
         {
             "tag": "faculty_ankit_tyagi",
             "patterns": [
-                "Ankit Tyagi",
-                "Assistant Professor",
-                "Chemical Engineering"
+            "Who is Ankit Tyagi?",
+            "Tell me about Professor Tyagi",
+            "What department is Ankit Tyagi from?",
+            "Can you tell me about Dr. Tyagi from Chemical Engineering?"
             ],
             "responses": [
-                "Ankit Tyagi is an Assistant Professor in the Chemical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_ankur_bansal",
-            "patterns": [
-                "Ankur Bansal",
-                "Associate Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Ankur Bansal is an Associate Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_anup_shukla",
-            "patterns": [
-                "Anup Shukla",
-                "Assistant Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Anup Shukla is an Assistant Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_anurag_misra",
-            "patterns": [
-                "Anurag Misra",
-                "Professor",
-                "Civil Engineering"
-            ],
-            "responses": [
-                "Anurag Misra is a Professor in the Civil Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_archana_rajput",
-            "patterns": [
-                "Archana Rajput",
-                "Assistant Professor",
-                "Physics",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Archana Rajput is an Assistant Professor in the Physics and Electrical Engineering departments."
-            ]
-        },
-        {
-            "tag": "faculty_arpita_paul",
-            "patterns": [
-                "Arpita Paul",
-                "Assistant Professor",
-                "Physics"
-            ],
-            "responses": [
-                "Arpita Paul is an Assistant Professor in the Physics department."
-            ]
-        },
-        {
-            "tag": "faculty_arun_kumar_verma",
-            "patterns": [
-                "Arun Kumar Verma",
-                "Associate Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Arun Kumar Verma is an Associate Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_arvind_kumar",
-            "patterns": [
-                "Arvind Kumar",
-                "Assistant Professor",
-                "Mathematics"
-            ],
-            "responses": [
-                "Arvind Kumar is an Assistant Professor in the Mathematics department."
-            ]
-        },
-        {
-            "tag": "faculty_arvind_kumar_rajput",
-            "patterns": [
-                "Arvind Kumar Rajput",
-                "Assistant Professor",
-                "Mechanical Engineering"
-            ],
-            "responses": [
-                "Arvind Kumar Rajput is an Assistant Professor in the Mechanical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_ashok_bera",
-            "patterns": [
-                "Ashok Bera",
-                "Associate Professor",
-                "Physics"
-            ],
-            "responses": [
-                "Ashok Bera is an Associate Professor in the Physics department."
-            ]
-        },
-        {
-            "tag": "faculty_ashutosh_yadav",
-            "patterns": [
-                "Ashutosh Yadav",
-                "Assistant Professor",
-                "Chemical Engineering"
-            ],
-            "responses": [
-                "Ashutosh Yadav is an Assistant Professor in the Chemical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_badri_narayan_subudhi",
-            "patterns": [
-                "Badri Narayan Subudhi",
-                "Associate Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Badri Narayan Subudhi is an Associate Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_biswanath_chakraborty",
-            "patterns": [
-                "Biswanath Chakraborty",
-                "Assistant Professor",
-                "Physics"
-            ],
-            "responses": [
-                "Biswanath Chakraborty is an Assistant Professor in the Physics department."
-            ]
-        },
-        {
-            "tag": "faculty_chandan_yadav",
-            "patterns": [
-                "Chandan Yadav",
-                "Assistant Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Chandan Yadav is an Assistant Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_chembolu_vinay",
-            "patterns": [
-                "Chembolu Vinay",
-                "Assistant Professor",
-                "Civil Engineering"
-            ],
-            "responses": [
-                "Chembolu Vinay is an Assistant Professor in the Civil Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_debapriya_mandal",
-            "patterns": [
-                "Debapriya Mandal",
-                "Professor",
-                "Chemical Engineering"
-            ],
-            "responses": [
-                "Debapriya Mandal is a Professor in the Chemical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_deepak_yadav",
-            "patterns": [
-                "Deepak Yadav",
-                "Assistant Professor",
-                "Civil Engineering"
-            ],
-            "responses": [
-                "Deepak Yadav is an Assistant Professor in the Civil Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_devi_lal",
-            "patterns": [
-                "Devi Lal",
-                "Assistant Professor",
-                "Materials Engineering"
-            ],
-            "responses": [
-                "Devi Lal is an Assistant Professor in the Materials Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_dharitri_rath",
-            "patterns": [
-                "Dharitri Rath",
-                "Assistant Professor",
-                "Chemical Engineering"
-            ],
-            "responses": [
-                "Dharitri Rath is an Assistant Professor in the Chemical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_divyesh_varade",
-            "patterns": [
-                "Divyesh Varade",
-                "Assistant Professor",
-                "Civil Engineering"
-            ],
-            "responses": [
-                "Divyesh Varade is an Assistant Professor in the Civil Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_durai_prabhakaran_r_t",
-            "patterns": [
-                "Durai Prabhakaran R T",
-                "Professor",
-                "Mechanical Engineering"
-            ],
-            "responses": [
-                "Durai Prabhakaran R T is a Professor in the Mechanical Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_garima_singh",
-            "patterns": [
-                "Garima Singh",
-                "Assistant Professor",
-                "Humanities & Social Sciences"
-            ],
-            "responses": [
-                "Garima Singh is an Assistant Professor in the Humanities & Social Sciences department."
-            ]
-        },
-        {
-            "tag": "faculty_gaurav_ashok_bhaduri",
-            "patterns": [
-                "Gaurav Ashok Bhaduri",
-                "Assistant Professor",
-                "Bioscience and Bioengineering",
-                "Chemical Engineering"
-            ],
-            "responses": [
-                "Gaurav Ashok Bhaduri is an Assistant Professor in the Bioscience and Bioengineering and Chemical Engineering departments."
-            ]
-        },
-        {
-            "tag": "faculty_gaurav_varshney",
-            "patterns": [
-                "Gaurav Varshney",
-                "Assistant Professor",
-                "Computer Science & Engineering"
-            ],
-            "responses": [
-                "Gaurav Varshney is an Assistant Professor in the Computer Science & Engineering department."
-            ]
-        },
-        {
-            "tag": "faculty_goutam_dutta",
-            "patterns": [
-                "Goutam Dutta",
-                "Professor",
-                "Mechanical Engineering"
-            ],
-            "responses": [
-                "Goutam Dutta is a Professor in the Mechanical Engineering department."
-            ]
-        },
-        {
-            "tag": "Guru Brahamam Ramani",
-            "patterns": [
-                "Guru Brahamam Ramani",
-                "Assistant Professor",
-                "Chemistry"
-            ],
-            "responses": [
-                "Guru Brahamam Ramani is an Assistant Professor in the Chemistry department."
-            ]
-        },
-        {
-            "tag": "Hardeep Singh",
-            "patterns": [
-                "Hardeep Singh",
-                "Assistant Professor",
-                "Humanities & Social Sciences"
-            ],
-            "responses": [
-                "Hardeep Singh is an Assistant Professor in the Humanities & Social Sciences department."
-            ]
-        },
-        {
-            "tag": "Harkeerat Kaur",
-            "patterns": [
-                "Harkeerat Kaur",
-                "Assistant Professor",
-                "Computer Science & Engineering"
-            ],
-            "responses": [
-                "Harkeerat Kaur is an Assistant Professor in the Computer Science & Engineering department."
-            ]
-        },
-        {
-            "tag": "Jayaramulu Kolleboyina",
-            "patterns": [
-                "Jayaramulu Kolleboyina",
-                "Assistant Professor",
-                "Chemistry"
-            ],
-            "responses": [
-                "Jayaramulu Kolleboyina is an Assistant Professor in the Chemistry department."
-            ]
-        },
-        {
-            "tag": "Joby Varghese",
-            "patterns": [
-                "Joby Varghese",
-                "Assistant Professor",
-                "Humanities & Social Sciences"
-            ],
-            "responses": [
-                "Joby Varghese is an Assistant Professor in the Humanities & Social Sciences department."
-            ]
-        },
-        {
-            "tag": "Kancharla Hari Krishna",
-            "patterns": [
-                "Kancharla Hari Krishna",
-                "Assistant Professor",
-                "Materials Engineering"
-            ],
-            "responses": [
-                "Kancharla Hari Krishna is an Assistant Professor in the Materials Engineering department."
-            ]
-        },
-        {
-            "tag": "Kankat Ghosh",
-            "patterns": [
-                "Kankat Ghosh",
-                "Assistant Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Kankat Ghosh is an Assistant Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "Karan Nathwani",
-            "patterns": [
-                "Karan Nathwani",
-                "Associate Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Karan Nathwani is an Associate Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "Kousik Dhara",
-            "patterns": [
-                "Kousik Dhara",
-                "Assistant Professor",
-                "Mathematics"
-            ],
-            "responses": [
-                "Kousik Dhara is an Assistant Professor in the Mathematics department."
-            ]
-        },
-        {
-            "tag": "Kushmanda Saurav",
-            "patterns": [
-                "Kushmanda Saurav",
-                "Associate Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Kushmanda Saurav is an Associate Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "Manoj Singh Gaur",
-            "patterns": [
-                "Manoj Singh Gaur",
-                "Professor (Director)",
-                "Computer Science & Engineering"
-            ],
-            "responses": [
-                "Manoj Singh Gaur is a Professor (Director) in the Computer Science & Engineering department."
-            ]
-        },
-        {
-            "tag": "Meenakshi Rajeev",
-            "patterns": [
-                "Meenakshi Rajeev",
-                "Professor",
-                "Humanities & Social Sciences"
-            ],
-            "responses": [
-                "Meenakshi Rajeev is a Professor in the Humanities & Social Sciences department."
-            ]
-        },
-        {
-            "tag": "Mir Faizan Ul Haq",
-            "patterns": [
-                "Mir Faizan Ul Haq",
-                "Assistant Professor",
-                "Civil Engineering"
-            ],
-            "responses": [
-                "Mir Faizan Ul Haq is an Assistant Professor in the Civil Engineering department."
-            ]
-        },
-        {
-            "tag": "Mithu Baidya",
-            "patterns": [
-                "Mithu Baidya",
-                "Assistant Professor",
-                "Bioscience and Bioengineering"
-            ],
-            "responses": [
-                "Mithu Baidya is an Assistant Professor in the Bioscience and Bioengineering department."
-            ]
-        },
-        {
-            "tag": "Moni Kumari",
-            "patterns": [
-                "Moni Kumari",
-                "Assistant Professor",
-                "Mathematics"
-            ],
-            "responses": [
-                "Moni Kumari is an Assistant Professor in the Mathematics department."
-            ]
-        },
-        {
-            "tag": "Mrinmoy Bhattacharjee",
-            "patterns": [
-                "Mrinmoy Bhattacharjee",
-                "Assistant Professor",
-                "Computer Science & Engineering"
-            ],
-            "responses": [
-                "Mrinmoy Bhattacharjee is an Assistant Professor in the Computer Science & Engineering department."
-            ]
-        },
-        {
-            "tag": "Nalin Kumar Sharma",
-            "patterns": [
-                "Nalin Kumar Sharma",
-                "Assistant Professor",
-                "Electrical Engineering"
-            ],
-            "responses": [
-                "Nalin Kumar Sharma is an Assistant Professor in the Electrical Engineering department."
-            ]
-        },
-        {
-            "tag": "Navneet Kumar",
-            "patterns": [
-                "Navneet Kumar",
-                "Assistant Professor",
-                "Mechanical Engineering"
-            ],
-            "responses": [
-                "Navneet Kumar is an Assistant Professor in the Mechanical Engineering department."
-            ]
-        },
-        {
-            "tag": "Nitesh Kumar",
-            "patterns": [
-                "Nitesh Kumar",
-                "Assistant Professor",
-                "Materials Engineering"
-            ],
-            "responses": [
-                "Nitesh Kumar is an Assistant Professor in the Materials Engineering department."
-            ]
-        },
-        {
-            "tag": "Nitin Joshi",
-            "patterns": [
-                "Nitin Joshi",
-                "Assistant Professor",
-                "Civil Engineering"
-            ],
-            "responses": [
-                "Nitin Joshi is an Assistant Professor in the Civil Engineering department."
-            ]
-        },
-        {
-            "tag": "Nitin Kumar",
-            "patterns": [
-                "Nitin Kumar",
-                "Assistant Professor",
-                "Mathematics"
-            ],
-            "responses": [
-                "Nitin Kumar is an Assistant Professor in the Mathematics department."
-            ]
-        },
-        {
-            "tag": "Nityananda Sahu",
-            "patterns": [
-                "Nityananda Sahu",
-                "Assistant Professor",
-                "Chemistry"
-            ],
-            "responses": [
-                "Nityananda Sahu is an Assistant Professor in the Chemistry department."
+            "Ankit Tyagi is an Assistant Professor in the Chemical Engineering department."
             ]
         },
         {
             "tag": "Padmini Singh",
             "patterns": [
-                "Padmini Singh",
-                "Assistant Professor",
-                "Electrical Engineering"
+            "Who is Padmini Singh?",
+            "Tell me about Professor Padmini Singh",
+            "What department is Padmini Singh from?",
+            "Can you tell me about Dr. Singh from Electrical Engineering?"
             ],
             "responses": [
-                "Padmini Singh is an Assistant Professor in the Electrical Engineering department."
+            "Padmini Singh is an Assistant Professor in the Electrical Engineering department."
             ]
         },
         {
             "tag": "Pankaj Chauhan",
             "patterns": [
-                "Pankaj Chauhan",
-                "Associate Professor",
-                "Chemistry"
+            "Who is Pankaj Chauhan?",
+            "Tell me about Professor Chauhan",
+            "What does Pankaj Chauhan teach?",
+            "Can you tell me about Dr. Chauhan from Chemistry?"
             ],
             "responses": [
-                "Pankaj Chauhan is an Associate Professor in the Chemistry department."
+            "Pankaj Chauhan is an Associate Professor in the Chemistry department."
             ]
         },
         {
             "tag": "Parveen Kumar",
             "patterns": [
-                "Parveen Kumar",
-                "Assistant Professor",
-                "Physics"
+            "Who is Parveen Kumar?",
+            "Tell me about Professor Parveen Kumar",
+            "What department is Dr. Kumar from?",
+            "Can you tell me about Dr. Parveen from Physics?"
             ],
             "responses": [
-                "Parveen Kumar is an Assistant Professor in the Physics department."
+            "Parveen Kumar is an Assistant Professor in the Physics department."
             ]
         },
         {
             "tag": "Pervaiz Fathima Khatoon M",
             "patterns": [
-                "Pervaiz Fathima Khatoon M",
-                "Assistant Professor",
-                "Civil Engineering"
+            "Who is Pervaiz Fathima Khatoon?",
+            "Tell me about Professor Khatoon",
+            "What does Pervaiz Fathima teach?",
+            "Can you tell me about Dr. Khatoon from Civil Engineering?"
             ],
             "responses": [
-                "Pervaiz Fathima Khatoon M is an Assistant Professor in the Civil Engineering department."
+            "Pervaiz Fathima Khatoon M is an Assistant Professor in the Civil Engineering department."
             ]
         },
         {
             "tag": "Pothukuchi Harish",
             "patterns": [
-                "Pothukuchi Harish",
-                "Assistant Professor",
-                "Mechanical Engineering"
+            "Who is Pothukuchi Harish?",
+            "Tell me about Professor Harish",
+            "What department is Pothukuchi Harish from?",
+            "Can you tell me about Dr. Harish from Mechanical Engineering?"
             ],
             "responses": [
-                "Pothukuchi Harish is an Assistant Professor in the Mechanical Engineering department."
+            "Pothukuchi Harish is an Assistant Professor in the Mechanical Engineering department."
             ]
         },
         {
             "tag": "Prasant Singh",
             "patterns": [
-                "Prasant Singh",
-                "Assistant Professor",
-                "Mathematics"
+            "Who is Prasant Singh?",
+            "Tell me about Professor Prasant Singh",
+            "What does Prasant Singh teach?",
+            "Can you tell me about Dr. Singh from Mathematics?"
             ],
             "responses": [
-                "Prasant Singh is an Assistant Professor in the Mathematics department."
+            "Prasant Singh is an Assistant Professor in the Mathematics department."
             ]
         },
         {
             "tag": "Prasun Halder",
             "patterns": [
-                "Prasun Halder",
-                "Assistant Professor",
-                "Civil Engineering"
+            "Who is Prasun Halder?",
+            "Tell me about Professor Halder",
+            "What department is Prasun Halder from?",
+            "Can you tell me about Dr. Halder from Civil Engineering?"
             ],
             "responses": [
-                "Prasun Halder is an Assistant Professor in the Civil Engineering department."
+            "Prasun Halder is an Assistant Professor in the Civil Engineering department."
             ]
         },
         {
             "tag": "Pratik Kumar",
             "patterns": [
-                "Pratik Kumar",
-                "Assistant Professor",
-                "Civil Engineering"
+            "Who is Pratik Kumar?",
+            "Tell me about Professor Pratik Kumar",
+            "What does Pratik Kumar teach?",
+            "Can you tell me about Dr. Kumar from Civil Engineering?"
             ],
             "responses": [
-                "Pratik Kumar is an Assistant Professor in the Civil Engineering department."
+            "Pratik Kumar is an Assistant Professor in the Civil Engineering department."
             ]
         },
         {
             "tag": "Quleen Kaur Bijral",
             "patterns": [
-                "Quleen Kaur Bijral",
-                "Assistant Professor",
-                "Humanities & Social Sciences"
+            "Who is Quleen Kaur Bijral?",
+            "Tell me about Professor Bijral",
+            "What department is Quleen Kaur from?",
+            "Can you tell me about Dr. Bijral from Humanities?"
             ],
             "responses": [
-                "Quleen Kaur Bijral is an Assistant Professor in the Humanities & Social Sciences department."
+            "Quleen Kaur Bijral is an Assistant Professor in the Humanities & Social Sciences department."
             ]
         },
         {
             "tag": "Rahul Dattatraya Kitture",
             "patterns": [
-                "Rahul Dattatraya Kitture",
-                "Assistant Professor",
-                "Mathematics"
+            "Who is Rahul Dattatraya Kitture?",
+            "Tell me about Professor Kitture",
+            "What does Rahul Kitture teach?",
+            "Can you tell me about Dr. Kitture from Mathematics?"
             ],
             "responses": [
-                "Rahul Dattatraya Kitture is an Assistant Professor in the Mathematics department."
+            "Rahul Dattatraya Kitture is an Assistant Professor in the Mathematics department."
             ]
         },
         {
             "tag": "Rahul R Salunkhe",
             "patterns": [
-                "Rahul R Salunkhe",
-                "Associate Professor",
-                "Physics"
+            "Who is Rahul R Salunkhe?",
+            "Tell me about Professor Salunkhe",
+            "What department is Rahul Salunkhe from?",
+            "Can you tell me about Dr. Salunkhe from Physics?"
             ],
             "responses": [
-                "Rahul R Salunkhe is an Associate Professor in the Physics department."
+            "Rahul R Salunkhe is an Associate Professor in the Physics department."
             ]
         },
         {
             "tag": "Rajendra Kumar Varma",
             "patterns": [
-                "Rajendra Kumar Varma",
-                "Associate Professor",
-                "Civil Engineering"
+            "Who is Rajendra Kumar Varma?",
+            "Tell me about Professor Varma",
+            "What does Rajendra Varma teach?",
+            "Can you tell me about Dr. Varma from Civil Engineering?"
             ],
             "responses": [
-                "Rajendra Kumar Varma is an Associate Professor in the Civil Engineering department."
+            "Rajendra Kumar Varma is an Associate Professor in the Civil Engineering department."
             ]
         },
         {
             "tag": "Rajiv Kumar",
             "patterns": [
-                "Rajiv Kumar",
-                "Assistant Professor",
-                "Mathematics"
+            "Who is Rajiv Kumar?",
+            "Tell me about Professor Rajiv Kumar",
+            "What department is Rajiv Kumar from?",
+            "Can you tell me about Dr. Kumar from Mathematics?"
             ],
             "responses": [
-                "Rajiv Kumar is an Assistant Professor in the Mathematics department."
+            "Rajiv Kumar is an Assistant Professor in the Mathematics department."
             ]
         },
         {
             "tag": "Rajkumar V",
             "patterns": [
-                "Rajkumar V",
-                "Assistant Professor",
-                "Mechanical Engineering"
+            "Who is Rajkumar V?",
+            "Tell me about Professor Rajkumar",
+            "What does Rajkumar V teach?",
+            "Can you tell me about Dr. Rajkumar from Mechanical Engineering?"
             ],
             "responses": [
-                "Rajkumar V is an Assistant Professor in the Mechanical Engineering department."
+            "Rajkumar V is an Assistant Professor in the Mechanical Engineering department."
             ]
         },
         {
             "tag": "Rani Rohini",
             "patterns": [
-                "Rani Rohini",
-                "Assistant Professor",
-                "Materials Engineering"
+            "Who is Rani Rohini?",
+            "Tell me about Professor Rohini",
+            "What department is Rani Rohini from?",
+            "Can you tell me about Dr. Rohini from Materials Engineering?"
             ],
             "responses": [
-                "Rani Rohini is an Assistant Professor in the Materials Engineering department."
+            "Rani Rohini is an Assistant Professor in the Materials Engineering department."
             ]
         },
         {
             "tag": "Ravi Kumar Arun",
             "patterns": [
-                "Ravi Kumar Arun",
-                "Assistant Professor",
-                "Chemical Engineering"
+            "Who is Ravi Kumar Arun?",
+            "Tell me about Professor Arun",
+            "What does Ravi Kumar Arun teach?",
+            "Can you tell me about Dr. Arun from Chemical Engineering?"
             ],
             "responses": [
-                "Ravi Kumar Arun is an Assistant Professor in the Chemical Engineering department."
+            "Ravi Kumar Arun is an Assistant Professor in the Chemical Engineering department."
             ]
         },
         {
             "tag": "Ravikant Saini",
             "patterns": [
-                "Ravikant Saini",
-                "Associate Professor",
-                "Electrical Engineering"
+            "Who is Ravikant Saini?",
+            "Tell me about Professor Saini",
+            "What department is Ravikant Saini from?",
+            "Can you tell me about Dr. Saini from Electrical Engineering?"
             ],
             "responses": [
-                "Ravikant Saini is an Associate Professor in the Electrical Engineering department."
+            "Ravikant Saini is an Associate Professor in the Electrical Engineering department."
             ]
         },
         {
             "tag": "Rimen Jamatia",
             "patterns": [
-                "Rimen Jamatia",
-                "Assistant Professor",
-                "Civil Engineering"
+            "Who is Rimen Jamatia?",
+            "Tell me about Professor Jamatia",
+            "What does Rimen Jamatia teach?",
+            "Can you tell me about Dr. Jamatia from Civil Engineering?"
             ],
             "responses": [
-                "Rimen Jamatia is an Assistant Professor in the Civil Engineering department."
+            "Rimen Jamatia is an Assistant Professor in the Civil Engineering department."
             ]
         },
         {
             "tag": "Riya Bhowmik",
             "patterns": [
-                "Riya Bhowmik",
-                "Assistant Professor",
-                "Civil Engineering"
+            "Who is Riya Bhowmik?",
+            "Tell me about Professor Bhowmik",
+            "What department is Riya Bhowmik from?",
+            "Can you tell me about Dr. Bhowmik from Civil Engineering?"
             ],
             "responses": [
-                "Riya Bhowmik is an Assistant Professor in the Civil Engineering department."
+            "Riya Bhowmik is an Assistant Professor in the Civil Engineering department."
             ]
         },
         {
             "tag": "Rohit Buddhiram Chaurasiya",
             "patterns": [
-                "Rohit Buddhiram Chaurasiya",
-                "Assistant Professor",
-                "Electrical Engineering"
+            "Who is Rohit Buddhiram Chaurasiya?",
+            "Tell me about Professor Chaurasiya",
+            "What does Rohit Chaurasiya teach?",
+            "Can you tell me about Dr. Chaurasiya from Electrical Engineering?"
             ],
             "responses": [
-                "Rohit Buddhiram Chaurasiya is an Assistant Professor in the Electrical Engineering department."
+            "Rohit Buddhiram Chaurasiya is an Assistant Professor in the Electrical Engineering department."
             ]
         },
         {
             "tag": "Roshan Udaram Patil",
             "patterns": [
-                "Roshan Udaram Patil",
-                "Assistant Professor",
-                "Mechanical Engineering"
+            "Who is Roshan Udaram Patil?",
+            "Tell me about Professor Patil",
+            "What department is Roshan Patil from?",
+            "Can you tell me about Dr. Patil from Mechanical Engineering?"
             ],
             "responses": [
-                "Roshan Udaram Patil is an Assistant Professor in the Mechanical Engineering department."
+            "Roshan Udaram Patil is an Assistant Professor in the Mechanical Engineering department."
             ]
         },
         {
             "tag": "S. R. K. Chaitanya Indukuri",
             "patterns": [
-                "S. R. K. Chaitanya Indukuri",
-                "Assistant Professor",
-                "Physics"
+            "Who is S. R. K. Chaitanya Indukuri?",
+            "Tell me about Professor Indukuri",
+            "What does Chaitanya Indukuri teach?",
+            "Can you tell me about Dr. Indukuri from Physics?"
             ],
             "responses": [
-                "S. R. K. Chaitanya Indukuri is an Assistant Professor in the Physics department."
+            "S. R. K. Chaitanya Indukuri is an Assistant Professor in the Physics department."
             ]
         },
         {
