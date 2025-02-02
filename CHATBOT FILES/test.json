@@ -1,0 +1,113 @@
+{
+    "intents": [
+        {
+            "tag": "materials btech courses semester wise",
+            "patterns": [
+                "material courses btech",
+                "material structure",
+                "material"
+
+            ],
+            "responses": [
+                {
+                    "Semester 1": [
+                        "Basic English (HSS Core)",
+                        "Advanced English (HSS Core)",
+                        "Calculus (Science Core)",
+                        "Chemistry Laboratory (Science Core)",
+                        "Engineering Mechanics (Engineering Core)",
+                        "Computers and Programming (Engineering Core)",
+                        "CAD (Design Core)"
+                    ],
+                    "Semester 2": [
+                        "Physics (Science Core)",
+                        "Mathematics-II (Science Core)",
+                        "Introduction to Materials Science (Departmental Core)",
+                        "Basic Electronics (Engineering Core)",
+                        "Workshop Practice (Design Core)"
+                    ],
+                    "Semester 3": [
+                        "Thermodynamics of Materials (Departmental Core)",
+                        "Mechanical Behavior of Materials (Departmental Core)",
+                        "Phase Transformations (Departmental Core)",
+                        "Materials Characterization (Departmental Core)",
+                        "Mathematics-III (Science Core)"
+                    ],
+                    "Semester 4": [
+                        "Physical Metallurgy (Departmental Core)",
+                        "Ceramic and Polymer Materials (Departmental Core)",
+                        "Electrical and Magnetic Properties of Materials (Departmental Core)",
+                        "Computational Methods in Materials Science (Departmental Core)"
+                    ],
+                    "Semester 5": [
+                        "Materials Processing (Departmental Core)",
+                        "Mechanical Testing of Materials (Departmental Core)",
+                        "Open Elective-I",
+                        "Departmental Elective-I"
+                    ],
+                    "Semester 6": [
+                        "Corrosion and Surface Engineering (Departmental Core)",
+                        "Nanomaterials (Departmental Core)",
+                        "Open Elective-II",
+                        "Departmental Elective-II",
+                        "Industrial Training"
+                    ],
+                    "Semester 7": [
+                        "Advanced Manufacturing Processes (Departmental Elective)",
+                        "Materials for Energy Applications (Departmental Elective)",
+                        "Project Phase-I",
+                        "Open Elective-III"
+                    ],
+                    "Semester 8": [
+                        "Biomaterials (Departmental Elective)",
+                        "Failure Analysis and Prevention (Departmental Elective)",
+                        "Project Phase-II"
+                    ],
+                    "Note": "The Open Elective and Departmental Elective courses are available from the fifth semester onwards."
+                }
+            ]
+          },
+          {
+            "tag": "finance_and_accounts",
+            "patterns": [
+                "Finance and accounts",
+                "account management at iit jammu",
+                "Can you explain tell me about finance and accounts?",
+                "Details about finance and accounts",
+                "Financial transactions at IIT Jammu",
+                "Details about tell me about finance and accounts",
+                "I want to learn about financial transactions at iit jammu",
+                "Details about financial transactions at iit jammu",
+                "I want to learn about account management at iit jammu",
+                "Can you explain finance and accounts?",
+                "I want to learn about finance and accounts",
+                "I want to learn about tell me about finance and accounts",
+                "What do you know about tell me about finance and accounts?",
+                "Details about account management at iit jammu",
+                "finance and accounts",
+                "What do you know about account management at iit jammu?",
+                "What do you know about what does the finance section do??",
+                "financial transactions at iit jammu",
+                "Account management at IIT Jammu",
+                "Can you explain what does the finance section do??",
+                "I want to learn about what does the finance section do?",
+                "Can you explain account management at iit jammu?",
+                "what does the finance section do?",
+                "tell me about finance and accounts",
+                "What do you know about financial transactions at iit jammu?",
+                "What do you know about finance and accounts?",
+                "Can you explain financial transactions at iit jammu?",
+                "Tell me about finance and accounts",
+                "What does the finance section do?",
+                "Details about what does the finance section do?"
+            ],
+            "responses": [
+                "The accounts section of an academic institution is responsible for managing financial transactions and records. It handles budgeting, accounting, financial reporting, payroll, accounts payable and receivable, and statutory compliance."
+            ]
+        }
+          
+
+
+    ]
+
+}

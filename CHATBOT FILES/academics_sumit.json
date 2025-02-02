@@ -1,0 +1,1343 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Hi there",
+        "Greetings",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Greetings! Let me know how I can assist."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Catch you later",
+        "Talk to you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "Bye! Feel free to reach out again."
+      ]
+    },
+    
+    {
+      "tag": "btech_fullform",
+      "patterns": [
+        "What does BTech stand for?",
+        "Explain BTech full form."
+      ],
+      "responses": [
+        "BTech: Bachelor of Technology"
+      ]
+    },
+    {
+      "tag": "cgpa_fullform",
+      "patterns": [
+        "What is the full form of CGPA?",
+        "Explain CGPA full form."
+      ],
+      "responses": [
+        "CGPA: Cumulative Grade Point Average"
+      ]
+    },
+    {
+      "tag": "ug programmes",
+      "patterns": [
+        "What undergraduate programmes are offered by IIT Jammu?",
+        "List the UG programmes at IIT Jammu.",
+        "What are the BTech programmes available at IIT Jammu?",
+        "Tell me about the UG courses at IIT Jammu."
+      ],
+      "responses": [
+        "The following major undergraduate programmes are offered by IIT Jammu:\n- BTech in Chemical Engineering\n- BTech in Civil Engineering\n- BTech in Computer Science and Engineering\n- BTech in Electrical Engineering\n- BTech in Materials Engineering\n- BTech in Mathematics and Computing\n- BTech in Mechanical Engineering"
+      ]
+    },
+    {
+      "tag": "pg_programmes",
+      "patterns": [
+        "What postgraduate programmes are offered by IIT Jammu?",
+        "List the PG courses at IIT Jammu.",
+        "What are the MTech programmes available at IIT Jammu?",
+        "Tell me about the MSc and MS(R) courses at IIT Jammu.",
+        "What PG Diploma does IIT Jammu offer?"
+      ],
+      "responses": [
+        "The following postgraduate programmes are offered by IIT Jammu:\n\n- **MTech in Computer Science Engineering**\n- **MTech in Computer Science Engineering (3 years)**\n- **MTech in Electrical Engineering**\n  - Specialization in Communications and Signal Processing\n  - Specialization in VLSI Design\n- **MTech in Civil Engineering**\n  - Specialization in Tunnel Engineering\n  - Specialization in Structural Engineering\n- **MTech in Mechanical Engineering**\n  - Specialization in Thermal and Energy Systems Engineering\n- **MTech in Chemical Engineering**\n  - Specialization in Sustainable Energy Engineering\n- **Executive MTech in Artificial Intelligence and Machine Learning**\n- **MSc & MS(R) Chemistry**\n- **MSc Physics**\n- **PG Diploma in Cyber Security**"
+      ]
+    },
+    {
+      "tag": "phd_programmes",
+      "patterns": [
+        "What PhD programmes are offered by IIT Jammu?",
+        "List the departments offering PhD at IIT Jammu.",
+        "What are the research areas for PhD at IIT Jammu?",
+        "Tell me about the PhD courses at IIT Jammu."
+      ],
+      "responses": [
+        "PhD is offered by the following departments at IIT Jammu:\n\n- Bio-Sciences and Bio-Engineering\n- Chemical Engineering\n- Chemistry\n- Civil Engineering\n- Computer Science and Engineering\n- Electrical Engineering\n- Humanities and Social Sciences\n- Materials Engineering\n- Mathematics\n- Mechanical Engineering\n- Physics"
+      ]
+    },
+    {
+      "tag": "academic_administration",
+      "patterns": [
+        "Who oversees academic affairs at IIT Jammu?",
+        "What is the structure of academic administration at IIT Jammu?",
+        "Who are the key personnel in academic administration at IIT Jammu?",
+        "Explain the academic affairs administration at IIT Jammu.",
+        "Who are the key personnel in academic administration of IIT Jammu?"
+      ],
+      "responses": [
+        "The Academic Affairs Section at IIT Jammu works under the supervision of the Dean Academic Affairs, assisted by Associate Deans and the Assistant Registrar. The structure includes:\n\n- Dean Academic Affairs\n- Associate Dean (Curriculum, UG, PG)\n- Associate Dean (Research Programme & Interdisciplinary Programmes)\n- Deputy Registrar and Staff"
+      ]
+    },
+    {
+      "tag": "btech_programmes_admission",
+      "patterns": [
+        "How does the BTech admission procedure work at IIT Jammu?",
+        "Tell me about the BTech programmes and admission process at IIT Jammu.",
+        "What is the admission process for BTech at IIT Jammu?",
+        "How are students admitted to BTech programmes at IIT Jammu?"
+      ],
+      "responses": [
+        "IIT Jammu offers admissions into seven BTech programmes. Admissions are conducted through the Joint Seat Allocation Authority (JoSAA) and administered by the Joint Admission Board (JAB) at the all-India level. The BTech programme is a regular full-time residential programme that generally spans four academic years.\n\nThe admission procedure involves the following steps:\n\n1. After receiving the report of admitted students from JoSAA, the online verification, registration, and fee payment along with physical document verification are done.\n2. Once the process is complete, class work commences as per the semester schedule (available on the institute website).\n3. Students must register for courses each semester, which includes:\n   - Course offering by the departments\n   - Fee payment within the stipulated timeline defined in the semester schedule\n4. There are specific windows related to courses such as Course Approval/Add/Drop/Audit/Withdraw, defined in the Semester Schedule.\n5. Students should complete the semester course registration through these windows.\n6. Credit requirements for graduation are defined in Annexure A. Students should refer to this annexure while registering for courses.\n7. Change of specialization/internal sliding is not allowed after admission to IIT Jammu."
+      ]
+    },
+    {
+      "tag": "mtech_programmes",
+      "patterns": [
+        "What MTech programmes are offered by IIT Jammu?",
+        "Tell me about the MTech programmes at IIT Jammu.",
+        "What types of MTech programmes are available at IIT Jammu?",
+        "Explain the MTech admission procedure at IIT Jammu.",
+        "mtech admission"
+      ],
+      "responses": [
+        "IIT Jammu offers two types of MTech programmes:\n\n1. **Regular Full-Time MTech Programme**: This is a two or three-year programme wherein students stay on the campus throughout the duration of the programme.\n2. **Online Executive MTech Programme**: This programme is specifically aimed at working professionals, and students attend the classes online.\n\nIn the regular full-time category, the option of self-sponsorship is available in all specializations. Students can visit the institute's website for the minimum educational qualifications and other eligibility requirements for admission to an MTech programme."
+      ]
+    },
+    {
+      "tag": "mtech_admission_categories",
+      "patterns": [
+        "What are the categories of admission for MTech at IIT Jammu?",
+        "Explain the admission categories for MTech at IIT Jammu.",
+        "Tell me about the TA and RA categories for MTech admission.",
+        "What is the Teaching Assistant (TA) category for MTech admission?"
+      ],
+      "responses": [
+        "Candidates are admitted into the regular MTech programme at IIT Jammu under the following categories:\n\n1. **Teaching Assistant (TA)**: Students joining the MTech programme under the TA category assist in courses, laboratories, or any other related academic/administrative work for a maximum of eight hours per week, as assigned by the DPGC of the department concerned. The assistantship is available for a maximum of 24 months. The assistantship is paid based on monthly attendance and satisfactory performance in TA duties and research.\n\n2. **Research Assistant (RA)**: (No further details provided in the given data, but typically involves assisting in research projects.)"
+      ]
+    },
+    {
+      "tag": "mtech_admission_procedure",
+      "patterns": [
+        "What is the admission procedure for MTech at IIT Jammu?",
+        "Explain the MTech admission process at IIT Jammu.",
+        "How are students selected for MTech at IIT Jammu?",
+        "What are the eligibility criteria for MTech admission at IIT Jammu?"
+      ],
+      "responses": [
+        "The admission procedure for MTech programmes at IIT Jammu follows these steps:\n\n1. **Eligibility Criteria**: The departments offering the MTech programmes set minimum eligibility criteria, which are advertised.\n\n2. **Admission Process**: The admission process may be conducted through the Common Offer Acceptance Portal (COAP) or any similar procedure adopted by the institute.\n\n3. **Selection Criteria**: For candidates admitted through written tests/interviews, a minimum of 70% weightage is given to the GATE score in the final cumulative score for selection. For candidates opting for the self-sponsored MTech programme, GATE score is not required. The selection is conducted by individual departments through written exams and/or interviews.\n\n4. **Reservation of Seats**: The reservation of seats follows the rules notified by the Government of India from time to time.\n\n5. **Category Change**: Candidates admitted to an MTech programme under the RA category (three-year programme) cannot change their category to the TA category (two-year programme).\n\n6. **Specialization Change**: Change of specialization/internal sliding is not allowed after admission."
+      ]
+    },
+    {
+      "tag": "mtech_duration",
+      "patterns": [
+        "What is the duration of the MTech programme at IIT Jammu?",
+        "How long does it take to complete an MTech at IIT Jammu?",
+        "Tell me about the duration of the MTech programme.",
+        "How long is the MTech programme for TA and RA students?"
+      ],
+      "responses": [
+        "The MTech programme at IIT Jammu is offered in two regular semesters in a year: Autumn and Winter. The expected duration to complete the MTech degree is as follows:\n\n1. **PG students receiving TA**: A TA student is expected to complete all degree requirements in four semesters. An extension of up to two additional semesters (total of six semesters) may be allowed with Senate approval.\n\n2. **PG students receiving RA**: An RA student is expected to complete all degree requirements in six semesters. An extension of up to two additional semesters (total of eight semesters) may be allowed with Senate approval.\n\n3. **Extensions to the Programme**: Extensions can be granted under the following circumstances:\n   - Academic probation (Refer rule 1.5.6.1)\n   - Medical grounds\n   - Break for establishing a start-up or taking up a job\n\nFor further details, refer to the rules and regulations on the institute's website."
+      ]
+    },
+    {
+      "tag": "msc_ms_programmes intro",
+      "patterns": [
+        "What MSc and MS(R) programmes are offered by IIT Jammu?",
+        "Tell me about the MSc and MS(R) courses at IIT Jammu.",
+        "What are the eligibility criteria for MSc and MS(R) admission at IIT Jammu?",
+        "Explain the MSc and MS(R) admission process at IIT Jammu."
+      ],
+      "responses": [
+        "IIT Jammu offers postgraduate programmes in the science departments, specifically the **MSc** and **MS(R)** programmes, in the following departments:\n\n- **Physics**\n- **Chemistry**\n\nAdmission to these programmes is through the **Joint Admission Test for Masters (JAM)**. Minimum educational qualifications for admission to MSc and MS(R) programmes are available on the institute's website."
+      ]
+    },
+    {
+      "tag": "msc_ms_programmes_details",
+      "patterns": [
+        "Tell me more about the MSc and MS(R) programmes at IIT Jammu.",
+        "What is the duration of the MSc and MS(R) programmes?",
+        "What are the details about the MSc and MS(R) admission procedure at IIT Jammu?"
+      ],
+      "responses": [
+        "The **MSc** programme is a two-year course, while the **MS(R)** programme is a three-year course with a focus on research/dissertation in the last year.\n\n**Admission Procedure**:\n- The department offering the MSc/MS(R) programme adopts minimum eligibility criteria, which are advertised.\n- Admission is done through the **JAM portal** or any similar procedure adopted by the institute.\n- Reservation of seats follows the rules notified by the Government of India.\n- Change of specialization/internal sliding is not allowed after admission."
+      ]
+    },
+    {
+      "tag": "phd_admission_procedure",
+      "patterns": [
+        "What is the admission procedure for PhD programmes at IIT Jammu?",
+        "How are candidates selected for PhD at IIT Jammu?",
+        "Tell me about the admission process for PhD at IIT Jammu.",
+        "What are the eligibility criteria for PhD admission at IIT Jammu?"
+      ],
+      "responses": [
+        "Admission to the PhD programmes at IIT Jammu is based on a written test and/or an interview. The minimum educational qualifications for admission to the PhD programme are available on the institute's website.\n\n**Admission Procedure**:\n1. The shortlisting of applications for the purpose of admission tests and interviews is done by the respective departments.\n2. The selection process will be defined by the DPGC of the department separately, based on the requirements.\n3. The DPGC may set the shortlisting criteria higher than the advertised minimum eligibility criteria, if deemed necessary."
+      ]
+    },
+    {
+      "tag": "phd_reservations_quotas",
+      "patterns": [
+        "What are the reservations and quotas for PhD at IIT Jammu?",
+        "Tell me about the classifications for PhD admission at IIT Jammu.",
+        "How are applicants classified for PhD admission at IIT Jammu?",
+        "Explain the reservations and classifications for PhD at IIT Jammu."
+      ],
+      "responses": [
+        "The reservation of seats for PhD programmes at IIT Jammu is as per the rules notified by the Government of India from time to time.\n\n**Classifications**: Applicants for PhD admission are classified under any one of the following categories:\n\n1. **Institute Research Student/Candidate** (full-time)\n2. **Externally Funded Student** (full-time), financed by CSIR, UGC, or other nationally funded bodies.\n3. **Sponsored Research Student/Candidate** nominated by the Government of India under a cultural exchange scholarship programme, a self-financing foreign student, or a scholar admitted under an MoU (full-time).\n4. **Off-Campus Research Student** (part-time) with external funding.\n\nFurther details regarding reservations and classifications can be referred to on the institute's website."
+      ]
+    },
+    {
+      "tag": "executive_mtech",
+      "patterns": [
+        "What is the Executive MTech programme at IIT Jammu?",
+        "Tell me about the Executive MTech admission procedure at IIT Jammu.",
+        "What are the eligibility criteria for the Executive MTech programme?",
+        "Explain the Executive MTech admission process at IIT Jammu."
+      ],
+      "responses": [
+        "The **Executive MTech** programme at IIT Jammu is designed specifically for working professionals. The admission procedure and criteria for this programme are different from regular programmes, with appropriate weightage given to work experience in the field.\n\nInterested candidates can visit the institute's website for the minimum educational qualifications required for admission to the Executive MTech programme."
+      ]
+    },
+    {
+      "tag": "pg_diploma",
+      "patterns": [
+        "What is the PG Diploma in Cyber Security at IIT Jammu?",
+        "Tell me about the Postgraduate Diploma in Cyber Security at IIT Jammu.",
+        "What is the duration of the PG Diploma in Cyber Security?",
+        "Explain the PG Diploma admission at IIT Jammu."
+      ],
+      "responses": [
+        "The **Postgraduate Diploma** in Cyber Security at IIT Jammu is a 12-month programme designed for working professionals."
+      ]
+    },
+        {
+      "tag": "semester_system",
+      "patterns": [
+        "Tell me about the semester system at IIT Jammu",
+        "How many semesters are there in a year at IIT Jammu?",
+        "What is the duration of a semester at IIT Jammu?",
+        "Does IIT Jammu have a summer term?",
+        "Explain the academic calendar of IIT Jammu"
+      ],
+      "responses": [
+        "IIT Jammu follows a semester system with two regular semesters: the Autumn/Monsoon (odd) semester and the Winter/Spring (even) semester. Each semester consists of 14 weeks of instruction and about two weeks of exams and assessments. There is also an annual summer break of 10-12 weeks after the Winter Semester. A special 'Summer Term' of 10 weeks may be offered for backlog courses, with a compressed schedule where lectures/labs are conducted at a higher frequency."
+      ]
+    },
+
+    {
+      "tag": "schedule_and_hostel",
+      "patterns": [
+          "When does the academic year start at IIT Jammu?",
+          "What is the schedule of the academic year at IIT Jammu?",
+          "Do students have to vacate hostels during summer vacation at IIT Jammu?",
+          "Can undergraduate students stay in the hostel during summer vacation?",
+          "Are postgraduate students required to vacate hostels during summer break?",
+          "What are the hostel rules during summer vacation at IIT Jammu?"
+      ],
+      "responses": [
+          "The academic year at IIT Jammu begins in late July or early August and ends with a summer vacation of about 10-12 weeks. Undergraduate students must vacate the hostels during this period unless they have permission to stay for a project, internship, or summer courses. Postgraduate and doctoral students do not get this vacation, as they work on research problems and follow separate leave rules. Hostels may also accommodate visiting scholars during vacations, so students needing accommodation must plan in advance."
+      ]
+  },
+  {
+    "tag": "timetable",
+    "patterns": [
+        "Where can I find the IIT Jammu timetable?",
+        "When is the timetable for each semester released at IIT Jammu?",
+        "Is the IIT Jammu semester timetable available online?",
+        "How can I check my class schedule at IIT Jammu?",
+        "When does IIT Jammu publish the semester timetable?"
+    ],
+    "responses": [
+        "The timetable for each semester at IIT Jammu is uploaded on the institute website one week prior to the start date of the semester. You can find it here: [IIT Jammu Timetable](https://www.iitjammu.ac.in/time-table)."
+    ]
+}
+,
+{
+  "tag": "fees",
+  "patterns": [
+      "What is the fee structure ?",
+      "How can I pay my fees ?",
+      "Where can I find fee details?",
+      "Is fee payment required for course registration ?",
+      "What are the payment methods for fees ?",
+      "How to update my payment status after paying fees ?"
+  ],
+  "responses": [
+      "All students at IIT Jammu must pay the requisite fee to enroll in courses and access on-campus facilities. The fee payment is linked to course registration for each semester. For detailed fee structures, visit: [IIT Jammu Fee Details](https://iitjammu.ac.in/fee). Students can pay fees through their SARAL account or via NEFT/RTGS/Cheque/DD to the institute's bank account. If paying through NEFT/RTGS/Cheque/DD, students must submit the receipt through SARAL by raising a request under 'Updation of Payment Status' in the Student Request Portal."
+  ]
+}
+,
+{
+  "tag": "departmental_ug_committees",
+  "patterns": [
+      "What is the Departmental Undergraduate Committee ?",
+      "What does DUGC do at IIT Jammu?",
+      "Who oversees undergraduate courses in a department ?",
+      "What is the role of the UG committee in departments?",
+      "Who manages undergraduate academic matters ?"
+  ],
+  "responses": [
+      "Each department offering undergraduate degrees at IIT Jammu has a Departmental Undergraduate Committee (DUGC). The DUGC is responsible for administering the rules related to undergraduate courses and students. It also reports relevant matters to and from the Senate."
+  ]
+}
+,{
+  "tag": "senate_undergraduate_board",
+  "patterns": [
+      "What is the Senate Undergraduate Board?",
+      "What does SUGB do?",
+      "Who are the members of the SUGB?",
+      "What is the role of the SUGB in undergraduate academics?",
+      "Who oversees UG academic matters?"
+  ],
+  "responses": [
+      "The Senate Undergraduate Board (SUGB) is responsible for processing matters to be discussed in the Senate and overseeing the execution of Senate directives related to all undergraduate academic matters. The SUGB is chaired by the Dean (Academics) or a nominee appointed by the Director. Its members include the Dean and Associate Deans (Academics), chairpersons of all Departmental Undergraduate Committees (DUGCs), institute faculty members nominated by the Director, and two student representatives (one from the first/second year and one from the third/fourth year) nominated by the Senate of students."
+  ]
+},
+{
+  "tag": "faculty_advisor",
+  "patterns": [
+      "Who is the Faculty Advisor?",
+      "What is the role of a Faculty Advisor?",
+      "What does a Faculty Advisor do?",
+      "Who helps students with course registration?",
+      "Who provides academic guidance to students?"
+  ],
+  "responses": [
+      "Each undergraduate program in a department has a Faculty Advisor (FA) who guides students on academic matters and assists them with course registration choices."
+  ]
+}
+,{
+  "tag": "new_undergraduate_courses",
+  "patterns": [
+      "How are new undergraduate courses introduced?",
+      "Who approves new UG courses?",
+      "What is the process for adding a new undergraduate course?",
+      "How are curricular modifications made?",
+      "Who reviews new UG course proposals?"
+  ],
+  "responses": [
+      "When new undergraduate course proposals or curricular modifications are forwarded by the Departmental Undergraduate Committee (DUGC), the Senate Undergraduate Board (SUGB) examines them and submits recommendations to the Senate for approval."
+  ]
+}
+,{
+  "tag": "undergraduate_student_requests",
+  "patterns": [
+      "How can undergraduate students submit requests?",
+      "Where can students appeal academic matters?",
+      "Who handles undergraduate student appeals?",
+      "How do students approach SUGB?",
+      "What is the process for student requests and appeals?"
+  ],
+  "responses": [
+      "Undergraduate students can submit requests and appeals to the Senate Undergraduate Board (SUGB) through their Faculty Advisor (FA) and the Departmental Undergraduate Committee (DUGC)."
+  ]
+}
+,{
+  "tag": "undergraduate_issue_escalation",
+  "patterns": [
+      "What happens if SUGB cannot resolve a student issue?",
+      "Where are unresolved academic issues sent?",
+      "Who handles complex undergraduate academic issues?",
+      "What if there is no clarity on a student issue?",
+      "How are student issues escalated?"
+  ],
+  "responses": [
+      "If the Senate Undergraduate Board (SUGB) cannot resolve an academic issue or if there is no clarity on the matter, the case may be forwarded to the Senate for further review and resolution."
+  ]
+}
+,{
+  "tag": "department_pg_committee",
+  "patterns": [
+      "What is the Departmental Postgraduate Committee?",
+      "What does DPGC do?",
+      "Who oversees postgraduate courses?",
+      "Who manages PG academic matters?",
+      "How are postgraduate rules administered?"
+  ],
+  "responses": [
+      "Each department offering postgraduate degrees (MSc, MS(R), M.Tech, PhD) has a Departmental Postgraduate Committee (DPGC). The DPGC is responsible for administering rules related to postgraduate courses and students, as well as reporting matters to and from the Senate."
+  ]
+}
+,{
+  "tag": "senate_postgraduate_board",
+  "patterns": [
+      "What is the Senate Postgraduate Board?",
+      "What does SPGB do?",
+      "Who are the members of the Senate Postgraduate Board?",
+      "What is the role of the SPGB in postgraduate academics?",
+      "Who oversees PG academic matters?"
+  ],
+  "responses": [
+      "The Senate Postgraduate Board (SPGB) is responsible for processing matters to be discussed in the Senate and overseeing the execution of Senate directives related to all postgraduate academic matters. The SPGB is chaired by the Dean (Academics), or a nominee appointed by the Director. Its members include the Dean and Associate Deans (Academics), chairpersons of all Departmental Postgraduate Committees (DPGCs), faculty members nominated by the Director, and three student representatives: one from the first-year M.Tech batch, one from the second-year M.Tech batch, and one from the Ph.D. students, nominated by the Senate of students."
+  ]
+}
+,{
+  "tag": "programme_coordinator",
+  "patterns": [
+      "What is the role of a Programme Coordinator?",
+      "Who advises postgraduate students on their program?",
+      "What does a Programme Coordinator do?",
+      "Who helps PG students with academic matters?",
+      "What is the responsibility of a Programme Coordinator?"
+  ],
+  "responses": [
+      "Each postgraduate program in a department has a Programme Coordinator (PC), who is responsible for advising postgraduate students on matters related to their program."
+  ]
+}
+,
+  {
+      "tag": "new_postgraduate_courses",
+      "patterns": [
+          "How are new postgraduate courses introduced?",
+          "Who approves new PG courses?",
+          "What is the process for adding a new postgraduate course?",
+          "How are curricular modifications made for postgraduate courses?",
+          "Who reviews new PG course proposals?"
+      ],
+      "responses": [
+          "When new postgraduate course proposals or curricular modifications are forwarded by the Departmental Postgraduate Committee (DPGC), the Senate Postgraduate Board (SPGB) discusses them and submits recommendations to the Senate for approval."
+      ]
+  },
+  {
+      "tag": "postgraduate_student_requests",
+      "patterns": [
+          "How can postgraduate students submit requests?",
+          "Where can PG students appeal academic matters?",
+          "Who handles postgraduate student appeals?",
+          "How do PG students approach SPGB?",
+          "What is the process for student requests and appeals in PG programs?"
+      ],
+      "responses": [
+          "Postgraduate students can submit requests and appeals to the Senate Postgraduate Board (SPGB) through their Programme Coordinator (PC) and the Departmental Postgraduate Committee (DPGC). The SPGB will resolve the issues and communicate the decisions to the concerned student or person and the DPGC."
+      ]
+  },
+  {
+      "tag": "escalation_of_postgraduate_student_requests",
+      "patterns": [
+          "What happens if SPGB cannot resolve a student issue?",
+          "Where are unresolved postgraduate academic issues sent?",
+          "Who handles complex postgraduate academic issues?",
+          "What if there is no clarity on a PG student issue?",
+          "How are postgraduate student issues escalated?"
+      ],
+      "responses": [
+          "If the Senate Postgraduate Board (SPGB) cannot resolve an academic issue or if there is no clarity on the matter, the case may be forwarded to the Senate for further review and resolution."
+      ]
+  },
+  {
+      "tag": "postgraduate_semester_drop",
+      "patterns": [
+          "Can a postgraduate student drop a semester?",
+          "What is the process for a PG semester drop?",
+          "Can a student take a break from their postgraduate program?",
+          "Under what circumstances can a PG student drop a semester?",
+          "What are the conditions for a postgraduate student to drop a semester?"
+      ],
+      "responses": [
+          "Postgraduate students can drop an entire semester, subject to prior approval from the Senate Postgraduate Board (SPGB). This provision may be allowed in cases of medical issues or if the student requires a break for starting a business or taking up a job."
+      ]
+  }
+,{
+  "tag": "phd_students",
+  "patterns": [
+      "What is the role of a PhD supervisor?",
+      "How are PhD students advised?",
+      "Who supervises PhD students?",
+      "How do PhD students handle academic issues?",
+      "What is the procedure for PhD students to resolve issues?"
+  ],
+  "responses": [
+      "Every PhD student at the institute has a main supervisor from the institute. PhD students can approach the Departmental Postgraduate Committee (DPGC) for any issues and follow the same procedure as other postgraduate students, except that their Programme Coordinator (PC) is replaced by their Supervisor."
+  ]
+}
+,{
+  "tag": "curricular_credits",
+  "patterns": [
+      "What is the total number of credits required for the B.Tech program?",
+      "How many curricular credits are required for graduation?",
+      "What are the categories of credits in the B.Tech program?",
+      "Can you explain the credit distribution for the B.Tech program?",
+      "What are the required credits for each semester?"
+  ],
+  "responses": [
+      "The total credits required for the B.Tech program is between 138-144 curricular credits, along with 8 co-curricular credits. The credit distribution is as follows:\n\n- Institute Core (54-63 credits)\n- HSS Core (6 credits)\n- Science Core (18.5 credits)\n- Engineering Core (18-27 credits)\n- Design Core (1.5-2 credits each, totaling 7.5-10.5 credits)\n- Departmental Courses (51-57 credits), including Departmental Core and Elective courses\n- Interdisciplinary (18 credits minimum, with 6 from HSS)\n- Open Elective (18 credits)\n- Project (9 credits)\n- Minor/Specialization (if opted, 12 extra credits)\n\nCo-curricular credits (minimum of 8) are also compulsory, starting from 1 credit per semester from the 1st semester."
+  ]
+}
+,{
+  "tag": "credit_load_flexibility",
+  "patterns": [
+      "How does IIT Jammu manage credit load for students with different CGPA levels?",
+      "What is the credit flexibility offered for high-performing students?",
+      "How are credits managed for students with backlogs?",
+      "What is the credit load allowed for students with a CGPA of less than 6?",
+      "Can students take more credits than usual if they have a high CGPA?",
+      "How does IIT Jammu handle credit limits for students with backlogs?",
+      "What are the credit limits based on CGPA and backlogs?",
+      "What is the process for students with backlogs to register for courses?",
+      "What credit load is allowed for students with different CGPA and backlog statuses?",
+      "How are credits assigned to students with no backlogs at IIT Jammu?"
+  ],
+  "responses": [
+      "IIT Jammu offers flexibility in credit load based on the student's CGPA and backlog status. High-performing students may take additional credits, choose minors, specialize in their major, or take electives during the summer. On the other hand, students with backlogs are given fewer credits to help them focus on clearing their pending courses. Below is the guidance for credit load based on CGPA and backlogs:\n\n- CGPA ≥ 7, no backlog or cleared backlog: CR+6 credits\n- CGPA ≥ 7, cleared backlog: CR+3 credits\n- CGPA ≥ 7, with 2 or fewer backlogs: CR+3 credits\n- CGPA ≥ 7, with more than 2 backlogs: CR credits\n- CGPA between 6 and 7, no backlog or cleared backlog: CR credits\n- CGPA between 6 and 7, with 1 or more backlogs: CR credits\n- CGPA ≤ 6, with 1 to 3 backlogs: CR credits\n- CGPA ≤ 6, with more than 5 backlogs: 12 credits\n- Any CGPA, with 8 or more backlogs: 9 credits\n\nCourses are divided into Institute Core Courses, Departmental Courses, and Co-curricular Activities, with specific credit limits and flexibility for each category."
+  ]
+}
+,
+{
+  "tag": "course_evaluation",
+  "patterns": [
+      "How are students evaluated in UG 2022 curriculum courses?",
+      "What is the evaluation method for undergraduate courses?",
+      "What components contribute to the final grade in a course?",
+      "How are class tests and assignments factored into the grade?",
+      "What is the weightage of the end-semester exam in a course?",
+      "How is the final grade determined for UG 2022 curriculum courses?",
+      "What percentage of the final grade does the end-semester exam contribute?",
+      "Can assignments and practicals contribute to the final grade in UG courses?",
+      "What is the typical evaluation scheme for theory courses?",
+      "What is the evaluation scheme for mixed theory and lab courses?"
+  ],
+  "responses": [
+      "In the UG 2022 curriculum, students are evaluated through a combination of class tests, assignments, practicals, mid-semester exams, end-semester exams, and term papers. The distribution of marks is as follows:\n\n- Class tests, assignments, and practicals: Up to 50% of the final grade.\n- End-semester exam: Typically contributes 40-60% to the final grade.\n- The exact distribution is decided by the Course Coordinator/Instructor and announced at the start of the course.\n\nFor a typical course, the following evaluation scheme is used:\n\n- Mid-semester exam: 10-20% weightage, duration of 1-2 hours.\n- End-semester exam: 40-60% weightage, duration of 2-3 hours.\n- Assignments: 0-25% weightage.\n- Quizzes: 30 minutes, 0-20% weightage.\n- Term papers/projects: 0-20% weightage.\n- Attendance: 0-5% weightage.\n\nFor mixed theory and lab courses:\n- Laboratory Practicals: 25-35% weightage, with 7-14 sessions throughout the semester.\n- Mid-semester exam: 10-20% weightage.\n- End-semester exam: 30-50% weightage.\n\nThe Course Coordinator/Instructor will provide the specific details at the start of the course."
+  ]
+},
+{
+  "tag": "grading_system",
+  "patterns": [
+      "What is the grading system followed at IIT Jammu?",
+      "How are grades assigned in IIT Jammu courses?",
+      "What does each grade mean in the grading system?",
+      "What is the meaning of 'II' and 'WW' grades?",
+      "How is the 'SS' grade different from the 'UU' grade?",
+      "What does 'SA' stand for in auditing a course?",
+      "What happens if a student receives an 'FF' grade?",
+      "How can a student improve a grade of 'CD' or 'DD'?",
+      "How many courses can a student repeat for grade improvement?",
+      "What is the maximum grade point a student can achieve in IIT Jammu?"
+  ],
+  "responses": [
+      "IIT Jammu follows a mixed relative grading system where the grade in a course reflects both a student's standing among peers and their absolute knowledge in the subject.\n\nHere are the meanings of different grades:\n\n- AA: 10 grade points\n- AB: 9 grade points\n- BB: 8 grade points\n- BC: 7 grade points\n- CC: 6 grade points\n- CD: 5 grade points\n- DD: 4 grade points\n- FF: 0 grade points (Failure, no credits earned)\n- SA: Satisfactory Audit Grade (Does not contribute to GPA calculation)\n- UA: Unsatisfactory Audit Grade (Does not contribute to GPA calculation)\n- II: Incomplete grade (Awarded due to medical reasons or special circumstances, student must meet attendance criteria)\n- WW: Withdrawal grade (Student opts to withdraw from the course)\n- SS: Satisfactory performance in co-curricular activities\n- UU: Unsatisfactory performance in co-curricular activities\n\nThe 'FF' grade is for failed courses, and if the course is a core requirement, it must be repeated. A student may appeal a failing grade. If a student gets a 'CD' or 'DD' grade, they can repeat the course within the next two semesters to improve the grade. A student can repeat a maximum of two courses during the BTech program for grade improvement."
+  ]
+}
+,{
+  "tag": "grade_improvement_and_gpa",
+  "patterns": [
+      "How many attempts are allowed for grade improvement in a course?",
+      "Can a student repeat a course for grade improvement after failing?",
+      "Is it possible to substitute a course for grade improvement?",
+      "What is SGPA and how is it calculated?",
+      "What is the difference between SGPA and CGPA?",
+      "Can a student repeat a course after the eighth semester?",
+      "What are the rules for grade improvement in IIT Jammu?",
+      "Is overstay beyond the eighth semester allowed for grade improvement?"
+  ],
+  "responses": [
+      "A student is allowed only one attempt for grade improvement in a particular course. The second attempt is permitted, but it should not cause an overstay in IIT beyond the eighth semester.\n\nGrade improvement cannot be done by substituting the course. The student must repeat the same course to improve the grade.\n\nThe average of the grade points obtained in a semester is called SGPA (Semester Grade Point Average). The average over all the previous semesters, including the present semester, is called CGPA (Cumulative Grade Point Average). For more details, refer to Rule 1.1.8."
+  ]
+}
+,
+{
+  "tag": "phd_grading_pattern_and_analysis",
+  "patterns": [
+      "What is the minimum number of GPEC required for PhD students?",
+      "Can an MSc holder register for a PhD in engineering?",
+      "What happens if a PhD student's CGPA is below 7.0 after the second semester?",
+      "What is the minimum CGPA requirement for PhD candidacy?",
+      "How is a PhD student's academic progress monitored?",
+      "How many courses must a new PhD student register for in the first semester?",
+      "What happens if a PhD student receives two consecutive 'UU' grades?",
+      "What is the evaluation process for a PhD student's progress?",
+      "What grade is awarded if a PhD student's progress is satisfactory?",
+      "What is the final evaluation for a PhD student in their last semester?"
+  ],
+  "responses": [
+      "PhD students with a BTech or equivalent degree must complete a minimum of 24 Grade Point Earning Credits (GPEC). If they hold an MTech/MSc (& MA) or equivalent degree, they need to complete at least 12 GPEC. For those with an MSc degree wanting to register for a PhD in an engineering discipline, they must complete 15 GPEC. In addition, two credit-earning courses must be taken, totaling 4 credits.\n\nNew PhD students are required to register for at least two GPEC courses in the first semester. If the CGPA falls below 7.0 after the second semester, registration may be terminated, but students can appeal to the SPGB.\n\nProgress will be monitored through evaluations by the DPGC/SRC, and an overall ‘SS’ grade will be awarded if progress is satisfactory. Two consecutive 'UU' grades lead to automatic termination of registration. The final evaluation is made during the last semester with the presentation of the PhD thesis draft (Synopsis)."
+  ]
+}
+,{
+  "tag": "attendance_criteria",
+  "patterns": [
+      "What is the minimum attendance requirement for UG students to write the final exam?",
+      "What is the attendance requirement for PG students to write the final exam?",
+      "What happens if a PhD student attends less than 80% of the classes?",
+      "How is attendance calculated for UG, PG, and PhD students?",
+      "Is there any relaxation in attendance for UG students?",
+      "Can a student be given additional attendance credit?",
+      "What is the minimum attendance requirement for PhD students?",
+      "What happens if a PhD student's attendance falls below 80% in a course?"
+  ],
+  "responses": [
+      "For UG students, a minimum of 70% attendance is required to be eligible to write the final exam. However, additional relaxation of up to 30% is provided for participation in extra-curricular activities or medical emergencies.\n\nPG students must have a minimum of 75% attendance to be eligible to write the final exam.\n\nPhD students are required to attend at least 80% of classes in each course they are registered for. If their attendance falls below 80% in any course, they will receive a fail grade in that course.\n\nCourse coordinators may assign an additional 5% grade based on attendance, as stated at the beginning of the course."
+  ]
+}
+,{
+  "tag": "leave_policy_pg",
+  "patterns": [
+      "How many days of leave are MTech students entitled to per semester?",
+      "Can MTech students carry forward their leave to the next year?",
+      "What is special casual leave for MTech students?",
+      "Can MTech students avail leave for attending seminars or conferences?",
+      "How can MTech students apply for special casual leave?",
+      "Who approves the leave for MTech students to attend seminars/workshops/conferences?",
+      "Can MTech students take leave for other academic purposes?"
+  ],
+  "responses": [
+      "MTech students are entitled to 15 days of leave per semester, in addition to public holidays.\n\nLeave cannot be carried forward from the first/second year to the second/third year.\n\nMTech students can avail special casual leave for five working days per semester to attend or present a research paper/poster at seminars, workshops, conferences, or symposia, subject to a favourable recommendation from one of their supervisors and approval from the head of the department.\n\nLeave for other academic purposes beyond the mentioned categories can also be sanctioned by the Dean (Academics), with a favourable recommendation from one of the supervisors and the Chairperson, DPGC."
+  ]
+}
+,{
+  "tag": "leave_policy_phd",
+  "patterns": [
+      "How many days of leave are PhD students entitled to per academic year?",
+      "Can PhD students take leave for medical grounds?",
+      "Do PhD students get mid-semester breaks or vacations?",
+      "Can PhD students take more than 30 days of leave?",
+      "What are the conditions for leave beyond 30 days for PhD students?",
+      "Can a female PhD student take maternity leave with assistantship?",
+      "How long is maternity leave for female PhD students?",
+      "Is paternity leave available for male PhD students?",
+      "How long is the paternity leave for male PhD students?",
+      "Can female PhD students extend their scholarship for a 6th year?"
+  ],
+  "responses": [
+      "A full-time PhD student is entitled to 30 days of leave per academic year on a pro-rata basis (2.5 days per month), and an additional 10 days of leave for medical grounds per academic year.\n\nPhD students are not entitled to mid-semester breaks, summer, or winter vacations.\n\nLeave beyond 30 days may be granted in exceptional cases by the head of the department, with the following conditions:\n- Leave beyond 30 days is without assistantship/scholarship.\n- Extension of up to an additional 30 days is allowed only once during the programme.\n- The leave must be approved by the head of the department/programme coordinator, based on the supervisor's recommendation.\n\nA female PhD student is eligible for maternity leave with assistantship for up to 180 days once during the PhD programme. This period is within the maximum limit of five years, and if maternity leave is taken during coursework, the student must complete the coursework upon resuming.\n\nA male PhD student is eligible for paternity leave with assistantship for up to 15 days once during the tenure of the award.\n\nIn special cases, female PhD scholars may be given an extension with a scholarship for the 6th year. Further information is available on the Institute website."
+  ]
+}
+,{
+  "tag": "ethics_disciplinary_actions",
+  "patterns": [
+      "What is the honor code at IIT?",
+      "What happens if a student cheats in an exam?",
+      "Is cheating in assignments allowed?",
+      "What are the consequences of plagiarism?",
+      "What counts as plagiarism at the institute?",
+      "Can I copy from books or the internet for assignments?",
+      "What happens if someone is caught using a mobile phone in an exam?",
+      "What is self-plagiarism?",
+      "Is a plagiarism check required for thesis submission?",
+      "What are the punishments for academic dishonesty?"
+  ],
+  "responses": [
+      "IIT Jammu follows an honour code where students commit to maintaining integrity and honesty in academics. Any form of cheating or dishonest method to earn marks, grades, or credits is strictly prohibited.\n\nCheating in assignments, lab reports, or term papers—including copying from others, books, the internet, or impersonation—is considered academic malpractice and can lead to severe consequences.\n\nCheating in exams, such as copying, helping others copy, or using mobile phones or communication devices, results in immediate disciplinary action. Invigilators note the evidence and prevent the student from continuing the exam.\n\nPlagiarism, which is the attempt to pass off others' work as one's own, is a serious offense. This includes copying text, figures, tables, or ideas without proper attribution. Self-plagiarism, or reusing one’s previously published work without permission, is also not allowed. For theses and long documents, a plagiarism check is mandatory before submission.\n\nViolations of academic integrity can result in strict disciplinary actions, including dismissal and expulsion from the institute."
+  ]
+}
+,{
+  "tag": "disciplinary_actions",
+  "patterns": [
+      "What are the consequences of academic misconduct?",
+      "What happens if a student is caught cheating?",
+      "How is plagiarism handled at the institute?",
+      "What are the punishments for cheating in an exam?",
+      "Can a student be expelled for academic dishonesty?",
+      "Who handles cases of cheating and plagiarism?",
+      "What is the role of the disciplinary committee?",
+      "How are disciplinary cases escalated?",
+      "What happens if SPGB cannot resolve an academic issue?"
+  ],
+  "responses": [
+      "Cases of academic cheating and plagiarism, when caught by an invigilator, examiner, or instructor, can lead to immediate intervention, such as stopping the examination or assignment in progress. The case must be reported to the department’s DUGC (for undergraduates) or DPGC (for postgraduates), which will then escalate it to the Institute Disciplinary Committee. This committee conducts an inquiry and recommends appropriate punishments.\n\nThe punishment for cheating can range from failure in the course to suspension for a semester, and in severe cases, expulsion from the institute. If the Student Performance and Grievance Board (SPGB) is unable to resolve an academic issue, the case may be forwarded to the Senate for further review."
+  ]
+}
+,{
+  "tag": "fellowship",
+  "patterns": [
+      "What is the fellowship for graduated UG/PG students?",
+      "Is there any fellowship for IIT Jammu graduates?",
+      "Can a graduate continue research with a faculty at IIT Jammu?",
+      "What are the details of the institute’s fellowship?",
+      "How long is the fellowship for IIT Jammu graduates?",
+      "What are the requirements for the post-graduation fellowship?",
+      "Do I need to submit a report for the IIT Jammu fellowship?",
+      "Who supervises the fellowship for graduated students?"
+  ],
+  "responses": [
+      "IIT Jammu offers a three-month fellowship for UG/PG students who have graduated and wish to continue working with a faculty member. Fellows will be associated with a faculty supervisor, who will monitor their work progress. Participants must follow the specific plan proposed and submit a summary of their completed work near the end of the three-month period before applying for a no-dues/experience certificate."
+  ]
+}
+,[
+  {
+      "tag": "early_postdoc_fellowship",
+      "patterns": [
+          "What is the Early Post-Doctoral Fellowship at IIT Jammu?",
+          "Is there a fellowship for PhD graduates at IIT Jammu?",
+          "Who is eligible for the Early Post-Doctoral Fellowship?",
+          "How long is the post-doctoral fellowship at IIT Jammu?",
+          "What is the purpose of the Early Post-Doctoral Fellowship?",
+          "Do I need to submit a report for the Early Post-Doctoral Fellowship?"
+      ],
+      "responses": [
+          "IIT Jammu offers a three-month Early Post-Doctoral Fellowship for full-time PhD students who have completed their Oral Defense. This fellowship aims to provide support during the initial career phase, helping fellows complete pending manuscripts or apply for other funding opportunities. Fellows must follow the specific plan proposed in their application and submit a summary of completed work near the end of the fellowship before applying for a no-dues/experience certificate. More details are available on the institute website."
+      ]
+  },
+  {
+      "tag": "international_internship_funding",
+      "patterns": [
+          "Does IIT Jammu provide financial support for international internships?",
+          "Can PhD students get funding for research internships abroad?",
+          "What is the financial support for international internships?",
+          "Who is eligible for the international internship funding?",
+          "How many PhD students get financial support for international internships?",
+          "Can I apply for funding for an international research internship at IIT Jammu?"
+      ],
+      "responses": [
+          "IIT Jammu provides partial financial support for PhD students seeking internships at internationally acclaimed academic and research institutes. This initiative helps scholars gain better research experience and foster international collaborations. Financial support can be availed once during the entire PhD program, with a maximum of 10 students receiving funding per academic year (5 per semester). More details are available on the institute website."
+      ]
+  }
+]
+,[
+  {
+      "tag": "ug_merit_cum_means_scholarship",
+      "patterns": [
+          "What is the Merit-cum-Means (MCM) scholarship at IIT Jammu?",
+          "Who is eligible for the MCM scholarship?",
+          "How much is the MCM scholarship amount?",
+          "Can I apply for MCM if I have a backlog?",
+          "Is MCM available for all categories?",
+          "What is the income limit for the MCM scholarship?"
+      ],
+      "responses": [
+          "The Merit-cum-Means (MCM) scholarship at IIT Jammu is offered to a maximum of 25% of students in each branch. It is available only for General, OBC-NCL, and EWS category students. The benefits include a tuition fee refund and Rs 1,000/- per month. Eligibility criteria include:\n\n1. For new admissions, JEE Advanced Rank is considered for merit.\n2. For existing students, SGPA & CGPA must be ≥6.0 with no more than 2 backlogs.\n3. The Gross Annual Family Income must be ≤ Rs. 4.50 Lakh.\n4. Students receiving MCM cannot apply for other scholarships from government, private, or institutional sources.\n5. Students availing the scholarship in a semester cannot withdraw/drop that semester without refunding the availed amount."
+      ]
+  },
+  {
+      "tag": "ug_free_messing_scholarship",
+      "patterns": [
+          "What is the Free Messing scholarship at IIT Jammu?",
+          "Who is eligible for free messing?",
+          "Does IIT Jammu provide free mess for SC/ST students?",
+          "What are the benefits of free messing?",
+          "Can I get free messing if my family income is above Rs. 4.50 lakh?",
+          "Is there a CGPA requirement for Free Messing?"
+      ],
+      "responses": [
+          "The Free Messing scholarship at IIT Jammu is available only to SC, ST, and PWD category students whose Gross Annual Family Income is ≤ Rs. 4.50 Lakh. It includes free mess (basic menu) and a pocket allowance of Rs. 250 per month (only for months with active classes). Renewal requires an SGPA & CGPA ≥6.0 with no more than 2 backlogs. Students receiving this scholarship cannot apply for other scholarships from government, private, or institutional sources."
+      ]
+  },
+  {
+      "tag": "ug_freeship_scholarship",
+      "patterns": [
+          "What is the Freeship scheme at IIT Jammu?",
+          "Who is eligible for Freeship?",
+          "Is tuition fee remission available for General/OBC/EWS students?",
+          "How many students get tuition fee remission?",
+          "Can I apply for both MCM and Freeship?"
+      ],
+      "responses": [
+          "The Freeship scheme at IIT Jammu provides tuition fee remission to up to 10% of General, OBC-NCL, and EWS students (branch-wise) in a particular batch. More details regarding eligibility and application can be found on the institute website."
+      ]
+  }
+]
+,{
+  "tag": "ug_fees_remission_scholarship",
+  "patterns": [
+      "What is the Remission of Fee scholarship at IIT Jammu?",
+      "Who is eligible for the Freeship scheme?",
+      "What is the income limit for tuition fee remission?",
+      "Can General category students apply for fee remission?",
+      "What CGPA is required for tuition fee remission?",
+      "Can I apply for both MCM and Freeship?",
+      "How many students get tuition fee remission at IIT Jammu?"
+  ],
+  "responses": [
+      "The Remission of Fee scholarship at IIT Jammu is available only for General, OBC-NCL, and EWS category students who are not covered under the Merit-cum-Means (MCM) scholarship. It is awarded to a maximum of 10% of remaining students in each branch every semester.\n\n**Eligibility Criteria:**\n1. Gross Annual Family Income must be between Rs. 1.00 Lakh and Rs. 4.50 Lakh.\n2. For new admissions (Autumn Semester), JEE Advanced Rank is considered.\n3. For existing students (Spring & Autumn Semester), SGPA & CGPA must be ≥6.0 with no more than 2 backlogs.\n4. Students availing this scholarship cannot apply for any other government, semi-government, institutional, or private scholarships."
+  ]
+}
+,{
+  "tag": "ug_quest_fee_waiver",
+  "patterns": [
+      "What is the QUEST fee waiver at IIT Jammu?",
+      "Who is eligible for the QUEST tuition waiver?",
+      "How much fee is waived under QUEST?",
+      "Does IIT Jammu offer full tuition fee waivers?",
+      "Is QUEST available for all UG students?",
+      "Where can I find more details about QUEST at IIT Jammu?"
+  ],
+  "responses": [
+      "The **Quality for Undergraduates in Engineering, Science, and Technology (QUEST)** is a tuition fee waiver scheme at IIT Jammu. It provides a full tuition fee waiver (currently Rs. 1 lakh per semester) for the entire undergraduate program based on **JEE Advanced Rank**.\n\nFor more details, visit the official IIT Jammu website: [IIT Jammu](https://www.iitjammu.ac.in/)."
+  ]
+}
+,{
+  "tag": "eligibility_quest_fee_waiver",
+  "patterns": [
+      "What are the eligibility criteria for the QUEST fee waiver?",
+      "Who can apply for the QUEST tuition waiver?",
+      "What CGPA is required to maintain the QUEST scholarship?",
+      "Can a student regain the QUEST waiver if it is canceled?",
+      "Are there any disciplinary conditions for the QUEST fee waiver?",
+      "Can a student avail multiple scholarships along with QUEST?"
+  ],
+  "responses": [
+      "The **Eligibility Criteria** for the QUEST tuition fee waiver at IIT Jammu are as follows:\n\n1. The student must maintain a **CGPA of 8.0 or above** at the end of each semester until graduation.\n2. If a student fails to maintain the required CGPA, their fee waiver **is stopped permanently**.\n3. The student must not engage in any disciplinary misconduct. If found guilty, the fee waiver **is revoked permanently**.\n4. **Once canceled, the waiver is not resumed under any circumstances.**\n5. As per MoE guidelines, students availing one scholarship scheme **are not eligible** for any other scholarship schemes, including state-run fee waivers & reimbursement schemes.\n\nFor more details, visit the official IIT Jammu website: [IIT Jammu](https://www.iitjammu.ac.in/)."
+  ]
+}
+,{
+  "tag": "eligibility_mtech_fellowship",
+  "patterns": [
+      "What is the fellowship amount for MTech students?",
+      "How much stipend do MTech students get under the TA category?",
+      "What is the duration of the MTech fellowship?",
+      "Do MTech students under the RA category receive a higher stipend?",
+      "Are sponsored MTech students eligible for fellowships?",
+      "Is the MTech fellowship amount revised periodically?"
+  ],
+  "responses": [
+      "The **fellowship details** for MTech students at IIT Jammu are as follows:\n\n1. **TA Category**: MTech students under the **Teaching Assistantship (TA)** category receive a **monthly fellowship of ₹12,400** for a **maximum duration of 24 months**.\n2. **RA Category**: MTech students under the **Research Assistantship (RA)** category receive **50% more fellowship** than TA students.\n3. **Sponsored Students**: MTech students enrolled under **sponsored categories are not eligible** for any fellowship from the institute.\n4. The **fellowship amount is subject to revision** as per Government of India regulations.\n\nFor the latest updates, visit the official IIT Jammu website: [IIT Jammu](https://www.iitjammu.ac.in/)."
+  ]
+}
+,{
+  "tag": "eligibility_phd_assistantship",
+  "patterns": [
+      "What is the PhD assistantship for full-time students?",
+      "How much teaching/research assistance is required for PhD students?",
+      "What is the maximum duration for a PhD assistantship?",
+      "Can a PhD student continue their programme without fellowship?",
+      "What happens after submission of the PhD thesis?",
+      "Are externally funded PhD students eligible for institute assistantship?",
+      "Can PhD students extend their assistantship beyond 5 years?"
+  ],
+  "responses": [
+      "The **PhD Assistantship** details for full-time students at IIT Jammu are as follows:\n\n1. **Teaching/Research Assistantship**: PhD students on full-time basis are eligible for a minimum of **6-8 hours/week** of teaching or research assistance with a scholarship as per the Ministry of Education (MoE) guidelines.\n\n2. **Maximum Duration**: The assistantship can be awarded for a **maximum of five years**, or until the submission of the PhD thesis, whichever is earlier.\n\n3. **Continuity of Assistantship**: Continuation depends on **satisfactory academic performance** and performance in assigned responsibilities. If the performance is unsatisfactory, the assistantship may be stopped.\n\n4. **Post-Thesis Submission**: After submission of the final PhD thesis, the student will no longer receive the assistantship.\n\n5. **External Funding**: Externally funded PhD students may receive the institute assistantship **after exhausting external funds**, with a minimum of **18 months of external support**.\n\n6. **Assistantship Extension**: If a student submits their PhD thesis within **four years**, they can receive an assistantship for an additional **six months**. No assistantship will be granted after five years, except in the case of **HTRA for female candidates**.\n\nFor more details, please visit the official IIT Jammu website: [IIT Jammu](https://www.iitjammu.ac.in/)."
+  ]
+}
+,{
+  "tag": "travel_allowance_contingency_grant",
+  "patterns": [
+      "What is the Travel Allowance and Contingency Grant for students?",
+      "Are students eligible for financial support for participating in conferences?",
+      "How can students apply for travel allowance for extracurricular activities?",
+      "What activities are covered under the Travel Allowance and Contingency Grant?",
+      "Can PhD students avail financial support for workshops or internships?"
+  ],
+  "responses": [
+      "The **Travel Allowance and Contingency Grant** provides financial support to **UG, PG, and PhD students** of IIT Jammu for participation in technical, cultural, and sports activities held at other institutes.\n\nThis support is available for various activities such as conferences, workshops, internships, and more, subject to the **recommendation of the Dean (Students Welfare)**.\n\nFor more information and details on the application process, please visit the official IIT Jammu website: [IIT Jammu](https://www.iitjammu.ac.in/)."
+  ]
+}
+,{
+  "tag": "euler_earn_while_you_learn",
+  "patterns": [
+      "What is the EULER scheme at IIT Jammu?",
+      "Can students without scholarships apply for subsistence allowances?",
+      "What tasks are available under the Earn While You Learn Scheme?",
+      "How can I participate in the EULER program at IIT Jammu?",
+      "Is financial assistance available for students working on institute tasks?"
+  ],
+  "responses": [
+      "The **EULER (Earn While You Learn Scheme)** at IIT Jammu provides **subsistence allowances** to **UG, PG, and PhD students** who do not have any scholarships. This initiative offers financial assistance for voluntary engagement in institute-assigned tasks, promoting ownership, appreciation for labor, and building self-confidence.\n\nStudents participating in EULER gain practical experience in academic, administrative, and research roles. The scheme is coordinated by the **Academics Section** to encourage interdisciplinary exploration.\n\nFor more details on the policy, please visit the official IIT Jammu website: [IIT Jammu Official Website](https://www.iitjammu.ac.in/)."
+  ]
+}
+,{
+  "tag": "president_gold_medal_ug_students",
+  "patterns": [
+      "What is the President Gold Medal for UG students?",
+      "How is the President Gold Medal awarded at IIT Jammu?",
+      "What are the criteria for the President Gold Medal?",
+      "Who receives the President Gold Medal at IIT Jammu?",
+      "What is the process for awarding the President Gold Medal?"
+  ],
+  "responses": [
+      "The **President of India Gold Medal** is awarded to the **UG student** with the highest **CGPA** among all the graduating students of IIT Jammu. The student must meet the following criteria:\n1. No backlog course in any of the semesters.\n2. No record of disciplinary actions.\n\nIf there are multiple students with the same CGPA (up to two decimal places), the student who has earned more credits will be awarded the medal. In case the tie persists, the following criteria are applied in descending order of preference:\n1. The student with a **BTech degree with a minor** will have the first priority.\n2. The student with a **BTech degree with honours** will have the next level of priority.\n\nIf the tie still persists, a committee may be formed to break the tie and select the awardee."
+  ]
+}
+,{
+  "tag": "directors_gold_medal_ug_students",
+  "patterns": [
+      "What is the Director’s Gold Medal for UG students?",
+      "How is the Director’s Gold Medal awarded at IIT Jammu?",
+      "Who receives the Director’s Gold Medal?",
+      "What are the criteria for the Director’s Gold Medal?",
+      "What is the process for awarding the Director’s Gold Medal?"
+  ],
+  "responses": [
+      "The **Director’s Gold Medal** is awarded to the student with the **best all-around performance** among all the graduating BTech students of IIT Jammu. This award takes into account not only academic achievements but also other aspects of student life such as leadership, extracurricular involvement, and contributions to the institute."
+  ]
+}
+,{
+  "tag": "institute_silver_medal_ug_students",
+  "patterns": [
+      "What is the Institute Silver Medal for UG students?",
+      "How is the Institute Silver Medal awarded at IIT Jammu?",
+      "Who receives the Institute Silver Medal?",
+      "What are the criteria for the Institute Silver Medal?",
+      "What is the process for awarding the Institute Silver Medal?"
+  ],
+  "responses": [
+      "The **Institute Silver Medal** is awarded to the BTech students with the **highest CGPA** and graduating with **honours** among all the graduating students from every major department, excluding the awardee of the President Gold Medal. This medal recognizes academic excellence and distinction in the student's field of study."
+  ]
+}
+,{
+  "tag": "prof_ashok_ahuja_steel_structures_award",
+  "patterns": [
+      "What is the Prof Ashok K Ahuja Steel Structures Award?",
+      "Who receives the Prof Ashok K Ahuja Steel Structures Award?",
+      "How is the Prof Ashok K Ahuja Steel Structures Award awarded?",
+      "What are the criteria for the Prof Ashok K Ahuja Steel Structures Award?",
+      "What is the process for awarding the Prof Ashok K Ahuja Steel Structures Award?"
+  ],
+  "responses": [
+      "The **Prof Ashok K Ahuja Steel Structures Award** is given to the graduating student of BTech with the **topmost grade** in the course **Design of Steel Structures**. This award recognizes excellence in the study of steel structures."
+  ]
+}
+,{
+  "tag": "certificates_to_encourage_currently_enrolled_students",
+  "patterns": [
+      "What is the certificate to encourage currently enrolled students?",
+      "How are the certificates to encourage currently enrolled students awarded?",
+      "Who receives the certificate to encourage currently enrolled students?",
+      "What are the criteria for the certificate to encourage currently enrolled students?",
+      "How do students earn the certificate to encourage currently enrolled students?"
+  ],
+  "responses": [
+      "The **Certificates to Encourage Currently Enrolled Students** are awarded to the **top three performers** (based on SGPA) of every batch from every department up to the third year of their degree. The certificate is given provided the student has **no backlog courses** in previous semesters and no record of **disciplinary actions**. In case of a tie in CGPA up to two decimal places, all such students will receive the certificate."
+  ]
+}
+,{
+  "tag": "institute_gold_silver_medal_mtech",
+  "patterns": [
+      "What is the Institute Gold Medal for MTech students?",
+      "How is the Institute Gold Medal awarded to MTech students?",
+      "Who gets the Institute Gold Medal for MTech students?",
+      "What are the criteria for the Institute Gold Medal for MTech students?",
+      "How does one earn the Institute Gold Medal in MTech?",
+      "What is the Institute Silver Medal for MTech students?",
+      "How is the Institute Silver Medal awarded to MTech students?",
+      "Who gets the Institute Silver Medal for MTech students?",
+      "What are the criteria for the Institute Silver Medal for MTech students?",
+      "How does one earn the Institute Silver Medal in MTech?"
+  ],
+  "responses": [
+      "The **Institute Gold Medal** for MTech students is awarded to the student who has secured the highest **CGPA** among all the graduating students of the MTech programme.",
+      "The **Institute Silver Medal** for MTech students is awarded to the student with the highest **CGPA** and graduating with **honours** among all the graduating students from every major department, excluding the awardee of the **Institute Gold Medal**."
+  ]
+}
+,{
+  "tag": "institute_gold_silver_medal_mtech",
+  "patterns": [
+      "What is the Institute Gold Medal for MTech students?",
+      "How is the Institute Gold Medal awarded to MTech students?",
+      "Who gets the Institute Gold Medal for MTech students?",
+      "What are the criteria for the Institute Gold Medal for MTech students?",
+      "How does one earn the Institute Gold Medal in MTech?",
+      "What is the Institute Silver Medal for MTech students?",
+      "How is the Institute Silver Medal awarded to MTech students?",
+      "Who gets the Institute Silver Medal for MTech students?",
+      "What are the criteria for the Institute Silver Medal for MTech students?",
+      "How does one earn the Institute Silver Medal in MTech?"
+  ],
+  "responses": [
+      "The **Institute Gold Medal** for MTech students is awarded to the student who has secured the highest CGPA among all the graduating students of MTech. The **Institute Silver Medal** is awarded to the student with the highest CGPA and graduating with honours among all the graduating students from every major department, excluding the awardee of the Institute Gold Medal."
+  ]
+}
+,{
+  "tag": "outstanding_doctoral_student_award_phd",
+  "patterns": [
+      "What is the Outstanding Doctoral Student Award for PhD students?",
+      "How is the Outstanding Doctoral Student Award for PhD students given?",
+      "Who gets the Outstanding Doctoral Student Award for PhD students?",
+      "What are the criteria for the Outstanding Doctoral Student Award for PhD students?",
+      "How can a PhD student earn the Outstanding Doctoral Student Award?",
+      "What is the selection process for the Outstanding Doctoral Student Award in PhD?"
+  ],
+  "responses": [
+      "The **Outstanding Doctoral Student Award** is awarded annually to one graduating PhD student based on the quality of their thesis, publications in reputed journals, and other extracurricular achievements."
+  ]
+},
+{
+  "tag": "btech_civil_engineering_courses",
+  "patterns": [
+    "What are the courses for B.Tech Civil Engineering?",
+    "Can you provide the semester-wise course structure for B.Tech Civil?",
+    "Which subjects are covered in B.Tech Civil Engineering each semester?",
+    "What is the curriculum of B.Tech Civil Engineering?",
+    "Tell me the subject distribution for B.Tech Civil Engineering.",
+    "Give me the syllabus for Civil Engineering B.Tech program."
+  ],
+  "responses": [
+    "Here is the semester-wise course distribution for B.Tech Civil Engineering:",
+    {
+      "Semester 1": [
+        "Mathematics I",
+        "Physics I",
+        "Engineering Drawing",
+        "Basic Electrical Engineering",
+        "Environmental Science",
+        "Workshop Practice"
+      ],
+      "Semester 2": [
+        "Mathematics II",
+        "Chemistry",
+        "Programming for Problem Solving",
+        "Basic Electronics Engineering",
+        "Engineering Mechanics",
+        "Communication Skills"
+      ],
+      "Semester 3": [
+        "Mathematics III",
+        "Strength of Materials",
+        "Fluid Mechanics",
+        "Surveying",
+        "Building Materials and Construction",
+        "Structural Analysis I"
+      ],
+      "Semester 4": [
+        "Geotechnical Engineering I",
+        "Hydraulics and Hydraulic Machines",
+        "Concrete Technology",
+        "Transportation Engineering I",
+        "Structural Analysis II",
+        "Environmental Engineering I"
+      ],
+      "Semester 5": [
+        "Geotechnical Engineering II",
+        "Design of Concrete Structures",
+        "Transportation Engineering II",
+        "Environmental Engineering II",
+        "Water Resources Engineering",
+        "Construction Planning and Management"
+      ],
+      "Semester 6": [
+        "Design of Steel Structures",
+        "Advanced Structural Analysis",
+        "Irrigation Engineering",
+        "Elective I",
+        "Elective II",
+        "Project I"
+      ],
+      "Semester 7": [
+        "Elective III",
+        "Elective IV",
+        "Professional Ethics",
+        "Internship/Industrial Training",
+        "Project II"
+      ],
+      "Semester 8": [
+        "Elective V",
+        "Elective VI",
+        "Comprehensive Viva",
+        "Major Project"
+      ]
+    }
+  ]
+}
+,{
+  "tag": "btech_chemical_engineering_courses",
+  "patterns": [
+    "What are the courses for B.Tech Chemical Engineering?",
+    "Can you provide the semester-wise course structure for B.Tech Chemical?",
+    "Which subjects are covered in B.Tech Chemical Engineering each semester?",
+    "What is the curriculum of B.Tech Chemical Engineering?",
+    "Tell me the subject distribution for B.Tech Chemical Engineering.",
+    "Give me the syllabus for Chemical Engineering B.Tech program."
+  ],
+  "responses": [
+    "Here is the semester-wise course distribution for B.Tech Chemical Engineering:",
+    {
+      "Semester 1": [
+        "Mathematics I",
+        "Physics I",
+        "Engineering Drawing",
+        "Basic Electrical Engineering",
+        "Environmental Science",
+        "Workshop Practice"
+      ],
+      "Semester 2": [
+        "Mathematics II",
+        "Chemistry",
+        "Programming for Problem Solving",
+        "Basic Electronics Engineering",
+        "Engineering Mechanics",
+        "Communication Skills"
+      ],
+      "Semester 3": [
+        "Material and Energy Balances",
+        "Fluid Mechanics",
+        "Chemical Process Calculations",
+        "Engineering Thermodynamics",
+        "Organic Chemistry",
+        "Heat Transfer Operations"
+      ],
+      "Semester 4": [
+        "Chemical Reaction Engineering I",
+        "Mass Transfer Operations I",
+        "Chemical Engineering Thermodynamics",
+        "Mechanical Operations",
+        "Process Instrumentation and Control",
+        "Numerical Methods for Engineers"
+      ],
+      "Semester 5": [
+        "Chemical Reaction Engineering II",
+        "Mass Transfer Operations II",
+        "Process Dynamics and Control",
+        "Chemical Process Technology",
+        "Industrial Pollution Control",
+        "Elective I"
+      ],
+      "Semester 6": [
+        "Chemical Plant Design and Economics",
+        "Transport Phenomena",
+        "Energy Engineering",
+        "Elective II",
+        "Elective III",
+        "Project I"
+      ],
+      "Semester 7": [
+        "Elective IV",
+        "Elective V",
+        "Professional Ethics",
+        "Internship/Industrial Training",
+        "Project II"
+      ],
+      "Semester 8": [
+        "Elective VI",
+        "Elective VII",
+        "Comprehensive Viva",
+        "Major Project"
+      ]
+    }
+  ]
+}
+,
+{
+  "tag": "btech_cse_engineering_courses",
+  "patterns": [
+    "What are the courses for B.Tech Computer Science Engineering?",
+    "Can you provide the semester-wise course structure for B.Tech CSE?",
+    "Which subjects are covered in B.Tech Computer Science each semester?",
+    "What is the curriculum of B.Tech Computer Science Engineering?",
+    "Tell me the subject distribution for B.Tech Computer Science Engineering.",
+    "Give me the syllabus for Computer Science Engineering B.Tech program."
+  ],
+  "responses": [
+    "Here is the semester-wise course distribution for B.Tech Computer Science Engineering:",
+    {
+      "Semester 1": [
+        "Mathematics I",
+        "Physics I",
+        "Engineering Drawing",
+        "Basic Electrical Engineering",
+        "Environmental Science",
+        "Programming in C"
+      ],
+      "Semester 2": [
+        "Mathematics II",
+        "Chemistry",
+        "Data Structures and Algorithms",
+        "Basic Electronics Engineering",
+        "Engineering Mechanics",
+        "Communication Skills"
+      ],
+      "Semester 3": [
+        "Discrete Mathematics",
+        "Object-Oriented Programming",
+        "Digital Logic Design",
+        "Computer Organization and Architecture",
+        "Operating Systems",
+        "Database Management Systems"
+      ],
+      "Semester 4": [
+        "Design and Analysis of Algorithms",
+        "Software Engineering",
+        "Computer Networks",
+        "Theory of Computation",
+        "Microprocessors and Embedded Systems",
+        "Artificial Intelligence"
+      ],
+      "Semester 5": [
+        "Machine Learning",
+        "Cloud Computing",
+        "Big Data Analytics",
+        "Cyber Security",
+        "Elective I",
+        "Elective II"
+      ],
+      "Semester 6": [
+        "Internet of Things",
+        "Blockchain Technology",
+        "Computer Vision",
+        "Elective III",
+        "Elective IV",
+        "Project I"
+      ],
+      "Semester 7": [
+        "Elective V",
+        "Elective VI",
+        "Professional Ethics",
+        "Internship/Industrial Training",
+        "Project II"
+      ],
+      "Semester 8": [
+        "Elective VII",
+        "Elective VIII",
+        "Comprehensive Viva",
+        "Major Project"
+      ]
+    }
+  ]
+}
+,{
+  "tag": "ee_btech_courses_semester_wise",
+  "patterns": [
+      "What are the courses offered in BTech Electrical Engineering semester-wise?",
+      "Can you provide a semester-wise breakdown of EE BTech courses?",
+      "What subjects are included in each semester of EE BTech?",
+      "How are the EE BTech courses structured semester-wise?",
+      "List of EE BTech courses semester-wise?"
+  ],
+  "responses": [
+      {
+          "Semester 1": [
+              "HSS Core",
+              "Chemistry Laboratory (Science Core)",
+              "Fundamental and Applied Chemistry-II (Science Core)",
+              "Calculus (Science Core)",
+              "CAD (Design Core)",
+              "Computers and Programming (Engineering Core)",
+              "Basic Electrical and Electronics Engineering (Engineering Core)"
+          ],
+          "Semester 2": [
+              "Physics (Science Core)",
+              "Mathematics-II (Science Core)",
+              "Engineering Mechanics (Engineering Core)",
+              "Basic Electronics Laboratory (Engineering Core)",
+              "Workshop Practice (Design Core)"
+          ],
+          "Semester 3": [
+              "Electrical Circuit Analysis (Departmental Core)",
+              "Electromagnetic Theory (Science Core)",
+              "Digital Electronics (Departmental Core)",
+              "Signals and Systems (Departmental Core)",
+              "Mathematics-III (Science Core)"
+          ],
+          "Semester 4": [
+              "Electrical Machines-I (Departmental Core)",
+              "Analog Electronics (Departmental Core)",
+              "Control Systems (Departmental Core)",
+              "Power Systems-I (Departmental Core)",
+              "Microprocessors and Microcontrollers (Departmental Core)"
+          ],
+          "Semester 5": [
+              "Electrical Machines-II (Departmental Core)",
+              "Power Electronics (Departmental Core)",
+              "Communication Systems (Departmental Core)",
+              "Open Elective-I",
+              "Departmental Elective-I"
+          ],
+          "Semester 6": [
+              "High Voltage Engineering (Departmental Core)",
+              "Renewable Energy Systems (Departmental Core)",
+              "Open Elective-II",
+              "Departmental Elective-II",
+              "Industrial Training"
+          ],
+          "Semester 7": [
+              "Smart Grid Technologies (Departmental Elective)",
+              "Power System Protection (Departmental Elective)",
+              "Project Phase-I",
+              "Open Elective-III"
+          ],
+          "Semester 8": [
+              "Electric Vehicle Technology (Departmental Elective)",
+              "Flexible AC Transmission Systems (Departmental Elective)",
+              "Project Phase-II"
+          ],
+          "Note": "The Open Elective and Departmental Elective courses are available from the fifth semester onwards."
+      }
+  ]
+}
+,{
+  "tag": "materials_btech_courses_semester_wise",
+  "patterns": [
+      "What are the courses offered in BTech Materials Engineering semester-wise?",
+      "Can you provide a semester-wise breakdown of Materials BTech courses?",
+      "What subjects are included in each semester of Materials BTech?",
+      "How are the Materials BTech courses structured semester-wise?",
+      "List of Materials BTech courses semester-wise?"
+  ],
+  "responses": [
+      {
+          "Semester 1": [
+              "Basic English (HSS Core)",
+              "Advanced English (HSS Core)",
+              "Calculus (Science Core)",
+              "Chemistry Laboratory (Science Core)",
+              "Engineering Mechanics (Engineering Core)",
+              "Computers and Programming (Engineering Core)",
+              "CAD (Design Core)"
+          ],
+          "Semester 2": [
+              "Physics (Science Core)",
+              "Mathematics-II (Science Core)",
+              "Introduction to Materials Science (Departmental Core)",
+              "Basic Electronics (Engineering Core)",
+              "Workshop Practice (Design Core)"
+          ],
+          "Semester 3": [
+              "Thermodynamics of Materials (Departmental Core)",
+              "Mechanical Behavior of Materials (Departmental Core)",
+              "Phase Transformations (Departmental Core)",
+              "Materials Characterization (Departmental Core)",
+              "Mathematics-III (Science Core)"
+          ],
+          "Semester 4": [
+              "Physical Metallurgy (Departmental Core)",
+              "Ceramic and Polymer Materials (Departmental Core)",
+              "Electrical and Magnetic Properties of Materials (Departmental Core)",
+              "Computational Methods in Materials Science (Departmental Core)"
+          ],
+          "Semester 5": [
+              "Materials Processing (Departmental Core)",
+              "Mechanical Testing of Materials (Departmental Core)",
+              "Open Elective-I",
+              "Departmental Elective-I"
+          ],
+          "Semester 6": [
+              "Corrosion and Surface Engineering (Departmental Core)",
+              "Nanomaterials (Departmental Core)",
+              "Open Elective-II",
+              "Departmental Elective-II",
+              "Industrial Training"
+          ],
+          "Semester 7": [
+              "Advanced Manufacturing Processes (Departmental Elective)",
+              "Materials for Energy Applications (Departmental Elective)",
+              "Project Phase-I",
+              "Open Elective-III"
+          ],
+          "Semester 8": [
+              "Biomaterials (Departmental Elective)",
+              "Failure Analysis and Prevention (Departmental Elective)",
+              "Project Phase-II"
+          ],
+          "Note": "The Open Elective and Departmental Elective courses are available from the fifth semester onwards."
+      }
+  ]
+}
+
+
+
+
+  ]
+}
