@@ -1,17 +1,15 @@
 import random
 import json
-
 import torch
-
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('C:\\Users\\user\\Desktop\\swaran\\updated_ronak_data.json', 'r') as json_data:
+with open('C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\CHATBOT FILES\\updated_ronak_data.json', 'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "C:\\Users\\user\\Desktop\\swaran\\updated_ronak_data.pth"
+FILE = "C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\CHATBOT FILES\\final.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -28,10 +26,10 @@ model.eval()
 bot_name = "Swaran"
 
 def get_response(msg):
-    sentence = tokenize(msg)
+    sentence = str(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
-    X = torch.from_numpy(X).to(device)
+    X = torch.from_numpy(X).to(device).float()
 
     output = model(X)
     _, predicted = torch.max(output, dim=1)
@@ -47,15 +45,12 @@ def get_response(msg):
     
     return "I do not understand..."
 
-
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
-        # sentence = "do you use credit cards?"
         sentence = input("You: ")
-        if sentence == "quit":
+        if sentence.lower() == "quit":
             break
 
         resp = get_response(sentence)
-        print(resp)
-
+        print(f"{bot_name}: {resp}")
