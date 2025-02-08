@@ -23,7 +23,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Swaran"
+bot_name = "Svaran"
 
 def get_response(msg):
     sentence = str(msg)

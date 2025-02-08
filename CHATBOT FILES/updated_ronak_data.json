@@ -5,16 +5,13 @@
             "patterns": [
               "Hello",
               "Hi",
+              "Hii",
               "Hey",
               "Hi there",
               "Greetings",
               "What's up?"
             ],
-            "responses": [
-              "Hello! How can I assist you today?",
-              "Hi there! What can I help you with?",
-              "Greetings! Let me know how I can assist."
-            ]
+            "responses": ["Hello! How can I assist you today?"]
           },
           {
             "tag": "bye",
@@ -27,8 +24,6 @@
               "Take care"
             ],
             "responses": [
-              "Goodbye! Have a great day!",
-              "See you later! Take care.",
               "Bye! Feel free to reach out again."
             ]
           },
