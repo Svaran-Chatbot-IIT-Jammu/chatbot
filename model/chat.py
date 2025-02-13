@@ -10,10 +10,10 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS to allow cross-origin requests
 
 # Load chatbot data
-with open('C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\CHATBOT FILES\\final_merged_data.json', 'r',encoding="utf-8") as json_data:
+with open('C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\model\\final_merged_data.json', 'r',encoding="utf-8") as json_data:
     intents = json.load(json_data)
 
-FILE = "C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\CHATBOT FILES\\final.pth"
+FILE = "C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\model\\final.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
