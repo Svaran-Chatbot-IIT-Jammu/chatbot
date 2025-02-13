@@ -15,8 +15,7 @@ const App = () => {
       setMessages((prevMessages) => [...prevMessages, userMessage]);
 
       try {
-        const response = await axios.post('http://192.168.58.138:5000/chat', { message: inputText });
-
+        const response = await axios.post('http://10.0.2.2:5000/chat', { message: inputText });  // For Android Emulator
 
         const botMessage = { id: String(messages.length + 2), text: response.data.response, isUser: false };
         setMessages((prevMessages) => [...prevMessages, botMessage]);
@@ -26,7 +25,18 @@ const App = () => {
           flatListRef.current?.scrollToEnd({ animated: true });
         }, 100);
       } catch (error) {
-        console.error("Error sending message:", error);
+        if (axios.isAxiosError(error)) {
+          console.error("Error sending message:", error.response || error);
+          if (axios.isAxiosError(error) && error.response) {
+            console.error('Response data:', (error as any).response.data);
+          }
+        } else {
+          console.error("Error sending message:", error);
+        }
+        if (axios.isAxiosError(error) && error.response) {
+          // The server responded with a status code outside the range of 2xx
+          console.error('Response data:', error.response.data);
+        }
       }
 
       setInputText('');

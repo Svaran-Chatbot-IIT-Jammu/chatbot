@@ -7,10 +7,10 @@ from nltk_utils import bag_of_words, tokenize
 from flask_cors import CORS  # To allow frontend to access backend
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS to allow cross-origin requests
+CORS(app, origins="http://localhost:3000")  # Enable CORS to allow requests from your React Native app
 
 # Load chatbot data
-with open('C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\model\\final_merged_data.json', 'r',encoding="utf-8") as json_data:
+with open('C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\model\\final_merged_data.json', 'r', encoding="utf-8") as json_data:
     intents = json.load(json_data)
 
 FILE = "C:\\Users\\Ronak Bagri\\Downloads\\Chatbot\\chatbot\\model\\final.pth"
@@ -53,6 +53,7 @@ def get_response(msg):
 @app.route('/chat', methods=['POST'])
 def chat():
     data = request.get_json()
+    print(f"Received message: {data.get('message')}")
     user_message = data.get("message")
     bot_reply = get_response(user_message)
     return jsonify({"response": bot_reply})
